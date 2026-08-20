@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pharma Earnings Tracker — Rx Patent Expiration Tracker</title>
+<meta name="description" content="Quarterly earnings for publicly traded pharmaceutical manufacturers: revenue growth, profit growth, and product-specific performance call-outs." />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<div class="viz-root">
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <h1>Pharma Earnings Tracker</h1>
+        <p class="tagline">Latest-quarter revenue growth, profit growth, and product-specific call-outs for publicly traded pharmaceutical and biotech manufacturers.</p>
+      </div>
+      <div class="meta">
+        <button class="theme-toggle" id="themeToggle" type="button">Toggle theme</button>
+        <div id="lastUpdated" style="margin-top:8px;">Loading…</div>
+      </div>
+    </header>
+
+    <nav class="page-nav">
+      <a class="page-nav-link" href="index.html">Patent Expirations</a>
+      <a class="page-nav-link" href="pipeline.html">Specialty Pipeline</a>
+      <a class="page-nav-link active" href="earnings.html">Earnings</a>
+    </nav>
+
+    <section class="kpi-row" id="kpiRow"></section>
+
+    <div class="controls">
+      <input type="search" id="searchInput" placeholder="Search company, ticker, or product…" />
+      <select id="tierFilter">
+        <option value="all">All market caps</option>
+        <option value="large">Large-cap</option>
+        <option value="mid">Mid-cap</option>
+        <option value="small">Small-cap</option>
+      </select>
+      <select id="growthFilter">
+        <option value="all">Any revenue trend</option>
+        <option value="growing">Revenue growing YoY</option>
+        <option value="declining">Revenue declining YoY</option>
+      </select>
+      <select id="statusFilter">
+        <option value="all">Include acquired</option>
+        <option value="active">Still independent only</option>
+      </select>
+      <div class="view-toggle">
+        <button id="viewTableBtn" class="active" type="button">Table</button>
+        <button id="viewTimelineBtn" type="button">By market cap</button>
+      </div>
+    </div>
+
+    <div id="tableView">
+      <table class="drug-table" id="drugTable">
+        <thead>
+          <tr>
+            <th data-sort="company_name">Company</th>
+            <th data-sort="ticker">Ticker</th>
+            <th data-sort="tier">Cap tier</th>
+            <th>Latest quarter</th>
+            <th data-sort="revenue.usd_m">Revenue (YoY)</th>
+            <th data-sort="profit.usd_m">Profit (YoY)</th>
+            <th data-sort="driver_swing">Quarter driver</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="drugTableBody"></tbody>
+      </table>
+    </div>
+
+    <div id="timelineView" style="display:none;">
+      <div class="timeline" id="timelineContainer"></div>
+    </div>
+
+    <div class="empty-state" id="emptyState" style="display:none;">No companies match these filters.</div>
+
+    <p class="disclaimer" id="disclaimerText"></p>
+
+    <div class="overlay" id="drawerOverlay">
+      <div class="drawer">
+        <button class="close-btn" id="drawerClose" type="button">Close ✕</button>
+        <div id="drawerContent"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/earnings.js"></script>
+</body>
+</html>

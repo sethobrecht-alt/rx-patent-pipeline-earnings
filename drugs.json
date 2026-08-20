@@ -1,0 +1,1373 @@
+{
+  "generated_at": "2026-08-19T15:24:39+00:00",
+  "sources": {
+    "orange_book": "https://www.fda.gov/drugs/drug-approvals-and-databases/orange-book-data-files",
+    "purple_book": "https://purplebooksearch.fda.gov/downloads"
+  },
+  "live_data_fetched": {
+    "orange_book": false,
+    "purple_book": false
+  },
+  "disclaimer": "Loss-of-exclusivity dates are estimates for market-monitoring purposes only, not legal advice. Patents can be invalidated, extended, or settled; exclusivity can be forfeited, extended, or granted after this data was generated. Verify against primary FDA sources before making decisions.",
+  "drug_count": 41,
+  "drugs": [
+    {
+      "brand_name": "Soliris",
+      "generic_name": "Eculizumab",
+      "company": "AstraZeneca (Alexion)",
+      "type": "biologic",
+      "indication": "Complement inhibitor \u2014 paroxysmal nocturnal hemoglobinuria (PNH), atypical HUS, and other rare diseases",
+      "earliest_loss_of_exclusivity_date": "2024-01-01",
+      "competition": [
+        {
+          "name": "Bkemv (Amgen)",
+          "status": "approved/marketed",
+          "expected_launch": "launched (interchangeable)",
+          "note": "First interchangeable biosimilar to Soliris.",
+          "source_url": "https://biologicshq.com/soliris-eculizumab-interchangeable-biosimilar-launches-bkemv-and-epysqli/"
+        },
+        {
+          "name": "Epysqli (Samsung Bioepis)",
+          "status": "approved/marketed",
+          "expected_launch": "launched",
+          "source_url": "https://biologicshq.com/soliris-eculizumab-interchangeable-biosimilar-launches-bkemv-and-epysqli/"
+        }
+      ],
+      "notes": "Biosimilar competition already active; sales decline is also driven by AstraZeneca converting patients to its newer drug Ultomiris (a different, longer-acting molecule, not a generic/biosimilar relationship).",
+      "sources": [
+        "https://www.lexology.com/library/detail.aspx?g=1a3a13ba-24e0-4f14-a935-5398742fa425"
+      ],
+      "sales_2025": {
+        "usd_m": 1837,
+        "label": "$1.84B",
+        "source_url": "https://www.astrazeneca.com/content/dam/az/PDF/2025/Q4-FY/Full-year-Q4-2025-results-announcement.pdf",
+        "note": "FY2025 product revenue per AstraZeneca's Q4/FY2025 results, already declining on biosimilar and Ultomiris-conversion pressure."
+      },
+      "administration": {
+        "setting": "clinic",
+        "note": "IV infusion administered in a clinic/infusion center."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "soliris"
+    },
+    {
+      "brand_name": "Xarelto",
+      "generic_name": "Rivaroxaban",
+      "company": "Johnson & Johnson / Bayer",
+      "type": "small_molecule",
+      "indication": "Anticoagulant (AFib, DVT/PE, and other indications)",
+      "earliest_loss_of_exclusivity_date": "2025-01-01",
+      "competition": [
+        {
+          "name": "Generic rivaroxaban (multiple filers)",
+          "status": "approved/marketed",
+          "expected_launch": "already launched in several markets (Europe, Japan); US timing may differ by indication patent",
+          "note": "Bayer's FY2025 report cites sales 'decreased markedly...due to competitive pressure from generics.'",
+          "source_url": "https://reports.bayer.com/annual-report-2025/en/report-on-economic-position/earnings-asset-and-financial-position/business-development-by-division/pharmaceuticals.html"
+        }
+      ],
+      "notes": "J&J and Bayer co-market and report their respective shares separately; figure here is Bayer's ex-US share only. Verify US-specific generic timing against live Orange Book data once the pipeline runs.",
+      "sources": [
+        "https://reports.bayer.com/annual-report-2025/en/report-on-economic-position/earnings-asset-and-financial-position/business-development-by-division/pharmaceuticals.html"
+      ],
+      "sales_2025": {
+        "usd_m": 2542,
+        "label": "~$2.54B (Bayer share only, EUR2,344M)",
+        "source_url": "https://reports.bayer.com/annual-report-2025/en/report-on-economic-position/earnings-asset-and-financial-position/business-development-by-division/pharmaceuticals.html",
+        "note": "FY2025 Bayer-recorded sales (EUR 2,344 million, down 32.6% YoY on generic competition); USD figure is an approximate conversion (~1.085 USD/EUR). J&J separately records its own (larger) US sales share, not included here."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, retail pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "xarelto"
+    },
+    {
+      "brand_name": "Prolia / Xgeva",
+      "generic_name": "Denosumab",
+      "company": "Amgen",
+      "type": "biologic",
+      "indication": "RANKL inhibitor \u2014 osteoporosis (Prolia) and prevention of skeletal-related events in bone metastases (Xgeva)",
+      "earliest_loss_of_exclusivity_date": "2025-07-01",
+      "competition": [
+        {
+          "name": "Wyost / Jubbonti (Sandoz)",
+          "status": "approved/marketed",
+          "expected_launch": "2025-07 (launched)",
+          "note": "First denosumab biosimilars to launch in the US, referencing both Prolia and Xgeva.",
+          "source_url": "https://www.bigmoleculewatch.com/2025/07/10/denosumab-updates-wyost-and-jubbonti-launch-as-first-denosumab-biosimilars-in-the-u-s/"
+        },
+        {
+          "name": "Additional denosumab biosimilars (Amneal and others)",
+          "status": "approved",
+          "expected_launch": "2025 (approved, rolling launches)",
+          "source_url": "https://gabionline.net/biosimilars/news/fda-approves-six-denosumab-biosimilars"
+        }
+      ],
+      "notes": "Amgen itself has guided to 'accelerated sales erosion' in 2026 as more biosimilars launch globally following the 2025 US entries. Reported here as a combined Prolia/Xgeva franchise since Amgen discloses both together and the biosimilar wave hit both simultaneously.",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/amgen-reports-fourth-quarter-and-full-year-2025-financial-results-302678171.html"
+      ],
+      "sales_2025": {
+        "usd_m": 6498,
+        "label": "$6.50B (Prolia $4.41B + Xgeva $2.08B)",
+        "source_url": "https://www.prnewswire.com/news-releases/amgen-reports-fourth-quarter-and-full-year-2025-financial-results-302678171.html",
+        "note": "FY2025 combined figure per Amgen's Q4/FY2025 earnings release: Prolia $4,414M, Xgeva $2,084M."
+      },
+      "administration": {
+        "setting": "clinic",
+        "note": "Administered by a healthcare provider via subcutaneous injection every 4-6 months (not currently self-injected in the US), typically in an office/clinic setting."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "prolia_xgeva"
+    },
+    {
+      "brand_name": "Entresto",
+      "generic_name": "Sacubitril/valsartan",
+      "company": "Novartis",
+      "type": "small_molecule",
+      "indication": "Heart failure",
+      "earliest_loss_of_exclusivity_date": "2025-07-01",
+      "competition": [
+        {
+          "name": "Generic sacubitril/valsartan (multiple ANDA filers)",
+          "status": "approved/marketed",
+          "expected_launch": "2025-07 (launched)",
+          "source_url": "https://credevo.com/articles/2026/03/05/trending-molecules-and-generic-drug-opportunities-blockbuster-drugs-with-upcoming-patent-expirations-2026-2030/"
+        }
+      ],
+      "notes": "Generics already on the US market since mid-2025; still a very large revenue base as of FY2025.",
+      "sources": [
+        "https://www.novartis.com/sites/novartis_com/files/q4-2025-media-release-en.pdf"
+      ],
+      "sales_2025": {
+        "usd_m": 7748,
+        "label": "$7.75B",
+        "source_url": "https://www.novartis.com/sites/novartis_com/files/q4-2025-media-release-en.pdf",
+        "note": "FY2025 net sales per Novartis's Q4/FY2025 media release."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, retail pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "entresto"
+    },
+    {
+      "brand_name": "Xeljanz / XR",
+      "generic_name": "Tofacitinib",
+      "company": "Pfizer",
+      "type": "small_molecule",
+      "indication": "Rheumatoid arthritis, ulcerative colitis (JAK inhibitor)",
+      "earliest_loss_of_exclusivity_date": "2025-08-01",
+      "competition": [
+        {
+          "name": "Generic tofacitinib (multiple ANDA filers)",
+          "status": "approved",
+          "expected_launch": "2025-08 (approved)",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "notes": "Generics already approved as of August 2025.",
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": 1087,
+        "label": "$1.09B",
+        "source_url": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release.pdf",
+        "note": "FY2025 revenue per Pfizer's Q4/FY2025 earnings release."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, retail pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "xeljanz"
+    },
+    {
+      "brand_name": "Xolair",
+      "generic_name": "Omalizumab",
+      "company": "Genentech/Roche (US) & Novartis (ex-US)",
+      "type": "biologic",
+      "indication": "Anti-IgE \u2014 allergic asthma, chronic urticaria, nasal polyps, IgE-mediated food allergy",
+      "earliest_loss_of_exclusivity_date": "2025-11-01",
+      "competition": [
+        {
+          "name": "Omlyclo (Celltrion)",
+          "status": "approved/marketed",
+          "expected_launch": "2025 (launched, first interchangeable)",
+          "note": "First FDA-approved interchangeable biosimilar to Xolair.",
+          "source_url": "https://www.prnewswire.com/news-releases/us-fda-approves-celltrions-omlyclo-omalizumab-igec-as-the-first-and-only-biosimilar-with-interchangeability-designation-referencing-xolair-302396468.html"
+        }
+      ],
+      "notes": "Sales still growing (+32% in 2025 per Roche) on the newly launched IgE-mediated food-allergy indication, even as the first interchangeable biosimilar reaches the market -- a case where label expansion is offsetting early biosimilar erosion.",
+      "sources": [
+        "https://allergyasthmanetwork.org/news/biosimilar-for-omalizumab/",
+        "https://business.optum.com/en/insights/blockbuster-drug-patent-expirations-2026-what-they-mean.html"
+      ],
+      "sales_2025": {
+        "usd_m": 3700,
+        "label": "$3.70B (US)",
+        "source_url": "https://business.optum.com/en/insights/blockbuster-drug-patent-expirations-2026-what-they-mean.html",
+        "note": "US sales as cited by Optum's 2026 patent-cliff brief. Roche separately reports CHF 3,075M (~$3.5B) in global Pharma-division Xolair sales for FY2025; Novartis books additional ex-US sales under its own license."
+      },
+      "administration": {
+        "setting": "clinic",
+        "note": "Injection typically given by a healthcare provider with a post-dose observation period (anaphylaxis risk per boxed warning); a self-injection prefilled syringe/pen exists for some maintenance patients, but most current use -- especially the newer food-allergy indication -- is administered and observed in a clinical setting."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "xolair"
+    },
+    {
+      "brand_name": "Stelara",
+      "generic_name": "Ustekinumab",
+      "company": "Johnson & Johnson (Janssen)",
+      "type": "biologic",
+      "indication": "IL-12/23 inhibitor \u2014 psoriasis, psoriatic arthritis, Crohn's disease, ulcerative colitis",
+      "earliest_loss_of_exclusivity_date": "2025-12-01",
+      "competition": [
+        {
+          "name": "Multiple biosimilars (Wezlana/Amgen, Selarsdi/Teva-Alvotech, Pyzchiva/Samsung Bioepis, Otulfi/Fresenius Kabi-Formycon, Steqeyma/Celltrion, Yesintek/Biocon, and others)",
+          "status": "approved/marketed",
+          "expected_launch": "2025 (launched)",
+          "note": "One of the most crowded biosimilar fields to date -- most major sponsors launched their ustekinumab biosimilar in the US during 2025.",
+          "source_url": "https://intuitionlabs.ai/articles/2027-drug-patent-expirations-loe-calendar"
+        }
+      ],
+      "notes": "FY2025 sales already declining sharply on this broad biosimilar wave -- a useful reference case for how fast an immunology blockbuster can erode once multiple biosimilars launch simultaneously.",
+      "sources": [
+        "https://business.optum.com/en/insights/blockbuster-drug-patent-expirations-2026-what-they-mean.html"
+      ],
+      "sales_2025": {
+        "usd_m": 6078,
+        "label": "$6.08B (worldwide)",
+        "source_url": "https://s203.q4cdn.com/636242992/files/doc_news/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results-2026.pdf",
+        "note": "FY2025 worldwide sales per J&J's Q4/FY2025 results, already down sharply YoY on biosimilar competition."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Self-injected subcutaneous pen/syringe for chronic maintenance dosing (specialty pharmacy); the first Crohn's/UC induction dose is a one-time IV infusion given in a clinic."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "stelara"
+    },
+    {
+      "brand_name": "Yervoy",
+      "generic_name": "Ipilimumab",
+      "company": "Bristol Myers Squibb",
+      "type": "biologic",
+      "indication": "CTLA-4 inhibitor \u2014 melanoma and other cancers, often combined with Opdivo",
+      "earliest_loss_of_exclusivity_date": "2025-12-31",
+      "competition": [
+        {
+          "name": "Biosimilar pipeline",
+          "status": "expected",
+          "expected_launch": "~2025-2026 (estimate)",
+          "source_url": "https://credevo.com/articles/2026/03/05/trending-molecules-and-generic-drug-opportunities-blockbuster-drugs-with-upcoming-patent-expirations-2026-2030/"
+        }
+      ],
+      "notes": "Estimate only -- verify against live patent data once the pipeline runs.",
+      "sources": [
+        "https://credevo.com/articles/2026/03/05/trending-molecules-and-generic-drug-opportunities-blockbuster-drugs-with-upcoming-patent-expirations-2026-2030/"
+      ],
+      "sales_2025": {
+        "usd_m": 2900,
+        "label": "$2.90B (worldwide)",
+        "source_url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2025/BMY-Q4-2025-Earnings-Press-Release.pdf",
+        "note": "FY2025 worldwide revenue per BMS's Q4/FY2025 earnings release."
+      },
+      "administration": {
+        "setting": "clinic",
+        "note": "IV infusion administered in an oncology clinic/infusion center."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "yervoy"
+    },
+    {
+      "brand_name": "Bridion",
+      "generic_name": "Sugammadex",
+      "company": "Merck (Organon)",
+      "type": "small_molecule",
+      "indication": "Anesthesia reversal agent",
+      "earliest_loss_of_exclusivity_date": "2026-01-27",
+      "competition": [
+        {
+          "name": "Generic sugammadex",
+          "status": "expected",
+          "expected_launch": "2026-01-27",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": 1841,
+        "label": "$1.84B",
+        "source_url": "https://www.merck.com/wp-content/uploads/sites/124/2026/02/4Q25-Merck-Earnings-Announcement.pdf",
+        "note": "FY2025 revenue per Merck's Q4/FY2025 earnings release."
+      },
+      "administration": {
+        "setting": "clinic",
+        "note": "IV push administered by an anesthesiologist in the operating room to reverse neuromuscular blockade; hospital/surgical-center setting, not retail pharmacy."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "bridion"
+    },
+    {
+      "brand_name": "Revlimid",
+      "generic_name": "Lenalidomide",
+      "company": "Bristol Myers Squibb (Celgene)",
+      "type": "small_molecule",
+      "indication": "Multiple myeloma and other blood cancers",
+      "earliest_loss_of_exclusivity_date": "2026-01-31",
+      "competition": [
+        {
+          "name": "Generic lenalidomide (multiple ANDA filers -- Natco/Teva, Dr. Reddy's, Cipla, Accord, and others)",
+          "status": "settled",
+          "expected_launch": "already launched under volume caps since 2022; full open market 2026-01-31",
+          "note": "Generics have been on the market since 2022 under a settlement with escalating volume caps; the caps lift entirely on January 31, 2026, opening full competition.",
+          "source_url": "https://www.i-mak.org/2025/04/04/how-celgene-and-bristol-myers-squibb-used-volume-restrictions-to-delay-revlimid-competition/"
+        }
+      ],
+      "notes": "A textbook case of volume-capped settlement erosion rather than a single cliff-edge date -- revenue has already declined for years and will drop further once caps lift.",
+      "sources": [
+        "https://www.i-mak.org/2025/04/04/how-celgene-and-bristol-myers-squibb-used-volume-restrictions-to-delay-revlimid-competition/"
+      ],
+      "sales_2025": {
+        "usd_m": 2951,
+        "label": "$2.95B (worldwide)",
+        "source_url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2025/BMY-Q4-2025-Earnings-Press-Release.pdf",
+        "note": "FY2025 worldwide revenue per BMS's Q4/FY2025 earnings release -- still substantial despite years of capped generic competition."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral capsule; REMS-restricted specialty pharmacy dispensing."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "revlimid"
+    },
+    {
+      "brand_name": "Pradaxa",
+      "generic_name": "Dabigatran",
+      "company": "Boehringer Ingelheim",
+      "type": "small_molecule",
+      "indication": "Anticoagulant",
+      "earliest_loss_of_exclusivity_date": "2026-03-07",
+      "competition": [
+        {
+          "name": "Generic dabigatran",
+          "status": "expected",
+          "expected_launch": "2026-03-07",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": 1200,
+        "label": "~$1.2B (estimate)",
+        "source_url": "https://www.drugpatentwatch.com/p/drug-sales/drugname/PRADAXA",
+        "note": "Boehringer Ingelheim is privately held and its FY2025 annual report product table was not accessible for this update; figure is a third-party estimate (DrugPatentWatch), not a confirmed primary-source earnings figure. Treat as directional only."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral capsule, retail pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "pradaxa"
+    },
+    {
+      "brand_name": "Ozempic",
+      "generic_name": "Semaglutide",
+      "company": "Novo Nordisk",
+      "type": "small_molecule",
+      "indication": "Type 2 diabetes / GLP-1 agonist",
+      "earliest_loss_of_exclusivity_date": "2026-03-20",
+      "competition": [
+        {
+          "name": "Generic semaglutide (compounders/ANDA filers)",
+          "status": "expected",
+          "expected_launch": "2026-03-20 (key patent)",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "notes": "Key US patent cited as expiring March 20, 2026; Novo holds additional secondary patents that may extend protection on some formulations/devices \u2014 verify against live Orange Book patent list.",
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": 18428,
+        "label": "~$18.4B (DKK 127,089M)",
+        "source_url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+        "note": "FY2025 sales reported as DKK 127,089 million by Novo Nordisk; USD figure is an approximate conversion (~0.145 USD/DKK) since Novo reports in Danish kroner."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Self-injected subcutaneous pen, dispensed via retail/specialty pharmacy."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "ozempic"
+    },
+    {
+      "brand_name": "Byetta",
+      "generic_name": "Exenatide",
+      "company": "AstraZeneca",
+      "type": "small_molecule",
+      "indication": "Type 2 diabetes",
+      "earliest_loss_of_exclusivity_date": "2026-04-04",
+      "competition": [
+        {
+          "name": "Generic exenatide",
+          "status": "expected",
+          "expected_launch": "2026-04-04",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": null,
+        "label": "Discontinued",
+        "source_url": "https://www.uhcprovider.com/en/resource-library/news/2024/discontinuation-bydureon-bcise-byetta.html",
+        "note": "AstraZeneca discontinued Byetta (and Bydureon BCise) on October 25, 2024; no longer marketed, so no FY2025 sales."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Was a self-injected subcutaneous pen, dispensed via retail pharmacy, before discontinuation."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "byetta"
+    },
+    {
+      "brand_name": "Rexulti",
+      "generic_name": "Brexpiprazole",
+      "company": "Otsuka / H. Lundbeck",
+      "type": "small_molecule",
+      "indication": "Schizophrenia / major depressive disorder",
+      "earliest_loss_of_exclusivity_date": "2026-04-12",
+      "competition": [
+        {
+          "name": "Generic brexpiprazole",
+          "status": "expected",
+          "expected_launch": "2026-04-12",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": 899,
+        "label": "~$0.9B (DKK 6,205M)",
+        "source_url": "https://news.cision.com/h--lundbeck-a-s/r/record-2025-performance-with-revenue-up-13--cer-and-adjusted-ebitda-up-24--cer-positions-lundbeck-fo,c4302217",
+        "note": "FY2025 revenue reported as DKK 6,205 million (+23% CER) by H. Lundbeck A/S (co-marketed with Otsuka); USD figure is an approximate conversion (~0.145 USD/DKK)."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, retail pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "rexulti"
+    },
+    {
+      "brand_name": "Januvia",
+      "generic_name": "Sitagliptin",
+      "company": "Merck & Co.",
+      "type": "small_molecule",
+      "indication": "Type 2 diabetes (DPP-4 inhibitor)",
+      "earliest_loss_of_exclusivity_date": "2026-05-01",
+      "competition": [
+        {
+          "name": "Generic sitagliptin (multiple ANDA filers)",
+          "status": "expected",
+          "expected_launch": "2026-05",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "notes": "Generic launch expected May 2026.",
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026",
+        "https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/"
+      ],
+      "sales_2025": {
+        "usd_m": 2544,
+        "label": "$2.54B (combined w/ Janumet)",
+        "source_url": "https://www.merck.com/wp-content/uploads/sites/124/2026/02/4Q25-Merck-Earnings-Announcement.pdf",
+        "note": "Merck now reports Januvia and Janumet/Janumet XR as a single combined line in its FY2025 earnings release; not broken out separately."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, retail pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "januvia"
+    },
+    {
+      "brand_name": "Zelboraf",
+      "generic_name": "Vemurafenib",
+      "company": "Roche/Genentech",
+      "type": "small_molecule",
+      "indication": "Melanoma (BRAF inhibitor)",
+      "earliest_loss_of_exclusivity_date": "2026-06-01",
+      "competition": [
+        {
+          "name": "Generic vemurafenib",
+          "status": "expected",
+          "expected_launch": "2026-06",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": null,
+        "label": "Not separately disclosed",
+        "source_url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+        "note": "Zelboraf does not appear in Roche's FY2025 Finance Report product sales tables at all, suggesting it's no longer a material contributor and is folded into an 'Others' line."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, specialty pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "zelboraf"
+    },
+    {
+      "brand_name": "Perjeta",
+      "generic_name": "Pertuzumab",
+      "company": "Roche/Genentech",
+      "type": "biologic",
+      "indication": "HER2 inhibitor \u2014 HER2-positive breast cancer, typically combined with Herceptin (trastuzumab)",
+      "earliest_loss_of_exclusivity_date": "2026-06-01",
+      "competition": [
+        {
+          "name": "Biosimilar pipeline",
+          "status": "expected",
+          "expected_launch": "~2026 (estimate)",
+          "note": "FY2025 sales already declining (-13% at CER), but primarily due to patients converting to the fixed-dose combination Phesgo rather than to biosimilar competition -- worth distinguishing from a classic patent-cliff decline.",
+          "source_url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf"
+        }
+      ],
+      "notes": "LOE date is an estimate; verify against live patent data.",
+      "sources": [
+        "https://credevo.com/articles/2026/03/05/trending-molecules-and-generic-drug-opportunities-blockbuster-drugs-with-upcoming-patent-expirations-2026-2030/"
+      ],
+      "sales_2025": {
+        "usd_m": 3412,
+        "label": "~$3.41B (CHF 2,968M)",
+        "source_url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+        "note": "FY2025 sales reported as CHF 2,968 million by Roche; USD figure is an approximate conversion (~1.15 USD/CHF)."
+      },
+      "administration": {
+        "setting": "clinic",
+        "note": "IV infusion administered in an oncology clinic/infusion center (or as part of the Phesgo subcutaneous combination, also HCP-administered)."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "perjeta"
+    },
+    {
+      "brand_name": "Voltaren",
+      "generic_name": "Diclofenac",
+      "company": "GSK",
+      "type": "small_molecule",
+      "indication": "Pain / inflammation",
+      "earliest_loss_of_exclusivity_date": "2026-06-16",
+      "competition": [
+        {
+          "name": "Generic diclofenac formulation",
+          "status": "expected",
+          "expected_launch": "2026-06-16",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": null,
+        "label": "Not separately disclosed",
+        "source_url": "https://www.haleon.com/content/dam/haleon/corporate/documents/investors/results/full-year-results-2025/fy25-statement.pdf.downloadasset.pdf",
+        "note": "Now owned by Haleon (spun off from GSK's consumer health division), which reports Voltaren within a combined 'Pain Relief' category (\u00a32,564m FY2025) rather than breaking out the brand individually. Haleon's release describes Voltaren growth as 'low-single digit.'"
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Topical gel/oral, retail pharmacy or OTC."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "voltaren"
+    },
+    {
+      "brand_name": "Janumet / Janumet XR",
+      "generic_name": "Sitagliptin + metformin",
+      "company": "Merck & Co.",
+      "type": "small_molecule",
+      "indication": "Type 2 diabetes",
+      "earliest_loss_of_exclusivity_date": "2026-07-01",
+      "competition": [
+        {
+          "name": "Generic combination (multiple ANDA filers)",
+          "status": "expected",
+          "expected_launch": "2026-07",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "notes": "XR form generic launch expected July 2026.",
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": 2544,
+        "label": "$2.54B (combined w/ Januvia)",
+        "source_url": "https://www.merck.com/wp-content/uploads/sites/124/2026/02/4Q25-Merck-Earnings-Announcement.pdf",
+        "note": "Merck now reports Januvia and Janumet/Janumet XR as a single combined line in its FY2025 earnings release; not broken out separately."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, retail pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "janumet"
+    },
+    {
+      "brand_name": "Gilotrif",
+      "generic_name": "Afatinib",
+      "company": "Boehringer Ingelheim",
+      "type": "small_molecule",
+      "indication": "Non-small cell lung cancer (EGFR inhibitor)",
+      "earliest_loss_of_exclusivity_date": "2026-07-01",
+      "competition": [
+        {
+          "name": "Generic afatinib",
+          "status": "expected",
+          "expected_launch": "2026-07",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": null,
+        "label": "Not separately disclosed",
+        "source_url": "https://www.boehringer-ingelheim.com/us/media/press-releases/boehringer-ingelheim-reports-2025-growth-and-pipeline-progress",
+        "note": "Boehringer Ingelheim is privately held; its public disclosures don't consistently break out Gilotrif at the product level, and this page was not accessible for this update."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, specialty pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "gilotrif"
+    },
+    {
+      "brand_name": "Imbruvica",
+      "generic_name": "Ibrutinib",
+      "company": "AbbVie / Johnson & Johnson",
+      "type": "small_molecule",
+      "indication": "Chronic lymphocytic leukemia, mantle cell lymphoma (BTK inhibitor)",
+      "earliest_loss_of_exclusivity_date": "2026-09-20",
+      "competition": [
+        {
+          "name": "Generic ibrutinib",
+          "status": "expected",
+          "expected_launch": "2026-09-20",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": 2869,
+        "label": "$2.87B (global)",
+        "source_url": "https://news.abbvie.com/2026-02-04-AbbVie-Reports-Full-Year-and-Fourth-Quarter-2025-Financial-Results",
+        "note": "Global net revenue, FY2025, down 14.3% YoY, per AbbVie's earnings release (co-developed/co-marketed with Johnson & Johnson)."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral capsule, specialty pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "imbruvica"
+    },
+    {
+      "brand_name": "Saphris",
+      "generic_name": "Asenapine",
+      "company": "Merck",
+      "type": "small_molecule",
+      "indication": "Schizophrenia",
+      "earliest_loss_of_exclusivity_date": "2026-10-06",
+      "competition": [
+        {
+          "name": "Generic asenapine",
+          "status": "expected",
+          "expected_launch": "2026-10-06",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": null,
+        "label": "Not separately disclosed",
+        "source_url": "https://www.fiercepharma.com/pharma/forest-to-acquire-u-s-marketing-rights-to-saphris%C2%AE-asenapine-from-merck",
+        "note": "Rights have changed hands multiple times (originally Merck/Organon, later Forest/Allergan); current sales are not broken out in any recent earnings report found, consistent with a mature, largely generic-eroded product."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Sublingual tablet, retail pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "saphris"
+    },
+    {
+      "brand_name": "Uptravi",
+      "generic_name": "Selexipag",
+      "company": "Actelion / Johnson & Johnson",
+      "type": "small_molecule",
+      "indication": "Pulmonary arterial hypertension",
+      "earliest_loss_of_exclusivity_date": "2026-10-31",
+      "competition": [
+        {
+          "name": "Generic selexipag",
+          "status": "expected",
+          "expected_launch": "2026-10-31",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": 1902,
+        "label": "$1.90B (worldwide)",
+        "source_url": "https://s203.q4cdn.com/636242992/files/doc_news/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results-2026.pdf",
+        "note": "FY2025 worldwide sales per Johnson & Johnson's Q4/FY2025 results (Uptravi came to J&J via the Actelion acquisition)."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, typically dispensed via specialty pharmacy given the rare-disease indication."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "uptravi"
+    },
+    {
+      "brand_name": "Eliquis",
+      "generic_name": "Apixaban",
+      "company": "Bristol Myers Squibb / Pfizer",
+      "type": "small_molecule",
+      "indication": "Anticoagulant (AFib, DVT/PE)",
+      "earliest_loss_of_exclusivity_date": "2026-11-21",
+      "competition": [
+        {
+          "name": "Generic apixaban (multiple ANDA filers, per settlement)",
+          "status": "settled",
+          "expected_launch": "2026-11-21",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "notes": "One of the largest-revenue drugs on this list; settlement-driven generic entry date.",
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": 14443,
+        "label": "$14.44B (worldwide)",
+        "source_url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2025/BMY-Q4-2025-Earnings-Press-Release.pdf",
+        "note": "Worldwide net product sales, FY2025, as booked and reported by Bristol Myers Squibb (co-marketed with Pfizer under a collaboration agreement; Pfizer separately reports its own alliance revenue share of $7.96B)."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, retail pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "eliquis"
+    },
+    {
+      "brand_name": "Eylea",
+      "generic_name": "Aflibercept",
+      "company": "Regeneron",
+      "type": "biologic",
+      "indication": "Anti-VEGF \u2014 wet AMD / diabetic macular edema",
+      "application_number": "BLA125387",
+      "earliest_loss_of_exclusivity_date": "2026-12-31",
+      "competition": [
+        {
+          "name": "Yesafili (Biocon/Mylan)",
+          "status": "settled",
+          "expected_launch": "2026 (2nd half)",
+          "source_url": "https://www.fiercepharma.com/pharma/regeneron-settles-eylea-patent-dispute-celltrion-allowing-another-biosimilar-launch-2026"
+        },
+        {
+          "name": "Eydenzelt (Celltrion)",
+          "status": "settled",
+          "expected_launch": "2026-12-31",
+          "source_url": "https://www.fiercepharma.com/pharma/regeneron-settles-eylea-patent-dispute-celltrion-allowing-another-biosimilar-launch-2026"
+        },
+        {
+          "name": "Enzeevu (Sandoz)",
+          "status": "settled",
+          "expected_launch": "2026 Q4 or earlier",
+          "source_url": "https://www.fiercepharma.com/pharma/regeneron-settles-eylea-patent-dispute-celltrion-allowing-another-biosimilar-launch-2026"
+        },
+        {
+          "name": "Amgen biosimilar",
+          "status": "approved/marketed",
+          "expected_launch": "already launched",
+          "source_url": "https://www.fiercepharma.com/pharma/regeneron-settles-eylea-patent-dispute-celltrion-allowing-another-biosimilar-launch-2026"
+        },
+        {
+          "name": "Opuviz (Samsung Bioepis)",
+          "status": "litigation ongoing",
+          "expected_launch": "TBD",
+          "source_url": "https://www.fiercepharma.com/pharma/regeneron-settles-eylea-patent-dispute-celltrion-allowing-another-biosimilar-launch-2026"
+        },
+        {
+          "name": "Ahzantive (Formycon)",
+          "status": "litigation ongoing",
+          "expected_launch": "TBD",
+          "source_url": "https://www.fiercepharma.com/pharma/regeneron-settles-eylea-patent-dispute-celltrion-allowing-another-biosimilar-launch-2026"
+        }
+      ],
+      "notes": "Fastest-moving biosimilar field in this tracker \u2014 multiple settled launch dates through 2026-2027. US sales already down ~25% YoY on biosimilar erosion.",
+      "sources": [
+        "https://www.fiercepharma.com/pharma/regeneron-settles-eylea-patent-dispute-celltrion-allowing-another-biosimilar-launch-2026"
+      ],
+      "sales_2025": {
+        "usd_m": 4385,
+        "label": "$4.39B (US only)",
+        "source_url": "https://www.stocktitan.net/news/REGN/regeneron-reports-fourth-quarter-and-full-year-2025-financial-and-4uo083e9cnk0.html",
+        "note": "Combined Eylea + Eylea HD U.S. net sales, FY2025, down 27% YoY on biosimilar erosion, per Regeneron's Q4/FY2025 release. Global ex-US sales are recorded by Bayer and not included."
+      },
+      "administration": {
+        "setting": "clinic",
+        "note": "Intravitreal injection administered by an ophthalmologist in an office/clinic setting."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "eylea"
+    },
+    {
+      "brand_name": "Orkambi",
+      "generic_name": "Lumacaftor/Ivacaftor",
+      "company": "Vertex",
+      "type": "small_molecule",
+      "indication": "Cystic fibrosis",
+      "earliest_loss_of_exclusivity_date": "2026-12-31",
+      "competition": [
+        {
+          "name": "Generic combination",
+          "status": "expected",
+          "expected_launch": "2026",
+          "source_url": "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+        }
+      ],
+      "notes": "Reported as expiring generically in 2026; exact date not specified in source \u2014 verify against live Orange Book data.",
+      "sources": [
+        "https://intuitionlabs.ai/articles/drug-patent-expirations-2026"
+      ],
+      "sales_2025": {
+        "usd_m": null,
+        "label": "Not separately disclosed",
+        "source_url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-fourth-quarter-and-full-year-2025-financial",
+        "note": "Vertex groups Orkambi with Kalydeco and Symdeko/Symkevi under 'Other product revenues' ($820.1M combined, FY2025) since Trikafta/Kaftrio now dominates the CF franchise; Orkambi-specific figure isn't broken out."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, specialty pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "orkambi"
+    },
+    {
+      "brand_name": "Darzalex",
+      "generic_name": "Daratumumab",
+      "company": "Johnson & Johnson (Janssen) / Genmab",
+      "type": "biologic",
+      "indication": "CD38-directed antibody \u2014 multiple myeloma",
+      "earliest_loss_of_exclusivity_date": "2026-12-31",
+      "competition": [
+        {
+          "name": "Biosimilar pipeline",
+          "status": "expected",
+          "expected_launch": "~2026-2027 (estimate)",
+          "source_url": "https://credevo.com/articles/2026/03/05/trending-molecules-and-generic-drug-opportunities-blockbuster-drugs-with-upcoming-patent-expirations-2026-2030/"
+        }
+      ],
+      "notes": "One of J&J's largest products by revenue; LOE date is an estimate, verify against live patent data.",
+      "sources": [
+        "https://s203.q4cdn.com/636242992/files/doc_news/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results-2026.pdf"
+      ],
+      "sales_2025": {
+        "usd_m": 14351,
+        "label": "$14.35B (worldwide)",
+        "source_url": "https://s203.q4cdn.com/636242992/files/doc_news/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results-2026.pdf",
+        "note": "FY2025 worldwide sales per J&J's Q4/FY2025 results."
+      },
+      "administration": {
+        "setting": "clinic",
+        "note": "Administered by a healthcare provider (subcutaneous or IV) in an oncology clinic/infusion center."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "darzalex"
+    },
+    {
+      "brand_name": "Pomalyst",
+      "generic_name": "Pomalidomide",
+      "company": "Bristol Myers Squibb",
+      "type": "small_molecule",
+      "indication": "Multiple myeloma",
+      "earliest_loss_of_exclusivity_date": "2026-12-31",
+      "competition": [
+        {
+          "name": "Generic pomalidomide (expected)",
+          "status": "expected",
+          "expected_launch": "2026",
+          "source_url": "https://business.optum.com/en/insights/blockbuster-drug-patent-expirations-2026-what-they-mean.html"
+        }
+      ],
+      "notes": "Sold as Imnovid outside the US; REMS-restricted specialty distribution similar to Revlimid.",
+      "sources": [
+        "https://business.optum.com/en/insights/blockbuster-drug-patent-expirations-2026-what-they-mean.html"
+      ],
+      "sales_2025": {
+        "usd_m": 2733,
+        "label": "$2.73B (worldwide, incl. Imnovid)",
+        "source_url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2025/BMY-Q4-2025-Earnings-Press-Release.pdf",
+        "note": "FY2025 worldwide revenue per BMS's Q4/FY2025 earnings release."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral capsule; REMS-restricted specialty pharmacy dispensing."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "pomalyst"
+    },
+    {
+      "brand_name": "Opsumit",
+      "generic_name": "Macitentan",
+      "company": "Johnson & Johnson (Actelion)",
+      "type": "small_molecule",
+      "indication": "Pulmonary arterial hypertension",
+      "earliest_loss_of_exclusivity_date": "2026-12-31",
+      "competition": [
+        {
+          "name": "Generic macitentan (expected)",
+          "status": "expected",
+          "expected_launch": "2026",
+          "source_url": "https://business.optum.com/en/insights/blockbuster-drug-patent-expirations-2026-what-they-mean.html"
+        }
+      ],
+      "notes": "Newer combination product Opsynvi (macitentan/tadalafil) reported together with Opsumit by J&J and may extend the franchise's commercial life past Opsumit's own LOE.",
+      "sources": [
+        "https://business.optum.com/en/insights/blockbuster-drug-patent-expirations-2026-what-they-mean.html"
+      ],
+      "sales_2025": {
+        "usd_m": 2325,
+        "label": "$2.33B (combined w/ Opsynvi, worldwide)",
+        "source_url": "https://s203.q4cdn.com/636242992/files/doc_news/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results-2026.pdf",
+        "note": "FY2025 worldwide sales per J&J's Q4/FY2025 results; Opsumit and Opsynvi reported as a combined line."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet; REMS-restricted specialty pharmacy dispensing (embryo-fetal toxicity risk)."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "opsumit"
+    },
+    {
+      "brand_name": "Simponi / Simponi Aria",
+      "generic_name": "Golimumab",
+      "company": "Johnson & Johnson (Janssen)",
+      "type": "biologic",
+      "indication": "TNF inhibitor \u2014 rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis, ulcerative colitis",
+      "earliest_loss_of_exclusivity_date": "2026-12-31",
+      "competition": [
+        {
+          "name": "Biosimilar pipeline (expected)",
+          "status": "expected",
+          "expected_launch": "2026",
+          "source_url": "https://business.optum.com/en/insights/blockbuster-drug-patent-expirations-2026-what-they-mean.html"
+        }
+      ],
+      "notes": "Standard Simponi (subcutaneous) and Simponi Aria (IV) are reported together by J&J; the two have different administration settings (see note).",
+      "sources": [
+        "https://business.optum.com/en/insights/blockbuster-drug-patent-expirations-2026-what-they-mean.html"
+      ],
+      "sales_2025": {
+        "usd_m": 2668,
+        "label": "$2.67B (Simponi + Simponi Aria, worldwide)",
+        "source_url": "https://s203.q4cdn.com/636242992/files/doc_news/Johnson--Johnson-reports-Q4-and-Full-Year-2025-results-2026.pdf",
+        "note": "FY2025 combined worldwide sales per J&J's Q4/FY2025 results."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Standard Simponi is a self-injected subcutaneous pen (specialty pharmacy); Simponi Aria is a separate IV formulation administered in a clinic/infusion center."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "simponi"
+    },
+    {
+      "brand_name": "Jardiance",
+      "generic_name": "Empagliflozin",
+      "company": "Boehringer Ingelheim / Eli Lilly",
+      "type": "small_molecule",
+      "indication": "Type 2 diabetes, heart failure, chronic kidney disease (SGLT2 inhibitor)",
+      "earliest_loss_of_exclusivity_date": "2027-06-01",
+      "competition": [
+        {
+          "name": "Generic empagliflozin (Paragraph IV filers incl. Teva, Dr. Reddy's, and others)",
+          "status": "litigation ongoing",
+          "expected_launch": "mid-2027 to early-2028 (estimate; no settlement announced)",
+          "note": "The core compound patent expired January 2025, but formulation patents and active Paragraph IV litigation are expected to push real-world generic entry to 2027-2028.",
+          "source_url": "https://healthrx.com/empagliflozin/patent-generic-timeline"
+        }
+      ],
+      "notes": "A good example of why 'compound patent expiry' and 'actual generic launch' can be years apart once formulation patents and litigation are factored in.",
+      "sources": [
+        "https://healthrx.com/empagliflozin/patent-generic-timeline"
+      ],
+      "sales_2025": {
+        "usd_m": null,
+        "label": "Not separately disclosed",
+        "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides",
+        "note": "Jardiance no longer appears in Lilly's FY2025 highlighted product-revenue table (dominated by Mounjaro/Zepbound); Boehringer Ingelheim co-markets but doesn't break it out publicly either. Third-party trackers estimate roughly $5-6B globally, but that figure isn't a confirmed primary-source number."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, retail pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "jardiance"
+    },
+    {
+      "brand_name": "Trulicity",
+      "generic_name": "Dulaglutide",
+      "company": "Eli Lilly",
+      "type": "biologic",
+      "indication": "Type 2 diabetes (GLP-1 agonist)",
+      "earliest_loss_of_exclusivity_date": "2027-06-01",
+      "competition": [
+        {
+          "name": "Biosimilar/generic pipeline (estimate)",
+          "status": "expected",
+          "expected_launch": "2025-2027 (wide estimate range reported)",
+          "source_url": "https://credevo.com/articles/2026/03/05/trending-molecules-and-generic-drug-opportunities-blockbuster-drugs-with-upcoming-patent-expirations-2026-2030/"
+        }
+      ],
+      "notes": "Being displaced commercially by Lilly's own newer GLP-1s (Mounjaro/Zepbound) faster than by generic competition -- similar dynamic to Perjeta/Phesgo.",
+      "sources": [
+        "https://credevo.com/articles/2026/03/05/trending-molecules-and-generic-drug-opportunities-blockbuster-drugs-with-upcoming-patent-expirations-2026-2030/"
+      ],
+      "sales_2025": {
+        "usd_m": null,
+        "label": "Not separately disclosed",
+        "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-fourth-quarter-2025-financial-results-and-provides",
+        "note": "Trulicity no longer appears in Lilly's FY2025 highlighted product-revenue table, which is now dominated by Mounjaro and Zepbound."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Self-injected subcutaneous pen, dispensed via retail/specialty pharmacy."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "trulicity"
+    },
+    {
+      "brand_name": "Dupixent",
+      "generic_name": "Dupilumab",
+      "company": "Sanofi / Regeneron",
+      "type": "biologic",
+      "indication": "IL-4/IL-13 inhibitor \u2014 atopic dermatitis, asthma, COPD, eosinophilic esophagitis, and other type-2 inflammatory diseases",
+      "earliest_loss_of_exclusivity_date": "2027-10-01",
+      "competition": [
+        {
+          "name": "Biosimilar pipeline",
+          "status": "expected",
+          "expected_launch": "~2027-2028 (estimate)",
+          "note": "Sanofi has publicly flagged the looming patent expiry while touting new-launch momentum to offset it.",
+          "source_url": "https://www.pharmaceutical-technology.com/news/sanofi-fy2025-sales-results/"
+        }
+      ],
+      "notes": "Now one of the best-selling drugs in the world; still growing +26% in FY2025 despite the approaching cliff.",
+      "sources": [
+        "https://intuitionlabs.ai/articles/2027-drug-patent-expirations-loe-calendar"
+      ],
+      "sales_2025": {
+        "usd_m": 17807,
+        "label": "$17.81B (global)",
+        "source_url": "https://investor.regeneron.com/node/31721/pdf",
+        "note": "FY2025 global net sales per Regeneron's Q4/FY2025 earnings release (co-marketed with Sanofi)."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Self-injected subcutaneous pen/syringe, dispensed via specialty pharmacy."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "dupixent"
+    },
+    {
+      "brand_name": "Ibrance",
+      "generic_name": "Palbociclib",
+      "company": "Pfizer",
+      "type": "small_molecule",
+      "indication": "HR+/HER2- metastatic breast cancer (CDK4/6 inhibitor)",
+      "earliest_loss_of_exclusivity_date": "2027-12-31",
+      "competition": [
+        {
+          "name": "Generic palbociclib",
+          "status": "expected",
+          "expected_launch": "2027",
+          "source_url": "https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/"
+        }
+      ],
+      "sources": [
+        "https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/"
+      ],
+      "sales_2025": {
+        "usd_m": 4122,
+        "label": "$4.12B",
+        "source_url": "https://s206.q4cdn.com/795948973/files/doc_financials/2025/q4/Q4-2025-PFE-Earnings-Release.pdf",
+        "note": "FY2025 revenue per Pfizer's Q4/FY2025 earnings release."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral capsule, specialty pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "ibrance"
+    },
+    {
+      "brand_name": "Keytruda",
+      "generic_name": "Pembrolizumab",
+      "company": "Merck & Co.",
+      "type": "biologic",
+      "indication": "PD-1 inhibitor \u2014 multiple cancers",
+      "application_number": "BLA125514",
+      "earliest_loss_of_exclusivity_date": "2028-12-01",
+      "competition": [
+        {
+          "name": "Biosimilar pipeline (multiple sponsors)",
+          "status": "expected",
+          "expected_launch": "2028",
+          "note": "Widely reported patent cliff year; Merck is pushing a subcutaneous reformulation (Keytruda QLEX) to extend franchise life.",
+          "source_url": "https://www.patsnap.com/resources/blog/articles/keytruda-patent-cliff-2028-mercks-strategy/"
+        }
+      ],
+      "notes": "Core patents/exclusivity concentrated around 2028; monitor for reformulation-driven lifecycle extension.",
+      "sources": [
+        "https://www.patsnap.com/resources/blog/articles/keytruda-patent-cliff-2028-mercks-strategy/",
+        "https://www.drugpatentwatch.com/p/biologics/tradename/KEYTRUDA?query=KEYTRUDA"
+      ],
+      "sales_2025": {
+        "usd_m": 31680,
+        "label": "$31.68B",
+        "source_url": "https://www.merck.com/wp-content/uploads/sites/124/2026/02/4Q25-Merck-Earnings-Announcement.pdf",
+        "note": "Combined Keytruda IV + Keytruda QLEX (subcutaneous) worldwide sales, FY2025, per Merck's Q4/FY2025 earnings release."
+      },
+      "administration": {
+        "setting": "clinic",
+        "note": "IV infusion administered in an oncology clinic/infusion center; the new subcutaneous QLEX formulation still requires in-office administration."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "keytruda"
+    },
+    {
+      "brand_name": "Enbrel",
+      "generic_name": "Etanercept",
+      "company": "Amgen / Pfizer",
+      "type": "biologic",
+      "indication": "Rheumatoid arthritis, psoriasis (TNF inhibitor)",
+      "earliest_loss_of_exclusivity_date": "2028-12-31",
+      "competition": [
+        {
+          "name": "Biosimilar etanercept (multiple sponsors, litigation history)",
+          "status": "expected",
+          "expected_launch": "2028",
+          "source_url": "https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/"
+        }
+      ],
+      "sources": [
+        "https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/"
+      ],
+      "sales_2025": {
+        "usd_m": 2226,
+        "label": "$2.23B",
+        "source_url": "https://www.prnewswire.com/news-releases/amgen-reports-fourth-quarter-and-full-year-2025-financial-results-302678171.html",
+        "note": "FY2025 US sales per Amgen's Q4/FY2025 earnings release, down 33% YoY largely on lower net selling price (340B Program mix, Medicare Part D redesign)."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Self-injected subcutaneous pen/syringe, dispensed via specialty pharmacy."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "enbrel"
+    },
+    {
+      "brand_name": "Opdivo",
+      "generic_name": "Nivolumab",
+      "company": "Bristol Myers Squibb",
+      "type": "biologic",
+      "indication": "PD-1 inhibitor \u2014 multiple cancers",
+      "earliest_loss_of_exclusivity_date": "2028-12-31",
+      "competition": [
+        {
+          "name": "Biosimilar pipeline",
+          "status": "expected",
+          "expected_launch": "~2028 (estimate)",
+          "note": "No biosimilar filings publicly reported yet as of this research; BMS has launched a subcutaneous reformulation (Opdivo Qvantig, approved Dec 2024) as a lifecycle-extension move similar to Keytruda QLEX.",
+          "source_url": "https://pharmaphorum.com/news/opdivos-subcutaneous-pd-1-inhibitor-cleared-us"
+        }
+      ],
+      "notes": "Core patent estimate only -- exact date varies by indication and patent family; verify against live Orange Book / BLA patent listings once the pipeline runs.",
+      "sources": [
+        "https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/"
+      ],
+      "sales_2025": {
+        "usd_m": 10049,
+        "label": "$10.05B (worldwide)",
+        "source_url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2025/BMY-Q4-2025-Earnings-Press-Release.pdf",
+        "note": "FY2025 worldwide revenue per BMS's Q4/FY2025 earnings release."
+      },
+      "administration": {
+        "setting": "clinic",
+        "note": "IV infusion administered in an oncology clinic/infusion center; the new Opdivo Qvantig subcutaneous formulation still requires in-office administration."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "opdivo"
+    },
+    {
+      "brand_name": "Repatha",
+      "generic_name": "Evolocumab",
+      "company": "Amgen",
+      "type": "biologic",
+      "indication": "Cholesterol lowering (PCSK9 inhibitor)",
+      "earliest_loss_of_exclusivity_date": "2029-12-31",
+      "competition": [
+        {
+          "name": "Biosimilar evolocumab",
+          "status": "expected",
+          "expected_launch": "2029",
+          "source_url": "https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/"
+        }
+      ],
+      "sources": [
+        "https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/"
+      ],
+      "sales_2025": {
+        "usd_m": 3016,
+        "label": "$3.02B",
+        "source_url": "https://www.prnewswire.com/news-releases/amgen-reports-fourth-quarter-and-full-year-2025-financial-results-302678171.html",
+        "note": "FY2025 sales per Amgen's Q4/FY2025 earnings release, up 36% YoY."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Self-injected subcutaneous pen/syringe, dispensed via retail/specialty pharmacy."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "repatha"
+    },
+    {
+      "brand_name": "Genvoya",
+      "generic_name": "Elvitegravir/cobicistat/emtricitabine/tenofovir alafenamide",
+      "company": "Gilead Sciences",
+      "type": "small_molecule",
+      "indication": "HIV (single-tablet regimen)",
+      "earliest_loss_of_exclusivity_date": "2029-12-31",
+      "competition": [
+        {
+          "name": "Generic combination",
+          "status": "expected",
+          "expected_launch": "2029",
+          "source_url": "https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/"
+        }
+      ],
+      "sources": [
+        "https://www.genengnews.com/topics/drug-discovery/top-20-drugs-heading-for-the-patent-cliff-2026-2029/"
+      ],
+      "sales_2025": {
+        "usd_m": 1498,
+        "label": "$1.50B",
+        "source_url": "https://s29.q4cdn.com/585078350/files/doc_financials/2025/q4/GILD-Q425-FY25-Earnings-Press-Release-10-February-2026.pdf",
+        "note": "FY2025 product revenue per Gilead's Q4/FY2025 earnings release."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral single-tablet regimen, specialty pharmacy prescription."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "genvoya"
+    },
+    {
+      "brand_name": "Ocrevus",
+      "generic_name": "Ocrelizumab",
+      "company": "Roche/Genentech",
+      "type": "biologic",
+      "indication": "Anti-CD20 \u2014 relapsing and primary progressive multiple sclerosis",
+      "earliest_loss_of_exclusivity_date": "2029-12-31",
+      "competition": [
+        {
+          "name": "Biosimilar pipeline",
+          "status": "expected",
+          "expected_launch": "~2029 (estimate; reported range 2025-2029)",
+          "note": "Roche's highest-selling Pharma Division medicine in FY2025; wide reported LOE range reflects patent-family complexity.",
+          "source_url": "https://credevo.com/articles/2026/03/05/trending-molecules-and-generic-drug-opportunities-blockbuster-drugs-with-upcoming-patent-expirations-2026-2030/"
+        }
+      ],
+      "notes": "Estimate only -- verify against live patent data once the pipeline runs.",
+      "sources": [
+        "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf"
+      ],
+      "sales_2025": {
+        "usd_m": 8062,
+        "label": "~$8.06B (CHF 7,010M)",
+        "source_url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+        "note": "FY2025 sales reported as CHF 7,010 million by Roche; USD figure is an approximate conversion (~1.15 USD/CHF)."
+      },
+      "administration": {
+        "setting": "clinic",
+        "note": "IV infusion administered twice yearly in an infusion center; a newer subcutaneous formulation (Ocrevus Zunovo) is still administered by a healthcare provider."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "ocrevus"
+    },
+    {
+      "brand_name": "Cosentyx",
+      "generic_name": "Secukinumab",
+      "company": "Novartis",
+      "type": "biologic",
+      "indication": "IL-17A inhibitor \u2014 psoriasis, psoriatic arthritis, ankylosing spondylitis",
+      "earliest_loss_of_exclusivity_date": "2030-12-31",
+      "competition": [
+        {
+          "name": "Biosimilar pipeline",
+          "status": "expected",
+          "expected_launch": "~2030 (estimate; reported range 2025-2030)",
+          "note": "Wide reported LOE range reflects patent-family complexity; treat as directional.",
+          "source_url": "https://credevo.com/articles/2026/03/05/trending-molecules-and-generic-drug-opportunities-blockbuster-drugs-with-upcoming-patent-expirations-2026-2030/"
+        }
+      ],
+      "notes": "Estimate only -- verify against live patent data once the pipeline runs.",
+      "sources": [
+        "https://www.novartis.com/sites/novartis_com/files/q4-2025-media-release-en.pdf"
+      ],
+      "sales_2025": {
+        "usd_m": 6668,
+        "label": "$6.67B",
+        "source_url": "https://www.novartis.com/sites/novartis_com/files/q4-2025-media-release-en.pdf",
+        "note": "FY2025 net sales per Novartis's Q4/FY2025 media release."
+      },
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Self-injected subcutaneous pen/syringe, dispensed via specialty pharmacy."
+      },
+      "loe_date_source": "curated_estimate",
+      "id": "cosentyx"
+    }
+  ]
+}

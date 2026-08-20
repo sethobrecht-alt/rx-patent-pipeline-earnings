@@ -1,0 +1,278 @@
+/* Rx Patent Expiration Tracker — styles
+   Palette: dataviz skill reference instance (references/palette.md), unmodified. */
+
+.viz-root {
+  color-scheme: light;
+  --surface-1:      #fcfcfb;
+  --page-plane:     #f9f9f7;
+  --text-primary:   #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted:     #898781;
+  --gridline:       #e1e0d9;
+  --baseline:       #c3c2b7;
+  --border:         rgba(11,11,11,0.10);
+  --series-1:       #2a78d6; /* small molecule */
+  --series-2:       #eb6834; /* biologic */
+  --series-3:       #1baf7a; /* cell/gene therapy */
+  --status-good:    #0ca30c;
+  --status-warning: #fab219;
+  --status-serious: #ec835a;
+  --status-critical:#d03b3b;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) .viz-root {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page-plane:     #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --series-1:       #3987e5;
+    --series-2:       #d95926;
+    --series-3:       #199e70;
+    --status-good:    #0ca30c;
+    --status-warning: #fab219;
+    --status-serious: #ec835a;
+    --status-critical:#d03b3b;
+  }
+}
+:root[data-theme="dark"] .viz-root {
+  color-scheme: dark;
+  --surface-1:      #1a1a19;
+  --page-plane:     #0d0d0d;
+  --text-primary:   #ffffff;
+  --text-secondary: #c3c2b7;
+  --text-muted:     #898781;
+  --gridline:       #2c2c2a;
+  --baseline:       #383835;
+  --border:         rgba(255,255,255,0.10);
+  --series-1:       #3987e5;
+  --series-2:       #d95926;
+  --series-3:       #199e70;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+/* Custom properties are scoped to .viz-root (see palette block above), so the
+   background/color that consume them must live on .viz-root itself -- not on
+   body, which is an ancestor and can't see descendant-scoped variables. */
+.viz-root {
+  display: block;
+  min-height: 100vh;
+  background: var(--page-plane);
+  color: var(--text-primary);
+}
+
+.wrap { max-width: 1180px; margin: 0 auto; padding: 24px 20px 64px; }
+
+header.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 8px 0 24px;
+  border-bottom: 1px solid var(--gridline);
+  margin-bottom: 24px;
+}
+header.top h1 { font-size: 22px; margin: 0 0 4px; }
+header.top p.tagline { margin: 0; color: var(--text-secondary); font-size: 14px; max-width: 520px; }
+.meta { text-align: right; font-size: 12px; color: var(--text-muted); }
+.meta a { color: var(--text-secondary); }
+button.theme-toggle {
+  border: 1px solid var(--border);
+  background: var(--surface-1);
+  color: var(--text-secondary);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Page nav (toggle between LOE tracker and Pipeline pages) */
+.page-nav {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--gridline);
+}
+.page-nav-link {
+  display: inline-block;
+  padding: 8px 4px;
+  margin-bottom: -1px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  margin-right: 20px;
+}
+.page-nav-link:hover { color: var(--text-secondary); }
+.page-nav-link.active { color: var(--series-1); border-bottom-color: var(--series-1); }
+
+/* KPI row */
+.kpi-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+@media (max-width: 1000px) { .kpi-row { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 640px) { .kpi-row { grid-template-columns: repeat(2, 1fr); } }
+.kpi-tile {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+.kpi-tile .label { font-size: 12px; color: var(--text-muted); margin-bottom: 6px; }
+.kpi-tile .value { font-size: 26px; font-weight: 600; font-variant-numeric: proportional-nums; }
+.kpi-tile .sub { font-size: 12px; color: var(--text-secondary); margin-top: 4px; }
+
+/* Controls */
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.controls input[type="search"],
+.controls select {
+  border: 1px solid var(--border);
+  background: var(--surface-1);
+  color: var(--text-primary);
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 14px;
+}
+.controls input[type="search"] { flex: 1; min-width: 200px; }
+.view-toggle { display: flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.view-toggle button {
+  border: none;
+  background: var(--surface-1);
+  color: var(--text-secondary);
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.view-toggle button.active { background: var(--series-1); color: white; }
+
+/* Table */
+table.drug-table { width: 100%; border-collapse: collapse; background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+table.drug-table th, table.drug-table td { text-align: left; padding: 10px 12px; font-size: 13px; border-bottom: 1px solid var(--gridline); }
+table.drug-table th { color: var(--text-muted); font-weight: 600; cursor: pointer; user-select: none; white-space: nowrap; }
+table.drug-table th:hover { color: var(--text-primary); }
+table.drug-table tbody tr { cursor: pointer; }
+table.drug-table tbody tr:hover { background: color-mix(in srgb, var(--series-1) 6%, transparent); }
+table.drug-table tbody tr:last-child td { border-bottom: none; }
+td.date-cell { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.badge.type-small_molecule { background: color-mix(in srgb, var(--series-1) 15%, transparent); color: var(--series-1); }
+.badge.type-biologic { background: color-mix(in srgb, var(--series-2) 15%, transparent); color: var(--series-2); }
+.badge.type-cell_gene_therapy { background: color-mix(in srgb, var(--series-3) 15%, transparent); color: var(--series-3); }
+.badge.tier-large { background: color-mix(in srgb, var(--series-1) 15%, transparent); color: var(--series-1); }
+.badge.tier-mid { background: color-mix(in srgb, var(--series-2) 15%, transparent); color: var(--series-2); }
+.badge.tier-small { background: color-mix(in srgb, var(--series-3) 15%, transparent); color: var(--series-3); }
+.badge .dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; flex: none; }
+
+.status-pill { display: inline-flex; align-items: center; gap: 5px; font-size: 12px; }
+.status-pill.good { color: var(--status-good); }
+.status-pill.warning { color: #a06a00; } /* darkened for AA text contrast on light surface, see note in app.js comments */
+.status-pill.serious { color: #b34a1f; } /* darkened from --status-serious for AA text contrast, same pattern as .warning */
+.status-pill.critical { color: #b3231f; } /* darkened from --status-critical for AA text contrast, same pattern as .warning */
+.status-pill .dot { width: 7px; height: 7px; border-radius: 50%; }
+.status-pill.good .dot { background: var(--status-good); }
+.status-pill.warning .dot { background: var(--status-warning); }
+.status-pill.serious .dot { background: var(--status-serious); }
+.status-pill.critical .dot { background: var(--status-critical); }
+
+.setting-pill {
+  display: inline-block;
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--text-secondary) 12%, transparent);
+  color: var(--text-secondary);
+  white-space: nowrap;
+  cursor: default;
+}
+
+/* Timeline view */
+.timeline { display: flex; flex-direction: column; gap: 20px; }
+.timeline-group h3 {
+  font-size: 13px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--gridline);
+}
+.timeline-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
+.tl-card {
+  background: var(--surface-1);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--series-1);
+  border-radius: 10px;
+  padding: 12px 14px;
+  cursor: pointer;
+}
+.tl-card.biologic { border-left-color: var(--series-2); }
+.tl-card.cell_gene_therapy { border-left-color: var(--series-3); }
+.tl-card .date { font-size: 12px; color: var(--text-muted); font-variant-numeric: tabular-nums; margin-bottom: 4px; }
+.tl-card .name { font-size: 15px; font-weight: 600; margin-bottom: 2px; }
+.tl-card .company { font-size: 12px; color: var(--text-secondary); }
+
+/* Detail drawer */
+.overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.4);
+  display: none; align-items: flex-start; justify-content: flex-end; z-index: 50;
+}
+.overlay.open { display: flex; }
+.drawer {
+  width: min(480px, 100%); height: 100%; background: var(--surface-1);
+  overflow-y: auto; padding: 24px; box-shadow: -8px 0 24px rgba(0,0,0,0.15);
+}
+.drawer .close-btn {
+  border: 1px solid var(--border); background: transparent; color: var(--text-secondary);
+  border-radius: 8px; padding: 6px 10px; cursor: pointer; float: right; font-size: 13px;
+}
+.drawer h2 { margin: 0 0 2px; font-size: 20px; }
+.drawer .sub { color: var(--text-secondary); font-size: 13px; margin-bottom: 16px; }
+.drawer section { margin-bottom: 18px; }
+.drawer section h4 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); margin: 0 0 8px; }
+.drawer .loe-highlight {
+  background: color-mix(in srgb, var(--series-1) 10%, transparent);
+  border-radius: 10px; padding: 12px 14px; margin-bottom: 16px;
+}
+.drawer .loe-highlight .date { font-size: 20px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.drawer .loe-highlight .caveat { font-size: 12px; color: var(--text-secondary); margin-top: 4px; }
+.competitor-row { border-bottom: 1px solid var(--gridline); padding: 8px 0; font-size: 13px; }
+.competitor-row:last-child { border-bottom: none; }
+.competitor-row .name { font-weight: 600; }
+.competitor-row a { color: var(--series-1); font-size: 12px; }
+.patent-list, .excl-list { font-size: 12px; color: var(--text-secondary); margin: 0; padding-left: 18px; }
+.drawer .sources a { display: block; font-size: 12px; color: var(--series-1); margin-bottom: 4px; word-break: break-all; }
+
+.disclaimer {
+  margin-top: 32px; padding: 14px 16px; border: 1px solid var(--border);
+  border-radius: 10px; background: var(--surface-1); font-size: 12px; color: var(--text-secondary);
+}
+.empty-state { padding: 40px; text-align: center; color: var(--text-muted); }

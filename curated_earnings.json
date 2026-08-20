@@ -1,0 +1,2445 @@
+{
+  "_readme": "Hand-curated/AI-researched watchlist of 48 publicly traded pharmaceutical and biotech manufacturers spanning large, mid, and small market-cap tiers -- a broad but NOT exhaustive cross-section of the sector (there are hundreds of smaller/regional public pharma companies not included here; this list prioritizes the manufacturers most relevant to a drug-patent/market-monitoring audience, including every company already referenced elsewhere on this site). Each entry covers that company's most recently reported fiscal quarter as of the last research pass (~2026-08-20): total revenue and YoY growth, a primary profit metric and its YoY growth, and 2-5 product-specific revenue call-outs with context on what drove the move. Two companies (Apellis Pharmaceuticals and Amicus Therapeutics) were acquired and delisted during 2026 -- they're kept in this file with a status:'acquired' flag and their last publicly reported quarter, rather than removed outright, since their figures are still informative; a third (Organon) has an announced-but-not-yet-closed acquisition and is flagged status:'pending_acquisition'. Currency: companies that report natively in EUR/GBP/CHF/DKK/JPY have USD figures that are approximate conversions at prevailing mid-2026 spot rates (clearly noted in each entry's revenue/profit 'note' field) since they don't report a USD figure themselves -- treat those as indicative, not precise. This file is NOT auto-refreshed by any live pipeline (there is no equivalent of the FDA Orange/Purple Book for earnings data) -- it needs periodic manual/AI research refresh each quarter as companies report. Update by hand (or task a Claude session) after each quarterly earnings season; every figure should carry a source_url so claims stay auditable.",
+  "companies": {
+    "abbvie": {
+      "company_name": "AbbVie Inc.",
+      "ticker": "ABBV",
+      "exchange": "NYSE",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 16990,
+        "yoy_growth_pct": 10.2,
+        "note": "Growth led by the immunology and neuroscience portfolios, particularly Skyrizi and Rinvoq, offsetting continued Humira and Imbruvica erosion.",
+        "source_url": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-second-quarter-2026-financial-results"
+      },
+      "profit": {
+        "metric": "GAAP net income (attributable to AbbVie)",
+        "usd_m": 3613,
+        "yoy_growth_pct": 290.4,
+        "note": "GAAP diluted EPS rose to $2.03 from $0.52 in Q2 2025 (which had been depressed by one-time IPR&D-related charges); AbbVie's own release emphasizes adjusted diluted EPS of $3.65, up 22.9% YoY.",
+        "source_url": "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-second-quarter-2026-financial-results"
+      },
+      "product_highlights": [
+        {
+          "product": "Skyrizi",
+          "revenue_usd_m": 5505,
+          "yoy_growth_pct": 24.4,
+          "note": "Continued share gains in psoriasis, psoriatic arthritis, and IBD indications."
+        },
+        {
+          "product": "Rinvoq",
+          "revenue_usd_m": 2525,
+          "yoy_growth_pct": 24.5,
+          "note": "Ongoing expansion across approved immunology indications."
+        },
+        {
+          "product": "Humira",
+          "revenue_usd_m": 756,
+          "yoy_growth_pct": -35.9,
+          "note": "Continued severe biosimilar erosion in the US market."
+        },
+        {
+          "product": "Botox Therapeutic",
+          "revenue_usd_m": 1042,
+          "yoy_growth_pct": 12.2,
+          "note": "Steady growth in chronic migraine and other therapeutic indications."
+        },
+        {
+          "product": "Imbruvica",
+          "revenue_usd_m": 532,
+          "yoy_growth_pct": -29.4,
+          "note": "Declining due to competitive pressure in the BTK-inhibitor oncology market."
+        }
+      ],
+      "notes": "AbbVie raised full-year guidance and highlighted double-digit immunology growth plus a newly announced Apogee acquisition. Still independently publicly traded on NYSE.",
+      "sources": [
+        "https://investors.abbvie.com/news-releases/news-release-details/abbvie-reports-second-quarter-2026-financial-results",
+        "https://www.stocktitan.net/sec-filings/ABBV/10-q-abb-vie-inc-quarterly-earnings-report-44f9bbbf4f7c.html",
+        "https://pulse2.com/abbvie-skyrizi-and-rinvoq-generate-8-03-billion-as-humira-revenue-falls-36/"
+      ],
+      "tier": "large"
+    },
+    "alkermes": {
+      "company_name": "Alkermes plc",
+      "ticker": "ALKS",
+      "exchange": "NASDAQ",
+      "hq_country": "Ireland",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 496,
+        "yoy_growth_pct": 26.9,
+        "note": "Growth driven by LYBALVI prescription growth, favorable patient-mix adjustments, and the addition of LUMRYZ following the Avadel Pharmaceuticals acquisition.",
+        "source_url": "https://investor.alkermes.com/static-files/e5e72ca7-b6cc-46ac-a03d-56d248c43a37"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 1,
+        "yoy_growth_pct": -99.4,
+        "note": "Net income nearly wiped out (from $87.1M in Q2 2025 to $0.5M) due to higher operating expenses and interest costs following the Avadel acquisition and a CEO transition.",
+        "source_url": "https://investor.alkermes.com/static-files/e5e72ca7-b6cc-46ac-a03d-56d248c43a37"
+      },
+      "product_highlights": [
+        {
+          "product": "VIVITROL",
+          "revenue_usd_m": 125,
+          "yoy_growth_pct": 2.3,
+          "note": "Modest growth aided by ~$4M in favorable patient-mix adjustments."
+        },
+        {
+          "product": "LYBALVI",
+          "revenue_usd_m": 94,
+          "yoy_growth_pct": 11.5,
+          "note": "Total prescriptions grew 18% as the differentiated antipsychotic continues to gain share."
+        },
+        {
+          "product": "LUMRYZ (via Avadel acquisition)",
+          "revenue_usd_m": 97,
+          "yoy_growth_pct": null,
+          "note": "New contributor following the Avadel Pharmaceuticals acquisition; recently reported positive Phase 3 results supporting further growth."
+        },
+        {
+          "product": "ARISTADA",
+          "revenue_usd_m": 97,
+          "yoy_growth_pct": -4.5,
+          "note": "Declined despite ~$4M favorable patient-mix benefit, reflecting competitive pressure in the long-acting antipsychotic market."
+        }
+      ],
+      "notes": "Alkermes completed its acquisition of Avadel Pharmaceuticals (adding LUMRYZ for narcolepsy) and is undergoing a CEO transition, both of which pressured near-term GAAP profitability. Still independently publicly traded.",
+      "sources": [
+        "https://investor.alkermes.com/static-files/e5e72ca7-b6cc-46ac-a03d-56d248c43a37"
+      ],
+      "tier": "small"
+    },
+    "alnylam": {
+      "company_name": "Alnylam Pharmaceuticals, Inc.",
+      "ticker": "ALNY",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 1291,
+        "yoy_growth_pct": 67,
+        "note": "Growth driven overwhelmingly by AMVUTTRA (patisiran) uptake in ATTR-CM/ATTR-PN, plus higher Leqvio royalties from Novartis; guidance for TTR franchise was revised down on normalizing demand trends.",
+        "source_url": "https://www.stocktitan.net/news/ALNY/alnylam-pharmaceuticals-reports-second-quarter-2026-financial-nqi4sjq7jatl.html"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 165,
+        "yoy_growth_pct": null,
+        "note": "Swung from a $72.2M net loss in Q2 2025 to $164.5M net income in Q2 2026, a ~$236.7M improvement, as AMVUTTRA scaled past $1B in quarterly revenue.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000060/alny2026q2earningsrelease.htm"
+      },
+      "product_highlights": [
+        {
+          "product": "AMVUTTRA (vutrisiran)",
+          "revenue_usd_m": 1012,
+          "yoy_growth_pct": 106,
+          "note": "Surpassed $1B in quarterly revenue on strong ATTR-CM patient demand in the U.S., the company's core growth driver."
+        },
+        {
+          "product": "ONPATTRO (patisiran)",
+          "revenue_usd_m": 19,
+          "yoy_growth_pct": -65,
+          "note": "Declined as patients continued switching to AMVUTTRA, the newer, less-frequent-dosing therapy."
+        },
+        {
+          "product": "GIVLAARI (givosiran)",
+          "revenue_usd_m": 90,
+          "yoy_growth_pct": 11,
+          "note": "Steady growth in acute hepatic porphyria franchise."
+        },
+        {
+          "product": "Leqvio royalties (inclisiran, partnered with Novartis)",
+          "revenue_usd_m": 72,
+          "yoy_growth_pct": 79,
+          "note": "Royalty revenue rose on higher underlying Novartis Leqvio sales volumes."
+        }
+      ],
+      "notes": "Despite the beat, management revised full-year TTR guidance downward citing normalizing demand trends, which weighed on shares post-earnings. Still independently publicly traded.",
+      "sources": [
+        "https://www.stocktitan.net/news/ALNY/alnylam-pharmaceuticals-reports-second-quarter-2026-financial-nqi4sjq7jatl.html",
+        "https://www.sec.gov/Archives/edgar/data/1178670/000117867026000060/alny2026q2earningsrelease.htm"
+      ],
+      "tier": "mid"
+    },
+    "amgen": {
+      "company_name": "Amgen Inc.",
+      "ticker": "AMGN",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 10054,
+        "yoy_growth_pct": 9.5,
+        "note": "Total revenue grew broadly across General Medicine, Rare Disease and Oncology portfolios, offsetting biosimilar erosion in Prolia/Enbrel.",
+        "source_url": "https://www.prnewswire.com/news-releases/amgen-reports-second-quarter-2026-financial-results-302842890.html"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 2375,
+        "yoy_growth_pct": 65.9,
+        "note": "Net income rose sharply vs. Q2 2025 ($1,432M), aided by revenue growth and operating leverage.",
+        "source_url": "https://www.prnewswire.com/news-releases/amgen-reports-second-quarter-2026-financial-results-302842890.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Repatha",
+          "revenue_usd_m": 953,
+          "yoy_growth_pct": 37,
+          "note": "Volume-driven growth in cholesterol management demand."
+        },
+        {
+          "product": "Prolia",
+          "revenue_usd_m": 759,
+          "yoy_growth_pct": -32,
+          "note": "Lower volume and net price as multiple biosimilars have launched."
+        },
+        {
+          "product": "TEZSPIRE",
+          "revenue_usd_m": 486,
+          "yoy_growth_pct": 42,
+          "note": "Continued volume growth in severe asthma indication."
+        },
+        {
+          "product": "IMDELLTRA",
+          "revenue_usd_m": 288,
+          "yoy_growth_pct": 115,
+          "note": "Rapid launch ramp in small cell lung cancer."
+        },
+        {
+          "product": "Otezla",
+          "revenue_usd_m": 491,
+          "yoy_growth_pct": -21,
+          "note": "Lower net selling price and volume amid competitive/generic pressure."
+        }
+      ],
+      "notes": "Results reflect strength in newer launches offsetting biosimilar erosion of legacy products (Prolia, Enbrel). Still independently publicly traded.",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/amgen-reports-second-quarter-2026-financial-results-302842890.html",
+        "https://www.stocktitan.net/sec-filings/AMGN/8-k-amgen-inc-reports-material-event-fce9e248a280.html"
+      ],
+      "tier": "large"
+    },
+    "amicus": {
+      "company_name": "Amicus Therapeutics Inc.",
+      "ticker": "FOLD",
+      "exchange": "Formerly NASDAQ (delisted)",
+      "hq_country": "United States",
+      "latest_quarter": "Q4 2025 (last quarter reported as an independent public company)",
+      "quarter_end_date": "2025-12-31",
+      "revenue": {
+        "usd_m": 185,
+        "yoy_growth_pct": 24.0,
+        "note": "Last standalone quarterly report before BioMarin acquisition closed; growth driven by Galafold and Pombiliti+Opfolda.",
+        "source_url": "https://www.stocktitan.net/news/FOLD/amicus-therapeutics-announces-full-year-2025-financial-results-and-98hfwjh83o9f.html"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 2,
+        "yoy_growth_pct": null,
+        "note": "Q4 2025 net income of $1.7M; full-year 2025 net loss narrowed to $27.1M from a $56.1M net loss in FY2024.",
+        "source_url": "https://www.stocktitan.net/news/FOLD/amicus-therapeutics-announces-full-year-2025-financial-results-and-98hfwjh83o9f.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Galafold (migalastat)",
+          "revenue_usd_m": 150,
+          "yoy_growth_pct": 14.0,
+          "note": "Growth from continued Fabry disease patient uptake; full-year 2025 Galafold sales were $521.7M."
+        },
+        {
+          "product": "Pombiliti + Opfolda",
+          "revenue_usd_m": 35,
+          "yoy_growth_pct": 51.0,
+          "note": "Strong launch-ramp growth in Pompe disease as the combination therapy continued to gain patients."
+        }
+      ],
+      "notes": "ACQUIRED / NO LONGER INDEPENDENTLY PUBLIC. BioMarin Pharmaceutical completed its all-cash acquisition of Amicus Therapeutics on April 27, 2026 for ~$4.8 billion ($14.50/share); FOLD stock was delisted from NASDAQ. Figures above are its last public quarter, Q4 2025. Results now consolidated into BioMarin's (BMRN) financials.",
+      "sources": [
+        "https://www.stocktitan.net/news/FOLD/amicus-therapeutics-announces-full-year-2025-financial-results-and-98hfwjh83o9f.html",
+        "https://www.biomarin.com/news/press-releases/biomarin-to-acquire-amicus-therapeutics-for-4-8-billion-expanding-position-as-a-leader-in-rare-diseases-accelerating-revenue-growth-and-strengthening-financial-outlook/"
+      ],
+      "status": "acquired",
+      "status_note": "Acquired by BioMarin Pharmaceutical for ~$4.8B ($14.50/share, all-cash); deal closed April 27, 2026. No longer independently publicly traded -- results now consolidated into BioMarin's.",
+      "tier": "small"
+    },
+    "amneal": {
+      "company_name": "Amneal Pharmaceuticals Inc.",
+      "ticker": "AMRX",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 796,
+        "yoy_growth_pct": 10.0,
+        "note": "Record quarterly revenue with broad-based growth across all three segments; company raised FY2026 guidance.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/07/30/3335845/0/en/Amneal-Reports-Second-Quarter-2026-Financial-Results.html"
+      },
+      "profit": {
+        "metric": "GAAP net income (attributable to Amneal)",
+        "usd_m": 58,
+        "yoy_growth_pct": 157.0,
+        "note": "Net income of $58M vs $22M in Q2 2025.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/07/30/3335845/0/en/Amneal-Reports-Second-Quarter-2026-Financial-Results.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Affordable Medicines segment (generics base business)",
+          "revenue_usd_m": 490,
+          "yoy_growth_pct": 13.0,
+          "note": "Base generics business grew on complex generics, women's health products, and new launches -- new products alone added ~$45M of Q2 revenue."
+        },
+        {
+          "product": "Specialty segment (Crexont, Unithroid, Brekiya)",
+          "revenue_usd_m": 149,
+          "yoy_growth_pct": 17.0,
+          "note": "Branded specialty growth led by CREXONT (extended Parkinson's launch ramp), UNITHROID, and the BREKIYA autoinjector."
+        },
+        {
+          "product": "AvKARE segment (government/institutional distribution)",
+          "revenue_usd_m": 157,
+          "yoy_growth_pct": -4.0,
+          "note": "Decline in the low-margin commercial distribution channel, partially offset by growth in the government channel."
+        }
+      ],
+      "notes": "Amneal is generics-heavy (~82% of Q2 2026 revenue from Affordable Medicines + AvKARE segments combined). Still independently publicly traded.",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/07/30/3335845/0/en/Amneal-Reports-Second-Quarter-2026-Financial-Results.html"
+      ],
+      "tier": "mid"
+    },
+    "apellis": {
+      "company_name": "Apellis Pharmaceuticals, Inc.",
+      "ticker": "APLS",
+      "exchange": "Formerly NASDAQ (delisted)",
+      "hq_country": "United States",
+      "latest_quarter": "Q4 2025 (last quarter reported as an independent public company)",
+      "quarter_end_date": "2025-12-31",
+      "revenue": {
+        "usd_m": 200,
+        "yoy_growth_pct": -6.0,
+        "note": "Total revenue declined YoY despite injection volume growth for Syfovre, reflecting pricing/mix pressure; this is the last publicly reported quarter before Apellis was taken private.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/02/24/3243396/0/en/apellis-pharmaceuticals-reports-fourth-quarter-and-full-year-2025-financial-results.html"
+      },
+      "profit": {
+        "metric": "GAAP net loss",
+        "usd_m": -59,
+        "yoy_growth_pct": null,
+        "note": "Net loss widened from $(36.4)M in Q4 2024 to $(58.9)M in Q4 2025.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/02/24/3243396/0/en/apellis-pharmaceuticals-reports-fourth-quarter-and-full-year-2025-financial-results.html"
+      },
+      "product_highlights": [
+        {
+          "product": "SYFOVRE (pegcetacoplan injection)",
+          "revenue_usd_m": 155,
+          "yoy_growth_pct": -7.5,
+          "note": "Revenue declined despite total injections rising 17% YoY, indicating pricing/reimbursement pressure and increasing competitive dynamics in geographic atrophy."
+        },
+        {
+          "product": "EMPAVELI (pegcetacoplan)",
+          "revenue_usd_m": 35,
+          "yoy_growth_pct": 50.0,
+          "note": "Strong growth from newly launched C3G and primary IC-MPGN indications."
+        }
+      ],
+      "notes": "ACQUIRED / NO LONGER INDEPENDENTLY PUBLIC. Biogen agreed to acquire Apellis for $41.00/share cash plus a contingent value right (CVR) up to $4.00/share tied to future SYFOVRE sales thresholds; the deal closed May 14, 2026, and Apellis shares ceased trading on Nasdaq, becoming a wholly owned Biogen subsidiary. Figures above are its last public quarter, Q4 2025.",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/02/24/3243396/0/en/apellis-pharmaceuticals-reports-fourth-quarter-and-full-year-2025-financial-results.html",
+        "https://investors.biogen.com/news-releases/news-release-details/biogen-completes-acquisition-apellis-pharmaceuticals"
+      ],
+      "status": "acquired",
+      "status_note": "Acquired by Biogen for $41.00/share cash + up to $4.00/share CVR; deal closed May 14, 2026. No longer independently publicly traded -- results now consolidated into Biogen's.",
+      "tier": "small"
+    },
+    "ascendis": {
+      "company_name": "Ascendis Pharma A/S",
+      "ticker": "ASND",
+      "exchange": "NASDAQ",
+      "hq_country": "Denmark",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 387,
+        "yoy_growth_pct": 114.6,
+        "note": "Reported as EUR 339M (vs EUR 158M in Q2 2025); converted to USD at approx. EUR/USD 1.1422. Product revenue alone was EUR 315M (+105% YoY).",
+        "source_url": "https://www.globenewswire.com/news-release/2026/08/13/3344408/0/en/ascendis-pharma-reports-second-quarter-2026-financial-results.html"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 236,
+        "yoy_growth_pct": null,
+        "note": "Reported as EUR 207M net profit vs. a EUR 39M net loss in Q2 2025; result boosted by a non-recurring EUR 158M gain from the sale of a Rare Pediatric Disease Priority Review Voucher.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/08/13/3344408/0/en/ascendis-pharma-reports-second-quarter-2026-financial-results.html"
+      },
+      "product_highlights": [
+        {
+          "product": "YORVIPATH (palopegteriparatide)",
+          "revenue_usd_m": 288,
+          "yoy_growth_pct": 145.0,
+          "note": "Reported EUR 252M (vs EUR 103M); reached blockbuster run-rate on continued new-patient demand in the U.S. and expanding international launches."
+        },
+        {
+          "product": "SKYTROFA (lonapegsomatropin)",
+          "revenue_usd_m": 63,
+          "yoy_growth_pct": 8.7,
+          "note": "Reported EUR 55M; steadier growth phase with over 20,000 global patient enrollments since launch."
+        },
+        {
+          "product": "YUVIWEL (navepegritide / TransCon CNP)",
+          "revenue_usd_m": 9,
+          "yoy_growth_pct": null,
+          "note": "Newly launched product (achondroplasia) with over 220 patient enrollments and 65% reimbursement approval rate as of July 2026."
+        }
+      ],
+      "notes": "Q2 2026 GAAP profit included a one-time ~EUR 158M PRV-sale gain, so underlying operating profitability improvement is smaller than the headline net income swing suggests. Still independently publicly traded.",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/08/13/3344408/0/en/ascendis-pharma-reports-second-quarter-2026-financial-results.html"
+      ],
+      "tier": "small"
+    },
+    "astrazeneca": {
+      "company_name": "AstraZeneca plc",
+      "ticker": "AZN",
+      "exchange": "NASDAQ (ADR); LSE",
+      "hq_country": "United Kingdom",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 15384,
+        "yoy_growth_pct": 6.0,
+        "note": "AstraZeneca reports headline figures in USD directly. +6% actual/reported growth; +5% at constant exchange rates. Includes Alliance Revenue of USD 874m (+34%).",
+        "source_url": "https://www.astrazeneca.com/content/dam/az/PDF/2026/h1q2/H1-and-Q2-2026-results-announcement.pdf"
+      },
+      "profit": {
+        "metric": "net profit attributable to shareholders",
+        "usd_m": 2507,
+        "yoy_growth_pct": 2.0,
+        "note": "+2% actual growth; -2% at constant exchange rates. Core EPS was USD 2.63, up 21% actual/18% CER.",
+        "source_url": "https://www.astrazeneca.com/content/dam/az/PDF/2026/h1q2/H1-and-Q2-2026-results-announcement.pdf"
+      },
+      "product_highlights": [
+        {
+          "product": "Imfinzi",
+          "revenue_usd_m": 1854,
+          "yoy_growth_pct": 27.0,
+          "note": "Immuno-oncology drug posting strong double-digit growth across regions on expanded indications (lung, liver, biliary cancers)."
+        },
+        {
+          "product": "Farxiga",
+          "revenue_usd_m": 1804,
+          "yoy_growth_pct": -16.0,
+          "note": "Sharp decline after multiple generic versions launched in the US in Q2 2026 following loss of patent exclusivity."
+        },
+        {
+          "product": "Tagrisso",
+          "revenue_usd_m": 1941,
+          "yoy_growth_pct": 7.0,
+          "note": "Lung cancer therapy continuing to grow on adjuvant/early-stage indication uptake."
+        },
+        {
+          "product": "Calquence",
+          "revenue_usd_m": 1022,
+          "yoy_growth_pct": 17.0,
+          "note": "Blood cancer (BTK inhibitor) drug gaining share versus competing therapies."
+        },
+        {
+          "product": "Enhertu",
+          "revenue_usd_m": 888,
+          "yoy_growth_pct": 33.0,
+          "note": "Antibody-drug conjugate benefiting from launch ramp and new indications in breast and other cancers."
+        }
+      ],
+      "notes": "AstraZeneca reiterated its ambition to reach USD 80bn in total revenue by 2030. Farxiga's decline is the clearest patent-cliff/generic-erosion story in this release. Still independently publicly traded.",
+      "sources": [
+        "https://www.astrazeneca.com/content/dam/az/PDF/2026/h1q2/H1-and-Q2-2026-results-announcement.pdf",
+        "https://www.businesswire.com/news/home/20260726929817/en/AstraZeneca-results-H1-and-Q2-2026",
+        "https://www.nasdaq.com/press-release/astrazeneca-results-h1-and-q2-2026-2026-07-27"
+      ],
+      "tier": "large"
+    },
+    "axsome": {
+      "company_name": "Axsome Therapeutics, Inc.",
+      "ticker": "AXSM",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 218,
+        "yoy_growth_pct": 46.0,
+        "note": "Growth driven primarily by Auvelity, with contributions from Sunosi and the newly launched Symbravo.",
+        "source_url": "https://www.stocktitan.net/news/AXSM/axsome-therapeutics-reports-second-quarter-2026-financial-results-cezzv2117kf8.html"
+      },
+      "profit": {
+        "metric": "GAAP net loss",
+        "usd_m": -51,
+        "yoy_growth_pct": null,
+        "note": "Net loss increased slightly from $(48.0)M to $(51.3)M as the company continues to invest in commercial launches ahead of full profitability.",
+        "source_url": "https://www.stocktitan.net/news/AXSM/axsome-therapeutics-reports-second-quarter-2026-financial-results-cezzv2117kf8.html"
+      },
+      "product_highlights": [
+        {
+          "product": "AUVELITY (dextromethorphan-bupropion)",
+          "revenue_usd_m": 180,
+          "yoy_growth_pct": 51.0,
+          "note": "Strong growth accelerated by the June 2026 label expansion/launch in Alzheimer's disease agitation; new-to-brand prescriptions among seniors 65+ surged 126% in the first eight weeks post-launch."
+        },
+        {
+          "product": "SUNOSI (solriamfetol)",
+          "revenue_usd_m": 36,
+          "yoy_growth_pct": 20.0,
+          "note": "Steady growth from continued market acceptance in excessive daytime sleepiness."
+        },
+        {
+          "product": "SYMBRAVO (meloxicam/rizatriptan)",
+          "revenue_usd_m": 2,
+          "yoy_growth_pct": 461.0,
+          "note": "Early-stage launch ramp for this acute migraine product; ~23,500 prescriptions in Q2 2026, up 30% sequentially off a small base."
+        }
+      ],
+      "notes": "Still independently publicly traded, no M&A activity identified.",
+      "sources": [
+        "https://www.stocktitan.net/news/AXSM/axsome-therapeutics-reports-second-quarter-2026-financial-results-cezzv2117kf8.html"
+      ],
+      "tier": "small"
+    },
+    "bayer": {
+      "company_name": "Bayer AG (Pharmaceuticals division)",
+      "ticker": "BAYRY",
+      "exchange": "OTC (ADR) / XETRA (BAYN)",
+      "hq_country": "Germany",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 5171,
+        "yoy_growth_pct": 0.8,
+        "note": "Pharma division sales were EUR 4,458m (Q2 2025: EUR 4,470m), -0.3% reported but +0.8% currency-and-portfolio adjusted; USD figure is an approximate conversion at ~1.16 USD/EUR, not a Bayer-reported figure.",
+        "source_url": "https://www.bayer.com/en/bayer-q2-2026-results-sales-reach-eur109-billion-ebitda-grows-outlook-confirmed"
+      },
+      "profit": {
+        "metric": "Pharmaceuticals division EBITDA before special items",
+        "usd_m": 1224,
+        "yoy_growth_pct": -3.6,
+        "note": "EUR 1,055m vs EUR 1,094m in Q2 2025 (EBITDA margin before special items fell to 23.7% from 24.5%); USD is an approximate conversion, not Bayer-reported.",
+        "source_url": "https://www.bayer.com/sites/default/files/2026-08/bayer-half-year-financial-report-q2-2026.pdf"
+      },
+      "product_highlights": [
+        {
+          "product": "Nubeqa",
+          "revenue_usd_m": 1021,
+          "yoy_growth_pct": 61.2,
+          "note": "EUR 880m vs EUR 546m; volume growth in the US and Europe for prostate cancer indication."
+        },
+        {
+          "product": "Kerendia",
+          "revenue_usd_m": 382,
+          "yoy_growth_pct": 79.8,
+          "note": "EUR 329m vs EUR 183m; higher volumes in the US and China for CKD/heart failure indications."
+        },
+        {
+          "product": "Eylea",
+          "revenue_usd_m": 665,
+          "yoy_growth_pct": -33.5,
+          "note": "EUR 573m vs EUR 862m; patent expiration/biosimilar erosion, partly offset by Eylea 8mg."
+        },
+        {
+          "product": "Xarelto",
+          "revenue_usd_m": 434,
+          "yoy_growth_pct": -42.5,
+          "note": "EUR 374m vs EUR 650m; patent expirations driving generic erosion."
+        },
+        {
+          "product": "Mirena/Kyleena/Jaydess",
+          "revenue_usd_m": 398,
+          "yoy_growth_pct": 7.9,
+          "note": "EUR 343m vs EUR 318m; steady growth in the women's healthcare/IUD franchise."
+        }
+      ],
+      "notes": "Bayer does not disclose a divisional net-income figure, so divisional EBITDA before special items is used as the profit proxy. Legacy blockbusters Eylea and Xarelto are in steep decline from patent/biosimilar erosion, offset by newer growth drivers Nubeqa and Kerendia. Still independently publicly traded.",
+      "sources": [
+        "https://www.bayer.com/en/bayer-q2-2026-results-sales-reach-eur109-billion-ebitda-grows-outlook-confirmed",
+        "https://www.bayer.com/sites/default/files/2026-08/bayer-half-year-financial-report-q2-2026.pdf",
+        "https://www.fiercepharma.com/pharma/booming-sales-bayers-kerendia-nubeqa-overcome-decline-xarelto"
+      ],
+      "tier": "large"
+    },
+    "biontech": {
+      "company_name": "BioNTech SE",
+      "ticker": "BNTX",
+      "exchange": "NASDAQ",
+      "hq_country": "Germany",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 123,
+        "yoy_growth_pct": -59.5,
+        "note": "Reported as EUR 105.6M (down from EUR 260.8M in Q2 2025); USD figure is an approximate conversion, not company-reported. Decline driven by softer global COVID-19 vaccine demand and absence of prior-year out-licensing milestone revenue.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/08/04/3338119/0/en/biontech-announces-second-quarter-2026-financial-results-and-corporate-update.html"
+      },
+      "profit": {
+        "metric": "IFRS net loss",
+        "usd_m": -958,
+        "yoy_growth_pct": null,
+        "note": "Reported as EUR 820.8M net loss, vs. EUR 386.6M net loss in Q2 2025 -- loss widened by roughly 112%. Adjusted net loss was EUR 562.3M vs. EUR 348.8M a year earlier.",
+        "source_url": "https://www.stocktitan.net/news/BNTX/bio-n-tech-announces-second-quarter-2026-financial-results-and-bigbsqil4ufh.html"
+      },
+      "product_highlights": [
+        {
+          "product": "COVID-19 vaccines (aggregate, not broken out by product/geography)",
+          "revenue_usd_m": null,
+          "yoy_growth_pct": null,
+          "note": "BioNTech does not disclose per-product quarterly revenue; management attributed the decline primarily to lower global COVID-19 vaccine demand and unfavorable timing of out-licensed milestone revenue."
+        }
+      ],
+      "notes": "BioNTech cut full-year 2026 revenue guidance to EUR 1.6-1.9B (from EUR 2.0-2.3B) citing softer COVID-19 vaccine demand. Expects the majority of 2026 revenue in H2, including ~EUR 613M of Bristol Myers Squibb collaboration revenue expected in Q3 2026. Still independently publicly traded.",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/08/04/3338119/0/en/biontech-announces-second-quarter-2026-financial-results-and-corporate-update.html",
+        "https://www.stocktitan.net/news/BNTX/bio-n-tech-announces-second-quarter-2026-financial-results-and-bigbsqil4ufh.html"
+      ],
+      "tier": "small"
+    },
+    "biogen": {
+      "company_name": "Biogen Inc.",
+      "ticker": "BIIB",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 2736,
+        "yoy_growth_pct": 3,
+        "note": "Growth aided by SKYCLARYS launch, LEQEMBI collaboration revenue, and initial contribution from the newly acquired Apellis products (SYFOVRE, EMPAVELI); 2% at constant currency.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000073/exhibit991-q22026pressrele.htm"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 98,
+        "yoy_growth_pct": -85,
+        "note": "Net income fell sharply from $634.8M in Q2 2025, largely reflecting Apellis acquisition-related costs and dilution (closed May 14, 2026).",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/875045/000087504526000073/exhibit991-q22026pressrele.htm"
+      },
+      "product_highlights": [
+        {
+          "product": "TYSABRI",
+          "revenue_usd_m": 451,
+          "yoy_growth_pct": -1,
+          "note": "Roughly flat, resilient performance within the legacy MS portfolio."
+        },
+        {
+          "product": "SPINRAZA",
+          "revenue_usd_m": 402,
+          "yoy_growth_pct": 2,
+          "note": "Demand/stocking for the high-dose regimen offset by timing headwinds in some international markets."
+        },
+        {
+          "product": "SKYCLARYS",
+          "revenue_usd_m": 168,
+          "yoy_growth_pct": 29,
+          "note": "Continued launch growth in Europe driving global demand for Friedreich's ataxia treatment."
+        },
+        {
+          "product": "SYFOVRE (acquired via Apellis, full-quarter basis)",
+          "revenue_usd_m": 162,
+          "yoy_growth_pct": null,
+          "note": "Newly consolidated following the May 14, 2026 Apellis acquisition close; ~$97M recognized post-acquisition."
+        },
+        {
+          "product": "Biosimilars (BENEPALI, IMRALDI, FLIXABI combined)",
+          "revenue_usd_m": 153,
+          "yoy_growth_pct": -16,
+          "note": "Declines across all three biosimilar products amid competitive erosion."
+        }
+      ],
+      "notes": "Biogen closed its acquisition of Apellis Pharmaceuticals on May 14, 2026, adding SYFOVRE and EMPAVELI; management guided to ~$0.85 non-GAAP EPS dilution for full-year 2026 with expected accretion in 2027. Still independently publicly traded.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/875045/000087504526000073/exhibit991-q22026pressrele.htm",
+        "https://www.stocktitan.net/sec-filings/BIIB/8-k-biogen-inc-reports-material-event-63cf1ef30bfe.html"
+      ],
+      "tier": "mid"
+    },
+    "bristol-myers-squibb": {
+      "company_name": "Bristol Myers Squibb",
+      "ticker": "BMY",
+      "exchange": "NYSE",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 12973,
+        "yoy_growth_pct": 5.7,
+        "note": "Growth Portfolio products (Eliquis, Reblozyl, Camzyos, Breyanzi, etc.) grew 15% YoY to $7.6B, offsetting a 4% decline in the Legacy Portfolio (including Revlimid generic erosion).",
+        "source_url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2026/ghBMY-Q2-2026-Earnings-Press-Release.pdf"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 3317,
+        "yoy_growth_pct": 153.2,
+        "note": "Net earnings roughly two-and-a-half times higher YoY, with GAAP EPS of $1.62 vs $0.64 in Q2 2025.",
+        "source_url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2026/ghBMY-Q2-2026-Earnings-Press-Release.pdf"
+      },
+      "product_highlights": [
+        {
+          "product": "Eliquis",
+          "revenue_usd_m": 4481,
+          "yoy_growth_pct": 22,
+          "note": "Continued strong anticoagulant market demand and pricing."
+        },
+        {
+          "product": "Camzyos",
+          "revenue_usd_m": 416,
+          "yoy_growth_pct": 60,
+          "note": "Continued launch ramp in hypertrophic cardiomyopathy."
+        },
+        {
+          "product": "Breyanzi",
+          "revenue_usd_m": 484,
+          "yoy_growth_pct": 41,
+          "note": "Growing CAR-T cell therapy adoption in lymphoma."
+        },
+        {
+          "product": "Reblozyl",
+          "revenue_usd_m": 735,
+          "yoy_growth_pct": 29,
+          "note": "Continued uptake in anemia associated with MDS/beta-thalassemia."
+        },
+        {
+          "product": "Revlimid",
+          "revenue_usd_m": 425,
+          "yoy_growth_pct": -49,
+          "note": "Steep decline from continued generic erosion post loss-of-exclusivity."
+        }
+      ],
+      "notes": "BMS raised FY2026 revenue and EPS guidance on Growth Portfolio strength. Still independently publicly traded on NYSE.",
+      "sources": [
+        "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2026/ghBMY-Q2-2026-Earnings-Press-Release.pdf",
+        "https://www.stocktitan.net/sec-filings/BMY/10-q-bristol-myers-squibb-co-quarterly-earnings-report-84f14ed45c13.html",
+        "https://news.alphastreet.com/bristol-myers-squibb-releases-q2-2026-financial-results/amp/"
+      ],
+      "tier": "large"
+    },
+    "collegium": {
+      "company_name": "Collegium Pharmaceutical Inc.",
+      "ticker": "COLL",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 200,
+        "yoy_growth_pct": 6.0,
+        "note": "ADHD portfolio (JORNAY PM, AZSTARYS) growth offset continued softness in the legacy pain portfolio.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/08/06/3340155/34897/en/collegium-reports-second-quarter-2026-financial-results-and-highlights-recent-company-progress.html"
+      },
+      "profit": {
+        "metric": "GAAP net income (loss)",
+        "usd_m": -15,
+        "yoy_growth_pct": null,
+        "note": "Swung to a $15.1M net loss from $12.0M net income in Q2 2025, driven by higher operating expenses tied to the AZSTARYS acquisition integration (completed May 2026).",
+        "source_url": "https://www.globenewswire.com/news-release/2026/08/06/3340155/34897/en/collegium-reports-second-quarter-2026-financial-results-and-highlights-recent-company-progress.html"
+      },
+      "product_highlights": [
+        {
+          "product": "JORNAY PM",
+          "revenue_usd_m": 46,
+          "yoy_growth_pct": 41.0,
+          "note": "Record prescriber adoption (30,000+ HCPs) drove ADHD franchise growth."
+        },
+        {
+          "product": "Belbuca",
+          "revenue_usd_m": 58,
+          "yoy_growth_pct": 10.0,
+          "note": "Continued solid performance within the pain portfolio, the one pain brand still growing."
+        },
+        {
+          "product": "Xtampza ER",
+          "revenue_usd_m": 45,
+          "yoy_growth_pct": -14.0,
+          "note": "Decline reflects ongoing pain-franchise pricing/competitive pressure."
+        },
+        {
+          "product": "Nucynta franchise",
+          "revenue_usd_m": 35,
+          "yoy_growth_pct": -24.0,
+          "note": "Increased competitive pressure, including cannibalization from authorized-generic sales."
+        }
+      ],
+      "notes": "Company completed the AZSTARYS acquisition in Q2 2026 and raised full-year guidance; combined 'pain portfolio' was down ~9% YoY overall even as ADHD products became a larger growth driver. Still independently publicly traded.",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/08/06/3340155/34897/en/collegium-reports-second-quarter-2026-financial-results-and-highlights-recent-company-progress.html"
+      ],
+      "tier": "small"
+    },
+    "eli-lilly": {
+      "company_name": "Eli Lilly and Company",
+      "ticker": "LLY",
+      "exchange": "NYSE",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 22974,
+        "yoy_growth_pct": 47.7,
+        "note": "Revenue surged on continued incretin (GLP-1) demand for Mounjaro and Zepbound; company raised full-year guidance.",
+        "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 7095,
+        "yoy_growth_pct": 25.3,
+        "note": "Net income grew alongside revenue, though at a slower rate than the top line due to launch/investment costs for newer products.",
+        "source_url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full"
+      },
+      "product_highlights": [
+        {
+          "product": "Mounjaro",
+          "revenue_usd_m": 9943,
+          "yoy_growth_pct": 91,
+          "note": "Continued rapid diabetes/obesity demand growth and international expansion."
+        },
+        {
+          "product": "Zepbound",
+          "revenue_usd_m": 4928,
+          "yoy_growth_pct": 46,
+          "note": "Sustained obesity-drug launch ramp despite growing competitive pressure."
+        },
+        {
+          "product": "Ebglyss",
+          "revenue_usd_m": 201,
+          "yoy_growth_pct": 131,
+          "note": "Strong early launch trajectory in atopic dermatitis."
+        },
+        {
+          "product": "Jaypirca",
+          "revenue_usd_m": 192,
+          "yoy_growth_pct": 56,
+          "note": "Continued uptake in B-cell malignancies."
+        }
+      ],
+      "notes": "Lilly raised full-year 2026 revenue guidance on the back of continued GLP-1 franchise strength. Still independently publicly traded on NYSE.",
+      "sources": [
+        "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-second-quarter-2026-financial-results-raises-full",
+        "https://www.prnewswire.com/news-releases/lilly-reports-second-quarter-2026-financial-results-raises-full-year-guidance-and-highlights-continued-growth-and-pipeline-progress-302843165.html",
+        "https://www.fxleaders.com/news/2026/08/05/eli-lilly-q2-earnings-lly-stock-mounjaro-zepbound/"
+      ],
+      "tier": "large"
+    },
+    "exelixis": {
+      "company_name": "Exelixis Inc.",
+      "ticker": "EXEL",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 629,
+        "yoy_growth_pct": 10.6,
+        "note": "Growth driven mainly by higher cabozantinib (CABOMETYX) sales volume in the U.S. plus higher international royalties.",
+        "source_url": "https://www.biospace.com/press-releases/exelixis-announces-second-quarter-2026-financial-results-and-provides-corporate-update"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 212,
+        "yoy_growth_pct": 14.8,
+        "note": "Net income of $212.1M ($0.82 diluted EPS) vs. $184.8M ($0.65 diluted EPS) in Q2 2025; EPS growth aided by share buybacks.",
+        "source_url": "https://www.biospace.com/press-releases/exelixis-announces-second-quarter-2026-financial-results-and-provides-corporate-update"
+      },
+      "product_highlights": [
+        {
+          "product": "CABOMETYX (cabozantinib) - U.S.",
+          "revenue_usd_m": 571,
+          "yoy_growth_pct": null,
+          "note": "Primary growth driver (part of $573.0M total net product revenue, +10.2% YoY); some coverage flagged a slowdown in neuroendocrine tumor (NET) indication uptake affecting forward guidance."
+        },
+        {
+          "product": "Collaboration/royalty revenue (Ipsen, Takeda ex-U.S. cabozantinib)",
+          "revenue_usd_m": 56,
+          "yoy_growth_pct": 15.6,
+          "note": "Grew on higher royalty revenue from international cabozantinib sales via Ipsen and Takeda."
+        }
+      ],
+      "notes": "Some post-earnings coverage noted a slowdown in neuroendocrine tumor (NET) indication demand contributing to trimmed full-year revenue guidance despite the Q2 beat. Still independently publicly traded.",
+      "sources": [
+        "https://www.biospace.com/press-releases/exelixis-announces-second-quarter-2026-financial-results-and-provides-corporate-update"
+      ],
+      "tier": "mid"
+    },
+    "gsk": {
+      "company_name": "GSK plc",
+      "ticker": "GSK",
+      "exchange": "NYSE (ADR); LSE",
+      "hq_country": "United Kingdom",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 11306,
+        "yoy_growth_pct": 5.0,
+        "note": "Originally GBP 8,409m, +5% growth on both an AER (reported) and CER basis. Converted to USD at approx. GBP/USD 1.3445.",
+        "source_url": "https://www.stocktitan.net/sec-filings/GSK/6-k-gsk-plc-current-report-foreign-issuer-da0b7e714209.html"
+      },
+      "profit": {
+        "metric": "total profit attributable to shareholders",
+        "usd_m": 585,
+        "yoy_growth_pct": -69.0,
+        "note": "Originally GBP 435m, down 69%, driven mainly by a GBP 1,334m impairment charge related to camlipixant plus higher contingent consideration charges. Core operating profit (GSK's preferred underlying metric) was GBP 2,800m, +7% CER.",
+        "source_url": "https://www.stocktitan.net/sec-filings/GSK/6-k-gsk-plc-current-report-foreign-issuer-da0b7e714209.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Specialty Medicines (segment)",
+          "revenue_usd_m": 5086,
+          "yoy_growth_pct": 14.0,
+          "note": "Oncology and immunology/respiratory specialty portfolio was the biggest growth driver this quarter (CER basis; GBP 3,782m originally)."
+        },
+        {
+          "product": "HIV portfolio (ViiV)",
+          "revenue_usd_m": 2794,
+          "yoy_growth_pct": 10.0,
+          "note": "Continued share and volume growth, aided by long-acting regimens (CER basis; GBP 2,078m originally)."
+        },
+        {
+          "product": "Shingrix",
+          "revenue_usd_m": 1194,
+          "yoy_growth_pct": 3.0,
+          "note": "Shingles vaccine showing steady, more mature demand growth (CER basis; GBP 888m originally)."
+        },
+        {
+          "product": "Trelegy",
+          "revenue_usd_m": 1042,
+          "yoy_growth_pct": -7.0,
+          "note": "Respiratory triple-therapy inhaler facing competitive and pricing pressure (CER basis; GBP 775m originally)."
+        }
+      ],
+      "notes": "GSK launched a new GBP 1.9bn cost-savings plan (targeted by 2029) and outlined 20+ Phase III trial starts planned for 2026. Still independently publicly traded.",
+      "sources": [
+        "https://www.gsk.com/en-gb/media/press-releases/gsk-delivers-strong-q2-core-results-performance-and-continued-momentum/",
+        "https://www.stocktitan.net/sec-filings/GSK/6-k-gsk-plc-current-report-foreign-issuer-da0b7e714209.html",
+        "https://www.gsk.com/media/jayh41pz/q2-2026-results-announcement.pdf"
+      ],
+      "tier": "large"
+    },
+    "gilead": {
+      "company_name": "Gilead Sciences, Inc.",
+      "ticker": "GILD",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 7803,
+        "yoy_growth_pct": 10.2,
+        "note": "Growth led by HIV portfolio (Biktarvy, Descovy) and Trodelvy, partly offset by a near-total collapse in Veklury (COVID antiviral) demand.",
+        "source_url": "https://www.businesswire.com/news/home/20260804436824/en/Gilead-Sciences-Announces-Second-Quarter-2026-Financial-Results"
+      },
+      "profit": {
+        "metric": "GAAP net income (loss)",
+        "usd_m": -10496,
+        "yoy_growth_pct": -635.5,
+        "note": "Swung from $1,960M net income in Q2 2025 to a $10,496M net loss due to ~$11.2B of acquired IPR&D expense (Arcellx, Tubulis, Ouro Medicines deals) plus a $1.75B IPR&D impairment; non-GAAP net loss was $(8,391)M vs. non-GAAP net income of $2,521M a year earlier.",
+        "source_url": "https://www.stocktitan.net/news/GILD/correcting-and-replacing-gilead-sciences-announces-second-quarter-gd87eeo819g4.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Biktarvy",
+          "revenue_usd_m": 3772,
+          "yoy_growth_pct": 7,
+          "note": "Higher average realized price and favorable inventory dynamics in HIV treatment."
+        },
+        {
+          "product": "Descovy",
+          "revenue_usd_m": 967,
+          "yoy_growth_pct": 48,
+          "note": "Strong PrEP demand growth and pricing (PrEP sales roughly doubled YoY per management commentary)."
+        },
+        {
+          "product": "Trodelvy",
+          "revenue_usd_m": 457,
+          "yoy_growth_pct": 26,
+          "note": "Increased patient demand in breast cancer treatment."
+        },
+        {
+          "product": "Cell Therapy (Yescarta/Tecartus)",
+          "revenue_usd_m": 417,
+          "yoy_growth_pct": -14,
+          "note": "Yescarta down ~12% and Tecartus down ~24% amid competitive pressure in cell therapy market."
+        },
+        {
+          "product": "Veklury",
+          "revenue_usd_m": 23,
+          "yoy_growth_pct": -81,
+          "note": "Collapsed on much lower COVID-19 hospitalization rates."
+        }
+      ],
+      "notes": "GAAP loss driven entirely by one-time acquired IPR&D/impairment charges tied to 2026 M&A (Arcellx, Tubulis, Ouro Medicines); underlying operating business grew revenue double digits. Still independently publicly traded.",
+      "sources": [
+        "https://www.businesswire.com/news/home/20260804436824/en/Gilead-Sciences-Announces-Second-Quarter-2026-Financial-Results",
+        "https://www.stocktitan.net/news/GILD/correcting-and-replacing-gilead-sciences-announces-second-quarter-gd87eeo819g4.html",
+        "https://www.gilead.com/news/news-details/2026/correcting-and-replacing-gilead-sciences-announces-second-quarter-2026-financial-results"
+      ],
+      "tier": "large"
+    },
+    "halozyme": {
+      "company_name": "Halozyme Therapeutics Inc.",
+      "ticker": "HALO",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 481,
+        "yoy_growth_pct": 48.0,
+        "note": "Record quarterly revenue driven by royalty growth from ENHANZE partner products (notably argenx's VYVGART Hytrulo and Janssen's DARZALEX SC) and higher product sales.",
+        "source_url": "https://www.prnewswire.com/news-releases/halozyme-reports-record-second-quarter-2026-results-beats-estimates-and-raises-full-year-2026-financial-guidance-302845332.html"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 230,
+        "yoy_growth_pct": 39.2,
+        "note": "Net income of $229.9M vs. $165.2M in Q2 2025, tracking the strong royalty and product-sales growth.",
+        "source_url": "https://www.prnewswire.com/news-releases/halozyme-reports-record-second-quarter-2026-results-beats-estimates-and-raises-full-year-2026-financial-guidance-302845332.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Royalty revenue (ENHANZE partner products, incl. VYVGART Hytrulo, DARZALEX SC)",
+          "revenue_usd_m": 308,
+          "yoy_growth_pct": 50.0,
+          "note": "Broad-based growth across multiple commercialized ENHANZE-enabled partner products launched since 2020."
+        },
+        {
+          "product": "Product sales, net",
+          "revenue_usd_m": 130,
+          "yoy_growth_pct": 59.0,
+          "note": "Up from $81.5M in Q2 2025, a co-driver of overall growth alongside royalties."
+        }
+      ],
+      "notes": "Company raised full-year 2026 guidance on the back of the beat and highlighted diversification and durability of its royalty-driven revenue base. Still independently publicly traded.",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/halozyme-reports-record-second-quarter-2026-results-beats-estimates-and-raises-full-year-2026-financial-guidance-302845332.html"
+      ],
+      "tier": "small"
+    },
+    "harmony-biosciences": {
+      "company_name": "Harmony Biosciences Holdings Inc.",
+      "ticker": "HRMY",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 261,
+        "yoy_growth_pct": 30.0,
+        "note": "Record quarterly revenue driven almost entirely by WAKIX (pitolisant) demand growth.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/08/04/3338190/0/en/Harmony-Biosciences-Announces-Record-Q2-2026-Revenue-and-Shares-Initial-Clinical-Data-for-Its-Orexin-2-Agonist-BP-205-Reinforcing-Potential-Best-in-Class-Profile.html"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 75,
+        "yoy_growth_pct": 89.5,
+        "note": "Net income of $75.4M vs $39.8M in Q2 2025.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/08/04/3338190/0/en/Harmony-Biosciences-Announces-Record-Q2-2026-Revenue-and-Shares-Initial-Clinical-Data-for-Its-Orexin-2-Agonist-BP-205-Reinforcing-Potential-Best-in-Class-Profile.html"
+      },
+      "product_highlights": [
+        {
+          "product": "WAKIX (pitolisant)",
+          "revenue_usd_m": 261,
+          "yoy_growth_pct": 30.0,
+          "note": "Sole marketed product; growth driven by continued patient adds in narcolepsy (average ~8,950 patients on therapy in Q2 2026) within an estimated 80,000-patient diagnosed US market."
+        }
+      ],
+      "notes": "WAKIX is currently Harmony's only commercial product; pipeline assets (BP-205, EPX-100, pitolisant GR/HD) remain pre-commercial. Still independently publicly traded.",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/08/04/3338190/0/en/Harmony-Biosciences-Announces-Record-Q2-2026-Revenue-and-Shares-Initial-Clinical-Data-for-Its-Orexin-2-Agonist-BP-205-Reinforcing-Potential-Best-in-Class-Profile.html"
+      ],
+      "tier": "small"
+    },
+    "incyte": {
+      "company_name": "Incyte Corporation",
+      "ticker": "INCY",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 1674,
+        "yoy_growth_pct": 38,
+        "note": "Broad-based growth led by Jakafi paid-demand gains and a large one-time Opzelura CMS settlement benefit plus rapid uptake of newer launches (Niktimvo, Zynyz, Minjuvi).",
+        "source_url": "https://www.stocktitan.net/news/INCY/incyte-reports-second-quarter-2026-financial-results-and-provides-j1ft2mbe686t.html"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 586,
+        "yoy_growth_pct": 44,
+        "note": "Increased from $405M in Q2 2025 to $586M in Q2 2026, roughly tracking revenue growth plus the one-time Opzelura settlement.",
+        "source_url": "https://www.stocktitan.net/news/INCY/incyte-reports-second-quarter-2026-financial-results-and-provides-j1ft2mbe686t.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Jakafi (ruxolitinib)",
+          "revenue_usd_m": 817,
+          "yoy_growth_pct": 7,
+          "note": "Core franchise growth from paid demand up 9% across myelofibrosis, polycythemia vera and GVHD indications."
+        },
+        {
+          "product": "Opzelura (ruxolitinib cream)",
+          "revenue_usd_m": 450,
+          "yoy_growth_pct": 173,
+          "note": "Includes a $246M one-time CMS settlement benefit plus continued underlying demand growth in atopic dermatitis and vitiligo."
+        },
+        {
+          "product": "Niktimvo (axatilimab)",
+          "revenue_usd_m": 60,
+          "yoy_growth_pct": 67,
+          "note": "Ramping demand for chronic graft-versus-host disease treatment following launch."
+        },
+        {
+          "product": "Zynyz (retifanlimab)",
+          "revenue_usd_m": 50,
+          "yoy_growth_pct": 460,
+          "note": "Strong uptake in squamous cell carcinoma indication off a small prior-year base."
+        }
+      ],
+      "notes": "The large Opzelura beat includes a non-recurring $246M CMS settlement, so underlying growth rate is lower than the headline figure. Company raised full-year guidance. Still independently publicly traded.",
+      "sources": [
+        "https://www.stocktitan.net/news/INCY/incyte-reports-second-quarter-2026-financial-results-and-provides-j1ft2mbe686t.html",
+        "https://investor.incyte.com/news-releases/news-release-details/incyte-reports-second-quarter-2026-financial-results-and"
+      ],
+      "tier": "mid"
+    },
+    "ionis": {
+      "company_name": "Ionis Pharmaceuticals Inc.",
+      "ticker": "IONS",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 268,
+        "yoy_growth_pct": -40.7,
+        "note": "Total revenue fell vs. Q2 2025 because a large prior-year collaboration/R&D upfront payment did not repeat; underlying commercial (product) revenue actually grew.",
+        "source_url": "https://www.businesswire.com/news/home/20260729215124/en/Ionis-reports-second-quarter-2026-financial-results-and-highlights-progress-on-key-programs"
+      },
+      "profit": {
+        "metric": "GAAP net income (loss)",
+        "usd_m": -115,
+        "yoy_growth_pct": null,
+        "note": "Swung from GAAP net income of $124M in Q2 2025 to a $115M net loss in Q2 2026, driven by the absence of the prior-year upfront payment.",
+        "source_url": "https://www.businesswire.com/news/home/20260729215124/en/Ionis-reports-second-quarter-2026-financial-results-and-highlights-progress-on-key-programs"
+      },
+      "product_highlights": [
+        {
+          "product": "DAWNZERA (donidalorsen) - HAE",
+          "revenue_usd_m": 26,
+          "yoy_growth_pct": null,
+          "note": "New launch (no Q2 2025 sales); 63% sequential growth from Q1 2026 as it captures share of the prophylactic HAE market."
+        },
+        {
+          "product": "WAINUA (hATTR polyneuropathy) royalty",
+          "revenue_usd_m": 16,
+          "yoy_growth_pct": 60.0,
+          "note": "Continued launch ramp/uptake drove royalty growth."
+        },
+        {
+          "product": "SPINRAZA royalty",
+          "revenue_usd_m": 53,
+          "yoy_growth_pct": -1.9,
+          "note": "Mature product facing competitive pressure from Evrysdi and Zolgensma; essentially flat/slightly down."
+        },
+        {
+          "product": "TRYNGOLZA (olezarsen) - FCS indication",
+          "revenue_usd_m": 5,
+          "yoy_growth_pct": -73.7,
+          "note": "Decline tied to an April 2026 wholesale acquisition cost adjustment; company also won a broader severe hypertriglyceridemia (sHTG) indication expected to expand the addressable market."
+        }
+      ],
+      "notes": "Company reiterated full-year 2026 guidance and highlighted DAWNZERA and TRYNGOLZA launches plus late-stage pipeline progress. Still independently publicly traded.",
+      "sources": [
+        "https://www.businesswire.com/news/home/20260729215124/en/Ionis-reports-second-quarter-2026-financial-results-and-highlights-progress-on-key-programs"
+      ],
+      "tier": "small"
+    },
+    "jazz-pharma": {
+      "company_name": "Jazz Pharmaceuticals plc",
+      "ticker": "JAZZ",
+      "exchange": "NASDAQ",
+      "hq_country": "Ireland",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 1208,
+        "yoy_growth_pct": 16,
+        "note": "Record quarterly revenue driven by Xywav patient growth, Epidiolex demand, and Zepzelca's 1L maintenance uptake in small cell lung cancer.",
+        "source_url": "https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-announces-second-quarter-2026-financial-results-302841421.html"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 193,
+        "yoy_growth_pct": null,
+        "note": "Swung from a $718.5M net loss in Q2 2025 (which included a large one-time item) to $192.8M net income in Q2 2026, an improvement of about $911M.",
+        "source_url": "https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-announces-second-quarter-2026-financial-results-302841421.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Xywav",
+          "revenue_usd_m": 471,
+          "yoy_growth_pct": 13,
+          "note": "Robust new-patient growth (~525 net adds) in narcolepsy and idiopathic hypersomnia on low-sodium formulation demand."
+        },
+        {
+          "product": "Epidiolex/Epidyolex (cannabidiol)",
+          "revenue_usd_m": 292,
+          "yoy_growth_pct": 16,
+          "note": "Continued strong demand plus expanding development programs in additional rare epilepsy indications."
+        },
+        {
+          "product": "Zepzelca (lurbinectedin)",
+          "revenue_usd_m": 106,
+          "yoy_growth_pct": 42,
+          "note": "Growth from increasing uptake of the combination regimen in first-line maintenance for small cell lung cancer."
+        },
+        {
+          "product": "Rylaze/Enrylaze",
+          "revenue_usd_m": 100,
+          "yoy_growth_pct": -1.2,
+          "note": "Roughly flat as the ALL/LBL market matures and competitive/supply dynamics offset underlying demand."
+        }
+      ],
+      "notes": "Jazz separately announced an agreement to acquire Actio Biosciences to expand its rare epilepsy portfolio (Jazz is the acquirer, not being acquired). Still independently publicly traded.",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-announces-second-quarter-2026-financial-results-302841421.html"
+      ],
+      "tier": "mid"
+    },
+    "johnson-johnson": {
+      "company_name": "Johnson & Johnson",
+      "ticker": "JNJ",
+      "exchange": "NYSE",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-28",
+      "revenue": {
+        "usd_m": 25310,
+        "yoy_growth_pct": 6.6,
+        "note": "Growth led by Innovative Medicine (Darzalex, Tremfya, Carvykti) and continued MedTech gains, despite Stelara biosimilar erosion.",
+        "source_url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-reports-q2-2026-results-raises-2026-outlook"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 5534,
+        "yoy_growth_pct": -0.1,
+        "note": "Net earnings essentially flat year-over-year despite top-line growth, reflecting margin pressure noted by analysts.",
+        "source_url": "https://s203.q4cdn.com/636242992/files/doc_financials/2026/q2/2Q26-Earnings-Press-Release-Final.pdf"
+      },
+      "product_highlights": [
+        {
+          "product": "Tremfya",
+          "revenue_usd_m": 2046,
+          "yoy_growth_pct": 72.5,
+          "note": "Strong uptake across psoriasis, psoriatic arthritis and newer IBD indications, helping offset Stelara losses."
+        },
+        {
+          "product": "Darzalex",
+          "revenue_usd_m": 4207,
+          "yoy_growth_pct": 18.9,
+          "note": "Continued growth in multiple myeloma treatment across lines of therapy."
+        },
+        {
+          "product": "Carvykti",
+          "revenue_usd_m": 657,
+          "yoy_growth_pct": 49.4,
+          "note": "Rapid CAR-T therapy launch ramp and manufacturing capacity expansion."
+        },
+        {
+          "product": "Stelara",
+          "revenue_usd_m": 740,
+          "yoy_growth_pct": -55.2,
+          "note": "Severe biosimilar erosion following loss of exclusivity."
+        },
+        {
+          "product": "Xarelto",
+          "revenue_usd_m": 664,
+          "yoy_growth_pct": 7.1,
+          "note": "Continued steady anticoagulant demand."
+        }
+      ],
+      "notes": "J&J raised full-year 2026 guidance; MedTech segment (Cardiovascular $2,404M +4.0%, Surgery $2,653M +3.9%) also contributed to growth alongside Innovative Medicine. Still independently publicly traded on NYSE.",
+      "sources": [
+        "https://www.jnj.com/media-center/press-releases/johnson-johnson-reports-q2-2026-results-raises-2026-outlook",
+        "https://s203.q4cdn.com/636242992/files/doc_financials/2026/q2/2Q26-Earnings-Press-Release-Final.pdf",
+        "https://www.stocktitan.net/sec-filings/JNJ/10-q-johnson-johnson-quarterly-earnings-report-35b6d92adb37.html"
+      ],
+      "tier": "large"
+    },
+    "krystal-biotech": {
+      "company_name": "Krystal Biotech, Inc.",
+      "ticker": "KRYS",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 119,
+        "yoy_growth_pct": 24.0,
+        "note": "Revenue is almost entirely VYJUVEK net product sales.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000058/a2q26-ex991xpressrelease.htm"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 55,
+        "yoy_growth_pct": 43.0,
+        "note": "Net income rose from $38.3M to $54.8M, aided by high (~95%) gross margin and operating leverage.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000058/a2q26-ex991xpressrelease.htm"
+      },
+      "product_highlights": [
+        {
+          "product": "VYJUVEK (beremagene geperpavec-svdt)",
+          "revenue_usd_m": 119,
+          "yoy_growth_pct": 24.0,
+          "note": "Durable demand and broad reimbursement access (730+ approvals) in dystrophic epidermolysis bullosa; prescriber base expanded to 640+ providers, growing international contribution."
+        }
+      ],
+      "notes": "VYJUVEK is currently the company's only commercial product. Still independently publicly traded.",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1711279/000171127926000058/a2q26-ex991xpressrelease.htm"
+      ],
+      "tier": "small"
+    },
+    "madrigal": {
+      "company_name": "Madrigal Pharmaceuticals, Inc.",
+      "ticker": "MDGL",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 364,
+        "yoy_growth_pct": 71.0,
+        "note": "Revenue is entirely Rezdiffra net product sales; growth driven by continued U.S. demand ramp.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/07/30/3335903/0/en/Madrigal-Pharmaceuticals-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Corporate-Updates.html"
+      },
+      "profit": {
+        "metric": "GAAP net loss",
+        "usd_m": -58,
+        "yoy_growth_pct": null,
+        "note": "Net loss widened from $(42.3)M in Q2 2025 to $(57.9)M in Q2 2026 despite strong revenue growth, reflecting continued commercial/SG&A investment.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/07/30/3335903/0/en/Madrigal-Pharmaceuticals-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Corporate-Updates.html"
+      },
+      "product_highlights": [
+        {
+          "product": "REZDIFFRA (resmetirom)",
+          "revenue_usd_m": 364,
+          "yoy_growth_pct": 71.0,
+          "note": "Sole revenue driver; active patient base exceeded 49,000 by June 30, 2026 (more than double the prior-year period), driven by continued physician adoption for MASH treatment."
+        }
+      ],
+      "notes": "Company revenue currently consists entirely of Rezdiffra (its only marketed product). Still independently publicly traded.",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/07/30/3335903/0/en/Madrigal-Pharmaceuticals-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Corporate-Updates.html"
+      ],
+      "tier": "small"
+    },
+    "merck": {
+      "company_name": "Merck & Co., Inc.",
+      "ticker": "MRK",
+      "exchange": "NYSE",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 16607,
+        "yoy_growth_pct": 5.1,
+        "note": "Growth driven by continued Keytruda expansion, Winrevair ramp, and Animal Health strength, partly offset by Januvia/Janumet declines from generic competition.",
+        "source_url": "https://www.merck.com/news/merck-highlights-key-regulatory-and-clinical-milestones-across-broad-diverse-pipeline/"
+      },
+      "profit": {
+        "metric": "GAAP net income (loss)",
+        "usd_m": -1335,
+        "yoy_growth_pct": null,
+        "note": "Swung to a net loss from $4,427M net income in Q2 2025, primarily due to a ~$2.31/share charge related to the Terns Pharmaceuticals acquisition; YoY % change not meaningful due to sign change.",
+        "source_url": "https://finance.biggo.com/news/US_MRK_2026-08-04"
+      },
+      "product_highlights": [
+        {
+          "product": "Keytruda / Keytruda Qlex",
+          "revenue_usd_m": 8366,
+          "yoy_growth_pct": 5.2,
+          "note": "Continued oncology label expansion and strong global demand for the franchise."
+        },
+        {
+          "product": "Winrevair",
+          "revenue_usd_m": 588,
+          "yoy_growth_pct": 75,
+          "note": "Rapid launch ramp in pulmonary arterial hypertension."
+        },
+        {
+          "product": "Animal Health",
+          "revenue_usd_m": 1775,
+          "yoy_growth_pct": 8,
+          "note": "Broad-based livestock and companion animal product growth."
+        },
+        {
+          "product": "Gardasil / Gardasil 9",
+          "revenue_usd_m": 1169,
+          "yoy_growth_pct": 3.8,
+          "note": "Modest growth despite ongoing China market softness for the HPV vaccine."
+        },
+        {
+          "product": "Januvia / Janumet",
+          "revenue_usd_m": 429,
+          "yoy_growth_pct": -31,
+          "note": "Continued erosion from generic/biosimilar-style competition and US pricing pressure."
+        }
+      ],
+      "notes": "Merck raised FY2026 guidance despite the reported net loss, which reflects a one-time acquisition-related charge rather than core operating deterioration. Still independently publicly traded on NYSE.",
+      "sources": [
+        "https://www.merck.com/news/merck-highlights-key-regulatory-and-clinical-milestones-across-broad-diverse-pipeline/",
+        "https://finance.biggo.com/news/US_MRK_2026-08-04",
+        "https://www.gurufocus.com/news/9002942/merck-co-inc-mrk-q2-2026-earnings-call-highlights-strong-revenue-growth-and-strategic-pipeline-advances-amid-onetime-charges"
+      ],
+      "tier": "large"
+    },
+    "moderna": {
+      "company_name": "Moderna Inc.",
+      "ticker": "MRNA",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 145,
+        "yoy_growth_pct": 2.1,
+        "note": "Lower COVID vaccine sales in the U.S. and South America were offset by deliveries in the U.K. under a long-term government partnership and higher stand-ready manufacturing/collaboration revenue.",
+        "source_url": "https://www.stocktitan.net/news/MRNA/moderna-reports-second-quarter-2026-financial-results-and-provides-1o2x3y9ujyo6.html"
+      },
+      "profit": {
+        "metric": "GAAP net loss",
+        "usd_m": -782,
+        "yoy_growth_pct": null,
+        "note": "Net loss both periods; loss narrowed from $825M in Q2 2025 to $782M in Q2 2026 (~5.2% improvement).",
+        "source_url": "https://www.stocktitan.net/news/MRNA/moderna-reports-second-quarter-2026-financial-results-and-provides-1o2x3y9ujyo6.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Net product sales (all vaccines, aggregate)",
+          "revenue_usd_m": 94,
+          "yoy_growth_pct": -17.5,
+          "note": "Moderna does not break out Spikevax vs. mNEXSPIKE revenue quarterly; aggregate product sales declined on lower U.S./South America COVID vaccine demand ahead of the fall season."
+        },
+        {
+          "product": "Other revenue (grants, collaboration & stand-ready manufacturing, royalties)",
+          "revenue_usd_m": 51,
+          "yoy_growth_pct": 82.1,
+          "note": "Growth driven by stand-ready manufacturing and collaboration revenue, including UK government partnership deliveries."
+        }
+      ],
+      "notes": "Company reaffirmed 2026 revenue guidance of up to 10% growth vs. 2025 and lowered its opex/R&D outlook. mFLUSIVA (combo flu/COVID vaccine) had an August 5, 2026 PDUFA date pending as a potential fifth approved product. Still independently publicly traded.",
+      "sources": [
+        "https://www.stocktitan.net/news/MRNA/moderna-reports-second-quarter-2026-financial-results-and-provides-1o2x3y9ujyo6.html",
+        "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/moderna-reports-second-quarter-2026-financial-results-and-bu-1199078"
+      ],
+      "tier": "small"
+    },
+    "neurocrine": {
+      "company_name": "Neurocrine Biosciences Inc.",
+      "ticker": "NBIX",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 959,
+        "yoy_growth_pct": 39.0,
+        "note": "Record quarterly revenue driven by INGREZZA growth, CRENESSITY launch ramp, and the newly-acquired VYKAT XR.",
+        "source_url": "https://www.prnewswire.com/news-releases/neurocrine-biosciences-reports-second-quarter-2026-financial-results-302839431.html"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 144,
+        "yoy_growth_pct": 33.3,
+        "note": "Net income of $144M vs. $108M in Q2 2025 (diluted EPS $1.39 vs $1.06), despite added costs from the Soleno acquisition.",
+        "source_url": "https://www.stocktitan.net/news/NBIX/neurocrine-biosciences-reports-second-quarter-2026-financial-kk792o4ervhx.html"
+      },
+      "product_highlights": [
+        {
+          "product": "INGREZZA (valbenazine)",
+          "revenue_usd_m": 716,
+          "yoy_growth_pct": 15.0,
+          "note": "Double-digit TRx growth and record NRx driven by strong patient demand in tardive dyskinesia and Huntington's chorea."
+        },
+        {
+          "product": "CRENESSITY (crinecerfont) - CAH",
+          "revenue_usd_m": 184,
+          "yoy_growth_pct": 247.0,
+          "note": "Strong launch ramp with roughly 80% reimbursement on dispensed prescriptions during the quarter."
+        },
+        {
+          "product": "VYKAT XR (diazoxide choline)",
+          "revenue_usd_m": 54,
+          "yoy_growth_pct": null,
+          "note": "New to Neurocrine following the $2.9B Soleno Therapeutics acquisition, which closed May 18, 2026; only a partial quarter reflected."
+        }
+      ],
+      "notes": "Recently closed the $2.9B acquisition of Soleno Therapeutics (adding VYKAT XR for Prader-Willi syndrome). Raised full-year INGREZZA guidance. Still independently publicly traded.",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/neurocrine-biosciences-reports-second-quarter-2026-financial-results-302839431.html"
+      ],
+      "tier": "mid"
+    },
+    "novartis": {
+      "company_name": "Novartis AG",
+      "ticker": "NVS",
+      "exchange": "NYSE (ADR)",
+      "hq_country": "Switzerland",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 14408,
+        "yoy_growth_pct": 3.0,
+        "note": "Novartis reports in USD directly. +3% actual/USD growth; +1% constant currency.",
+        "source_url": "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-q2-and-further-advanced-pipeline-full-year-guidance-reaffirmed"
+      },
+      "profit": {
+        "metric": "net income",
+        "usd_m": 3257,
+        "yoy_growth_pct": -19.0,
+        "note": "Net income fell despite flat core operating income (USD 5,940m, 0% yoy), largely reflecting the drag from Entresto's US generic erosion on the IFRS bottom line.",
+        "source_url": "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-q2-and-further-advanced-pipeline-full-year-guidance-reaffirmed"
+      },
+      "product_highlights": [
+        {
+          "product": "Kisqali",
+          "revenue_usd_m": 1695,
+          "yoy_growth_pct": 43.0,
+          "note": "Continued launch ramp in earlier-line breast cancer driving strong volume growth (cc basis)."
+        },
+        {
+          "product": "Kesimpta",
+          "revenue_usd_m": 1424,
+          "yoy_growth_pct": 32.0,
+          "note": "Multiple sclerosis drug gaining share via patient switches from older injectable/infused therapies (cc basis)."
+        },
+        {
+          "product": "Cosentyx",
+          "revenue_usd_m": 1824,
+          "yoy_growth_pct": 10.0,
+          "note": "Psoriasis/psoriatic arthritis franchise still growing on volume despite a maturing market (cc basis)."
+        },
+        {
+          "product": "Pluvicto",
+          "revenue_usd_m": 651,
+          "yoy_growth_pct": 43.0,
+          "note": "Radioligand prostate cancer therapy benefiting from manufacturing capacity expansion (cc basis)."
+        },
+        {
+          "product": "Entresto",
+          "revenue_usd_m": 1180,
+          "yoy_growth_pct": -50.0,
+          "note": "Heart-failure drug hit hard by US generic competition after loss of exclusivity; also set to lose EU patent protection in November 2026."
+        }
+      ],
+      "notes": "Novartis reaffirmed low-single-digit full-year net sales growth guidance. Entresto's genericization is the dominant patent-cliff story this quarter, offset by newer growth drivers (Kisqali, Kesimpta, Pluvicto, Scemblix +89% cc, Leqvio +59% cc). Still independently publicly traded.",
+      "sources": [
+        "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-q2-and-further-advanced-pipeline-full-year-guidance-reaffirmed",
+        "https://www.globenewswire.com/news-release/2026/07/21/3330192/0/en/Novartis-delivered-sales-growth-in-Q2-and-further-advanced-the-pipeline-Full-year-guidance-reaffirmed.html",
+        "https://invezz.com/news/2026/07/21/novartis-q2-surpasses-estimates-despite-50-entresto-sales-drop/"
+      ],
+      "tier": "large"
+    },
+    "novo-nordisk": {
+      "company_name": "Novo Nordisk A/S",
+      "ticker": "NVO",
+      "exchange": "NYSE (ADR)",
+      "hq_country": "Denmark",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 12102,
+        "yoy_growth_pct": 3.0,
+        "note": "Originally DKK 78,488m; +2% reported (DKK) growth, +3% at constant exchange rates. Converted to USD at approx. DKK/USD 0.15419. Growth negatively affected by a DKK 2.6bn rebate-provision reversal booked in the prior-year quarter.",
+        "source_url": "https://www.biospace.com/press-releases/novo-nordisk-reports-adjusted-operating-profit-of-dkk-33-389-million-for-q2-2026-and-raises-full-year-outlook"
+      },
+      "profit": {
+        "metric": "net profit",
+        "usd_m": 3236,
+        "yoy_growth_pct": -21.0,
+        "note": "Originally DKK 20,989m, down 21%. Reported operating profit fell to DKK 27,061m (-19%); adjusted operating profit (excluding a ~DKK 6.3bn pipeline-asset impairment) was DKK 33,389m, +8%.",
+        "source_url": "https://www.biospace.com/press-releases/novo-nordisk-reports-adjusted-operating-profit-of-dkk-33-389-million-for-q2-2026-and-raises-full-year-outlook"
+      },
+      "product_highlights": [
+        {
+          "product": "Ozempic",
+          "revenue_usd_m": 4838,
+          "yoy_growth_pct": 5.0,
+          "note": "GLP-1 diabetes drug still growing on volume, though facing US pricing/rebate and compounded-competitor pressure (CER basis; DKK 31,375m originally)."
+        },
+        {
+          "product": "Wegovy (injectable)",
+          "revenue_usd_m": 3004,
+          "yoy_growth_pct": 1.0,
+          "note": "Obesity drug growth has slowed sharply amid competition from Eli Lilly's tirzepatide (Zepbound) and compounded/generic semaglutide (CER basis; DKK 19,484m originally)."
+        },
+        {
+          "product": "Wegovy (oral pill)",
+          "revenue_usd_m": 496,
+          "yoy_growth_pct": null,
+          "note": "New oral obesity formulation in early launch ramp; no prior-year comparison available (DKK 3,218m originally)."
+        },
+        {
+          "product": "Rybelsus",
+          "revenue_usd_m": 806,
+          "yoy_growth_pct": -4.0,
+          "note": "Oral GLP-1 diabetes pill declining, likely facing cannibalization from the new oral Wegovy pill (CER basis; DKK 5,228m originally)."
+        },
+        {
+          "product": "NovoRapid",
+          "revenue_usd_m": 723,
+          "yoy_growth_pct": 10.0,
+          "note": "Fast-acting insulin showing solid growth (CER basis; DKK 4,691m originally)."
+        }
+      ],
+      "notes": "Novo Nordisk raised its full-year 2026 adjusted sales and adjusted operating profit outlook despite the GAAP net profit decline, underscoring the growing gap between reported and adjusted metrics amid intensifying GLP-1/obesity-market competition. Still independently publicly traded.",
+      "sources": [
+        "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=916589",
+        "https://www.biospace.com/press-releases/novo-nordisk-reports-adjusted-operating-profit-of-dkk-33-389-million-for-q2-2026-and-raises-full-year-outlook",
+        "https://www.globenewswire.com/news-release/2026/08/04/3338662/0/en/Novo-Nordisk-reports-adjusted-operating-profit-of-DKK-33-389-million-for-Q2-2026-and-raises-full-year-outlook.html"
+      ],
+      "tier": "large"
+    },
+    "organon": {
+      "company_name": "Organon & Co.",
+      "ticker": "OGN",
+      "exchange": "NYSE",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 1560,
+        "yoy_growth_pct": -1.9,
+        "note": "Total revenue of $1.56bn vs $1.59bn in Q2 2025 (worldwide sales down ~2% ex-FX); year-to-date sales down 3%.",
+        "source_url": "https://www.tradingview.com/news/tradingview:2c1dbbf935b7e:0-organon-co-2026-revenue-1-56b-eps-0-4-10-q-summary/"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 108,
+        "yoy_growth_pct": -25.5,
+        "note": "GAAP net income of $108m vs $145m in Q2 2025 ($0.40 vs $0.56 diluted EPS); non-GAAP adjusted net income was $230m.",
+        "source_url": "https://www.stocktitan.net/sec-filings/OGN/8-k-organon-co-reports-material-event-7c178fb28183.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Hadlima (biosimilar adalimumab)",
+          "revenue_usd_m": null,
+          "yoy_growth_pct": null,
+          "note": "Called out as a grower; US market share climbing following interchangeability designation. Exact Q2 2026 dollar figure not disclosed."
+        },
+        {
+          "product": "Emgality",
+          "revenue_usd_m": null,
+          "yoy_growth_pct": null,
+          "note": "Called out by management as a growth contributor in Q2 2026; exact figure not disclosed."
+        },
+        {
+          "product": "Nexplanon",
+          "revenue_usd_m": null,
+          "yoy_growth_pct": null,
+          "note": "Flagged as a notable decliner in Q2 2026, continuing pressure from US wholesaler/access-policy headwinds; exact figure not disclosed."
+        },
+        {
+          "product": "Jada System",
+          "revenue_usd_m": null,
+          "yoy_growth_pct": null,
+          "note": "Flagged as weak in Q2 2026."
+        }
+      ],
+      "notes": "IMPORTANT: Organon agreed on April 26/27, 2026 to be acquired by Sun Pharmaceutical Industries in an all-cash deal (~$11.75bn enterprise value, $14.00/share), expected to close in early 2027 subject to regulatory/shareholder approvals. As of 2026-08-20, Organon remains independently publicly traded (NYSE: OGN) pending deal close -- a live pending-acquisition situation worth flagging. Organon suspended its detailed quarterly earnings press release format in 2026, so per-product dollar figures are less granular than before.",
+      "sources": [
+        "https://www.tradingview.com/news/tradingview:2c1dbbf935b7e:0-organon-co-2026-revenue-1-56b-eps-0-4-10-q-summary/",
+        "https://www.stocktitan.net/sec-filings/OGN/8-k-organon-co-reports-material-event-7c178fb28183.html",
+        "https://www.bloomberg.com/news/articles/2026-04-27/sun-pharma-to-acquire-us-listed-organon-in-12-billion-deal"
+      ],
+      "status": "pending_acquisition",
+      "status_note": "Agreed to be acquired by Sun Pharmaceutical Industries (announced April 2026, ~$11.75B, $14.00/share cash); expected to close early 2027. Still trading independently as of 2026-08-20.",
+      "tier": "mid"
+    },
+    "otsuka": {
+      "company_name": "Otsuka Holdings Co., Ltd.",
+      "ticker": "4578.T",
+      "exchange": "Tokyo Stock Exchange (Prime)",
+      "hq_country": "Japan",
+      "latest_quarter": "H1 FY2026 (cumulative Q1+Q2, Jan-Jun 2026)",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 9064,
+        "yoy_growth_pct": 12.8,
+        "note": "Revenue of JPY 1,332.4bn for the six months ended June 30, 2026, +12.8% YoY. Otsuka reports cumulative half-year results rather than a discrete standalone Q2; USD is an approximate conversion at ~147 JPY/USD, not company-reported.",
+        "source_url": "https://www.rttnews.com/3673513/otsuka-holdings-co-ltd-h1-income-climbs.aspx"
+      },
+      "profit": {
+        "metric": "Profit attributable to owners of parent, H1 cumulative",
+        "usd_m": 1467,
+        "yoy_growth_pct": 24.3,
+        "note": "JPY 215.6bn vs JPY 173.5bn in H1 2025 (+24.3%); business/operating profit was JPY 280.6bn, +17.3% YoY. Company guided full-year operating profit/net income to edge down slightly vs. H1 run-rate, implying a weaker H2.",
+        "source_url": "https://www.rttnews.com/3673513/otsuka-holdings-co-ltd-h1-income-climbs.aspx"
+      },
+      "product_highlights": [
+        {
+          "product": "Rexulti (brexpiprazole)",
+          "revenue_usd_m": 1314,
+          "yoy_growth_pct": 24.7,
+          "note": "JPY 193.1bn H1; continued growth in the US antipsychotic/antidepressant-adjunct market."
+        },
+        {
+          "product": "Abilify Maintena/Asimtufii (long-acting injectables)",
+          "revenue_usd_m": 1017,
+          "yoy_growth_pct": 19.2,
+          "note": "JPY 149.5bn H1; boosted by Asimtufii (once-monthly) uptake."
+        },
+        {
+          "product": "JINARC (tolvaptan, ADPKD)",
+          "revenue_usd_m": null,
+          "yoy_growth_pct": null,
+          "note": "Facing an estimated ~JPY 46bn negative headwind from generic entry in some markets -- the clearest loss-of-exclusivity impact this period."
+        }
+      ],
+      "notes": "No major US ADR; reports in JPY. Japanese issuers typically disclose cumulative half-year (not discrete quarterly) figures, so all numbers above are H1 FY2026 cumulative. USD conversions are approximate (~147 JPY/USD). Still independently publicly traded.",
+      "sources": [
+        "https://www.rttnews.com/3673513/otsuka-holdings-co-ltd-h1-income-climbs.aspx",
+        "https://finance.biggo.com/news/JP_4578.T_2026-07-31"
+      ],
+      "tier": "mid"
+    },
+    "ptc-therapeutics": {
+      "company_name": "PTC Therapeutics Inc.",
+      "ticker": "PTCT",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 361,
+        "yoy_growth_pct": 101.5,
+        "note": "Revenue more than doubled, driven by the Sephience launch and higher Evrysdi royalties.",
+        "source_url": "https://www.prnewswire.com/news-releases/ptc-therapeutics-provides-corporate-update-and-reports-second-quarter-2026-financial-results-302839385.html"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 84,
+        "yoy_growth_pct": null,
+        "note": "Swung to $83.5M net income from a $64.8M net loss in Q2 2025.",
+        "source_url": "https://www.prnewswire.com/news-releases/ptc-therapeutics-provides-corporate-update-and-reports-second-quarter-2026-financial-results-302839385.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Sephience (sepiapterin)",
+          "revenue_usd_m": 151,
+          "yoy_growth_pct": null,
+          "note": "Newly launched PKU therapy (no Q2 2025 comparable); broad uptake and geographic expansion made it the top revenue driver."
+        },
+        {
+          "product": "Evrysdi (risdiplam) royalties",
+          "revenue_usd_m": 71,
+          "yoy_growth_pct": 23.4,
+          "note": "Royalty revenue grew on higher partner (Roche) net sales of Evrysdi."
+        },
+        {
+          "product": "Translarna (ataluren)",
+          "revenue_usd_m": 42,
+          "yoy_growth_pct": -29.1,
+          "note": "Decline reflects market maturity in ex-US Duchenne muscular dystrophy markets."
+        },
+        {
+          "product": "Emflaza (deflazacort)",
+          "revenue_usd_m": 25,
+          "yoy_growth_pct": -32.4,
+          "note": "Continued generic erosion pressured sales."
+        }
+      ],
+      "notes": "Company raised full-year 2026 revenue guidance on the back of the Sephience launch. Still independently publicly traded.",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/ptc-therapeutics-provides-corporate-update-and-reports-second-quarter-2026-financial-results-302839385.html"
+      ],
+      "tier": "small"
+    },
+    "perrigo": {
+      "company_name": "Perrigo Company plc",
+      "ticker": "PRGO",
+      "exchange": "NYSE",
+      "hq_country": "Ireland",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-27",
+      "revenue": {
+        "usd_m": 1023,
+        "yoy_growth_pct": -3.2,
+        "note": "Reported ('all-in') net sales from continuing operations of $1,022.8m, -3.2% YoY; organic/core net sales of ~$907m, -3.1% YoY.",
+        "source_url": "https://investor.perrigo.com/2026-08-05-Perrigo-Reports-Second-Quarter-2026-Financial-Results-From-Continuing-Operations"
+      },
+      "profit": {
+        "metric": "Net income from continuing operations",
+        "usd_m": 89,
+        "yoy_growth_pct": null,
+        "note": "Net income of $88.5m vs a near-breakeven net loss of $(0.5)m in Q2 2025 -- YoY % not meaningful. Improvement was primarily driven by a gain on the Dermacosmetics divestiture; adjusted diluted EPS actually fell 12.3% YoY on margin pressure.",
+        "source_url": "https://investor.perrigo.com/2026-08-05-Perrigo-Reports-Second-Quarter-2026-Financial-Results-From-Continuing-Operations"
+      },
+      "product_highlights": [
+        {
+          "product": "Infant Formula/Nutrition segment",
+          "revenue_usd_m": 101,
+          "yoy_growth_pct": 23.1,
+          "note": "Strongest-growing segment, benefiting from continued US store-brand infant formula demand/share gains."
+        },
+        {
+          "product": "Self Care segment",
+          "revenue_usd_m": 577,
+          "yoy_growth_pct": -3.7,
+          "note": "Largest segment (OTC store-brand analgesics, cough/cold, digestive health); declined on softer category demand."
+        },
+        {
+          "product": "Specialty Care segment (incl. HRA Pharma products)",
+          "revenue_usd_m": 227,
+          "yoy_growth_pct": -2.8,
+          "note": "Includes emergency contraception (ella) and dermocosmetics-adjacent specialty brands; modest decline."
+        }
+      ],
+      "notes": "Perrigo is primarily a store-brand/OTC consumer self-care company, so it doesn't disclose per-drug revenue -- segment-level figures are the closest available breakout. No major branded generic loss-of-exclusivity event flagged this quarter. Still independently publicly traded.",
+      "sources": [
+        "https://investor.perrigo.com/2026-08-05-Perrigo-Reports-Second-Quarter-2026-Financial-Results-From-Continuing-Operations",
+        "https://www.prnewswire.com/news-releases/perrigo-reports-second-quarter-2026-financial-results-from-continuing-operations-302843509.html"
+      ],
+      "tier": "mid"
+    },
+    "pfizer": {
+      "company_name": "Pfizer Inc.",
+      "ticker": "PFE",
+      "exchange": "NYSE",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-28",
+      "revenue": {
+        "usd_m": 15034,
+        "yoy_growth_pct": 2.6,
+        "note": "Total revenue rose modestly as ~18% operational growth in non-COVID products was offset by steep declines in Comirnaty and Paxlovid.",
+        "source_url": "https://s206.q4cdn.com/795948973/files/doc_financials/2026/q2/Q2-2026-PFE-Earnings-Release-FINAL.pdf"
+      },
+      "profit": {
+        "metric": "GAAP net income (loss)",
+        "usd_m": -248,
+        "yoy_growth_pct": null,
+        "note": "Swung to a net loss from $2,910M net income in Q2 2025, driven by $4,325M of intangible asset impairments (mainly $3,800M IPR&D impairment for sigvotatug vedotin and $525M for Oxbryta); YoY % change not meaningful due to sign change.",
+        "source_url": "https://www.stocktitan.net/sec-filings/PFE/10-q-pfizer-inc-quarterly-earnings-report-64a8f3a38762.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Eliquis",
+          "revenue_usd_m": 2425,
+          "yoy_growth_pct": 21,
+          "note": "Continued strong volume growth in the anticoagulant market."
+        },
+        {
+          "product": "Vyndaqel family",
+          "revenue_usd_m": 1762,
+          "yoy_growth_pct": 9,
+          "note": "Ongoing demand growth in ATTR-CM treatment."
+        },
+        {
+          "product": "Prevnar family",
+          "revenue_usd_m": 1337,
+          "yoy_growth_pct": -3,
+          "note": "Softer vaccination demand/competitive pressure in pneumococcal vaccine market."
+        },
+        {
+          "product": "Padcev",
+          "revenue_usd_m": 667,
+          "yoy_growth_pct": 23,
+          "note": "Continued uptake in urothelial cancer treatment following label expansions."
+        },
+        {
+          "product": "Paxlovid",
+          "revenue_usd_m": 21,
+          "yoy_growth_pct": -95,
+          "note": "COVID-19 antiviral demand has collapsed as the pandemic-era market normalizes."
+        }
+      ],
+      "notes": "Pfizer raised the midpoint of its FY2026 revenue guidance despite the Q2 GAAP net loss, which was driven by one-time impairment charges rather than operating weakness. Still independently publicly traded on NYSE.",
+      "sources": [
+        "https://s206.q4cdn.com/795948973/files/doc_financials/2026/q2/Q2-2026-PFE-Earnings-Release-FINAL.pdf",
+        "https://www.stocktitan.net/sec-filings/PFE/10-q-pfizer-inc-quarterly-earnings-report-64a8f3a38762.html",
+        "https://www.techtimes.com/articles/322950/20260804/pfizer-q2-2026-earnings-beat-estimates-non-covid-revenue-surges-18-operationally.htm"
+      ],
+      "tier": "large"
+    },
+    "regeneron": {
+      "company_name": "Regeneron Pharmaceuticals, Inc.",
+      "ticker": "REGN",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 4291,
+        "yoy_growth_pct": 17,
+        "note": "Revenue growth driven mainly by higher Dupixent-related collaboration revenue and EYLEA HD uptake.",
+        "source_url": "https://investor.regeneron.com/news-releases/news-release-details/regeneron-reports-second-quarter-2026-financial-and-operating"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 1297,
+        "yoy_growth_pct": -7,
+        "note": "Net income declined YoY despite revenue growth, largely due to a ~$1.02/share negative impact from acquired IPR&D charges.",
+        "source_url": "https://investor.regeneron.com/news-releases/news-release-details/regeneron-reports-second-quarter-2026-financial-and-operating"
+      },
+      "product_highlights": [
+        {
+          "product": "Dupixent (global net sales, Sanofi collaboration memo item)",
+          "revenue_usd_m": 5998,
+          "yoy_growth_pct": 38,
+          "note": "Continued expansion into additional indications and geographies drove global demand; Regeneron records its share of collaboration profit within its own revenue figure."
+        },
+        {
+          "product": "EYLEA HD (U.S.)",
+          "revenue_usd_m": 596,
+          "yoy_growth_pct": 52,
+          "note": "Higher volumes as patients transition from standard EYLEA to the longer-dosing-interval HD formulation."
+        },
+        {
+          "product": "EYLEA (U.S., standard)",
+          "revenue_usd_m": 412,
+          "yoy_growth_pct": -45,
+          "note": "Lower volume from continued competitive pressure and patient migration to EYLEA HD."
+        },
+        {
+          "product": "Libtayo (global)",
+          "revenue_usd_m": 489,
+          "yoy_growth_pct": 30,
+          "note": "Higher demand/volume in oncology indications."
+        }
+      ],
+      "notes": "Combined EYLEA franchise (standard + HD) revenue declined a net ~12% YoY as the newer HD version cannibalizes the legacy formulation. Still independently publicly traded.",
+      "sources": [
+        "https://investor.regeneron.com/news-releases/news-release-details/regeneron-reports-second-quarter-2026-financial-and-operating",
+        "https://www.globenewswire.com/news-release/2026/07/30/3335868/0/en/Regeneron-Reports-Second-Quarter-2026-Financial-and-Operating-Results.html"
+      ],
+      "tier": "mid"
+    },
+    "roche": {
+      "company_name": "Roche Holding AG",
+      "ticker": "RHHBY",
+      "exchange": "OTC ADR (RHHBY) / SIX: ROG",
+      "hq_country": "Switzerland",
+      "latest_quarter": "H1 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 38107,
+        "yoy_growth_pct": 6.0,
+        "note": "Roche discloses results semi-annually, not by discrete calendar quarter, so this is the H1 2026 figure (latest reported period). Originally CHF 30,364m (-2% reported CHF, +6% constant exchange rates -- CER basis used here). Converted to USD at approx. CHF/USD 1.2550.",
+        "source_url": "https://www.roche.com/media/releases/med-cor-2026-07-23"
+      },
+      "profit": {
+        "metric": "net income (attributable to Roche shareholders)",
+        "usd_m": 8623,
+        "yoy_growth_pct": -7.0,
+        "note": "Originally CHF 6,871m (-7% reported CHF; +5% at constant exchange rates). Core operating profit was CHF 11,856m (+10% CER, -1% reported).",
+        "source_url": "https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf"
+      },
+      "product_highlights": [
+        {
+          "product": "Ocrevus",
+          "revenue_usd_m": 4356,
+          "yoy_growth_pct": 7.0,
+          "note": "Multiple sclerosis therapy continuing steady volume growth (CER basis; CHF 3,470m originally)."
+        },
+        {
+          "product": "Hemlibra",
+          "revenue_usd_m": 3128,
+          "yoy_growth_pct": 11.0,
+          "note": "Hemophilia A treatment expanding via geographic rollout and prophylaxis uptake (CER basis; CHF 2,492m originally)."
+        },
+        {
+          "product": "Vabysmo",
+          "revenue_usd_m": 2584,
+          "yoy_growth_pct": 8.0,
+          "note": "Eye-disease drug gaining share against Eylea/other anti-VEGF therapies (CER basis; CHF 2,059m originally)."
+        },
+        {
+          "product": "Xolair",
+          "revenue_usd_m": 2100,
+          "yoy_growth_pct": 27.0,
+          "note": "Strong demand growth in allergy/chronic urticaria, one of Roche's fastest growers this half (CER basis; CHF 1,673m originally)."
+        },
+        {
+          "product": "Perjeta",
+          "revenue_usd_m": 1743,
+          "yoy_growth_pct": -7.0,
+          "note": "Breast cancer therapy declining amid competitive/biosimilar-adjacent pressure (CER basis; CHF 1,389m originally)."
+        }
+      ],
+      "notes": "Pharmaceuticals division: CHF 23,629m (+6% CER); Diagnostics division: CHF 6,735m (+3% CER). Swiss franc appreciation against USD was a significant headwind to USD-converted figures versus underlying constant-currency performance. Still independently publicly traded.",
+      "sources": [
+        "https://www.roche.com/media/releases/med-cor-2026-07-23",
+        "https://assets.roche.com/f/176343/x/8a0b362d66/hy26e.pdf",
+        "https://www.stocktitan.net/news/RHHBY/ad-hoc-announcement-pursuant-to-art-53-lr-roche-s-strong-momentum-93t30qb281nv.html"
+      ],
+      "tier": "large"
+    },
+    "sanofi": {
+      "company_name": "Sanofi",
+      "ticker": "SNY",
+      "exchange": "NASDAQ (ADR); Euronext Paris (SAN)",
+      "hq_country": "France",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 13544,
+        "yoy_growth_pct": 17.8,
+        "note": "Originally EUR 11,597m; +16.0% reported, +17.8% at constant exchange rates (CER basis used here). Converted to USD at approx. EUR/USD 1.1679.",
+        "source_url": "https://www.sanofi.com/assets/dotcom/pressreleases/2026/2026-07-30-05-30-00-3335767-en.pdf"
+      },
+      "profit": {
+        "metric": "business net income (non-IFRS, company's headline profit metric)",
+        "usd_m": 2921,
+        "yoy_growth_pct": 28.9,
+        "note": "Originally EUR 2,501m, +28.9% yoy. IFRS statutory net income was far lower at EUR 343m (~USD 401m), down ~91.3% yoy, apparently due to one-time impairment/charge items -- Sanofi's own release leads with business net income/EPS, used here as the primary profit figure.",
+        "source_url": "https://www.rttnews.com/3672550/sanofi-q2-net-profit-plunges-business-profit-climbs-on-strong-sales-lifts-fy26-outlook.aspx"
+      },
+      "product_highlights": [
+        {
+          "product": "Dupixent",
+          "revenue_usd_m": 6019,
+          "yoy_growth_pct": 37.6,
+          "note": "First quarter ever above EUR 5bn; expanded indications (e.g., COPD, bullous pemphigoid) driving continued strong volume growth (EUR 5,154m originally)."
+        },
+        {
+          "product": "Beyfortus",
+          "revenue_usd_m": 126,
+          "yoy_growth_pct": 54.2,
+          "note": "RSV preventive antibody benefiting from seasonal ramp and expanding market access (EUR 108m originally)."
+        },
+        {
+          "product": "Altuviiio",
+          "revenue_usd_m": 408,
+          "yoy_growth_pct": 23.7,
+          "note": "Hemophilia A factor replacement therapy continuing launch ramp and share gains (EUR 349m originally)."
+        },
+        {
+          "product": "Sarclisa",
+          "revenue_usd_m": 218,
+          "yoy_growth_pct": 35.7,
+          "note": "Multiple myeloma drug gaining share in earlier treatment lines (EUR 187m originally)."
+        },
+        {
+          "product": "Vaccines (total)",
+          "revenue_usd_m": 1343,
+          "yoy_growth_pct": -4.7,
+          "note": "Softer year-over-year comparison tied to seasonal/timing effects in flu and other vaccine shipments (EUR 1,150m originally)."
+        }
+      ],
+      "notes": "Sanofi raised full-year 2026 guidance on double-digit sales growth. The large IFRS net income decline versus business net income growth reflects non-recurring items excluded from the business net income measure. Still independently publicly traded.",
+      "sources": [
+        "https://www.sanofi.com/en/media-room/press-releases/2026/2026-07-30-05-30-00-3335767",
+        "https://www.rttnews.com/3672550/sanofi-q2-net-profit-plunges-business-profit-climbs-on-strong-sales-lifts-fy26-outlook.aspx",
+        "https://www.globenewswire.com/news-release/2026/07/30/3335767/0/en/press-release-q2-2026-double-digit-sales-growth-and-strong-business-eps-growth-2026-guidance-upgraded.html"
+      ],
+      "tier": "large"
+    },
+    "sarepta": {
+      "company_name": "Sarepta Therapeutics Inc.",
+      "ticker": "SRPT",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 401,
+        "yoy_growth_pct": -34.3,
+        "note": "Decline driven primarily by lower ELEVIDYS demand following the FDA-mandated label restriction, plus the absence of a $63.5M Roche Japan milestone received in Q2 2025.",
+        "source_url": "https://www.businesswire.com/news/home/20260805692741/en/Sarepta-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-and-Recent-Corporate-Developments"
+      },
+      "profit": {
+        "metric": "GAAP net income (loss)",
+        "usd_m": -5,
+        "yoy_growth_pct": null,
+        "note": "Swung from GAAP net income of $196.9M in Q2 2025 to a $4.9M net loss in Q2 2026 on the ELEVIDYS revenue collapse.",
+        "source_url": "https://www.businesswire.com/news/home/20260805692741/en/Sarepta-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-and-Recent-Corporate-Developments"
+      },
+      "product_highlights": [
+        {
+          "product": "ELEVIDYS (gene therapy)",
+          "revenue_usd_m": 98,
+          "yoy_growth_pct": -65.2,
+          "note": "Steep decline from $281.9M in Q2 2025 to $98.1M, driven by the FDA's November 2025 boxed warning and label restriction limiting ELEVIDYS to ambulatory DMD patients only, after multiple patient deaths from acute liver failure."
+        },
+        {
+          "product": "PMO franchise (EXONDYS 51, VYONDYS 53, AMONDYS 45 combined)",
+          "revenue_usd_m": 231,
+          "yoy_growth_pct": -0.3,
+          "note": "Essentially flat vs. $231.3M in Q2 2025 -- stable demand for the legacy exon-skipping portfolio."
+        }
+      ],
+      "notes": "Elevidys safety/label saga is the dominant story: FDA added a boxed warning for fatal acute liver failure and restricted the label to ambulatory patients 4+; Sarepta had voluntarily paused shipments and later resumed them for ambulatory patients after FDA recommended doing so. Still independently publicly traded, despite periodic takeover speculation.",
+      "sources": [
+        "https://www.businesswire.com/news/home/20260805692741/en/Sarepta-Therapeutics-Announces-Second-Quarter-2026-Financial-Results-and-Recent-Corporate-Developments",
+        "https://www.fda.gov/news-events/press-announcements/fda-approves-new-safety-warning-and-revised-indication-limits-use-elevidys-following-reports-fatal"
+      ],
+      "tier": "small"
+    },
+    "supernus": {
+      "company_name": "Supernus Pharmaceuticals Inc.",
+      "ticker": "SUPN",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 219,
+        "yoy_growth_pct": 32.0,
+        "note": "Growth led by Qelbree volume gains and the ONAPGO launch ramp, plus ZURZUVAE collaboration revenue.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/08/03/3337322/19871/en/supernus-announces-second-quarter-2026-financial-results.html"
+      },
+      "profit": {
+        "metric": "GAAP net income (loss)",
+        "usd_m": -58,
+        "yoy_growth_pct": null,
+        "note": "Swung to a $58.4M net loss from $22.5M net income in Q2 2025, driven primarily by a non-cash $54.9M intangible-asset impairment charge related to APOKYN.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/08/03/3337322/19871/en/supernus-announces-second-quarter-2026-financial-results.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Qelbree",
+          "revenue_usd_m": 89,
+          "yoy_growth_pct": 15.0,
+          "note": "Volume growth in both adult (+25% Rx) and pediatric (+14% Rx) ADHD prescriptions."
+        },
+        {
+          "product": "ONAPGO",
+          "revenue_usd_m": 14,
+          "yoy_growth_pct": 745.0,
+          "note": "Strong launch ramp since April 2025, off a very small prior-year base."
+        },
+        {
+          "product": "GOCOVRI",
+          "revenue_usd_m": 38,
+          "yoy_growth_pct": 2.0,
+          "note": "Modest growth on 9% prescription growth, partly offset by pricing/mix."
+        },
+        {
+          "product": "APOKYN",
+          "revenue_usd_m": 6,
+          "yoy_growth_pct": -51.0,
+          "note": "Sharp contraction, consistent with the intangible impairment taken on this asset this quarter."
+        }
+      ],
+      "notes": "Total revenue also includes $35.4M of ZURZUVAE collaboration revenue (50% share of Biogen-reported ZURZUVAE net sales). Still independently publicly traded.",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/08/03/3337322/19871/en/supernus-announces-second-quarter-2026-financial-results.html"
+      ],
+      "tier": "small"
+    },
+    "takeda": {
+      "company_name": "Takeda Pharmaceutical Company Limited",
+      "ticker": "TAK",
+      "exchange": "NYSE (ADR); primary listing Tokyo Stock Exchange (4502.T)",
+      "hq_country": "Japan",
+      "latest_quarter": "Q1 FY2026 (fiscal year ending March 2027)",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 8133,
+        "yoy_growth_pct": 10.2,
+        "note": "Reported as JPY 1,219.9 billion, +10.2% YoY at actual exchange rates (-0.5% at constant exchange rates); loss of VYVANSE exclusivity was largely offset by growth from core in-line brands and new launches. USD figure is an approximate conversion (~JPY 150/USD) since Takeda reports in yen; indicative only.",
+        "source_url": "https://www.businesswire.com/news/home/20260727883646/en/Takeda-Announces-FY2026-First-Quarter-Results-Near-Term-Launch-Preparations-and-Pipeline-Progress-on-Track"
+      },
+      "profit": {
+        "metric": "Core operating profit (Takeda's primary non-GAAP profit metric)",
+        "usd_m": 2393,
+        "yoy_growth_pct": 11.5,
+        "note": "Core operating profit was JPY 358.9B (+11.5% AER / -0.5% CER). Reported (GAAP-equivalent) net profit attributable to owners was JPY 113.2B, down 8.9% YoY. USD figures are approximate conversions at ~JPY 150/USD.",
+        "source_url": "https://www.businesswire.com/news/home/20260727883646/en/Takeda-Announces-FY2026-First-Quarter-Results-Near-Term-Launch-Preparations-and-Pipeline-Progress-on-Track"
+      },
+      "product_highlights": [
+        {
+          "product": "ENTYVIO",
+          "revenue_usd_m": 1789,
+          "yoy_growth_pct": 15.4,
+          "note": "Continued volume growth in IBD (ulcerative colitis/Crohn's); +3.8% at constant exchange rates."
+        },
+        {
+          "product": "VYVANSE/ELVANSE",
+          "revenue_usd_m": 361,
+          "yoy_growth_pct": -6.5,
+          "note": "Decline from loss of exclusivity/generic erosion in key markets (-17.0% at constant exchange rates)."
+        },
+        {
+          "product": "TAKHZYRO",
+          "revenue_usd_m": 399,
+          "yoy_growth_pct": 8.7,
+          "note": "Continued uptake in hereditary angioedema prophylaxis (-2.2% at constant exchange rates)."
+        },
+        {
+          "product": "FRUZAQLA",
+          "revenue_usd_m": 114,
+          "yoy_growth_pct": 38.9,
+          "note": "Continued launch ramp in colorectal cancer."
+        },
+        {
+          "product": "QDENGA",
+          "revenue_usd_m": 77,
+          "yoy_growth_pct": 30.5,
+          "note": "Growing dengue vaccine demand and market expansion."
+        }
+      ],
+      "notes": "Fiscal year runs April-March, so Takeda's most recently reported quarter is labeled Q1 FY2026 (Apr-Jun 2026), not 'Q2 2026'. All USD figures are approximate conversions from JPY and should be treated as indicative. Still independently publicly traded.",
+      "sources": [
+        "https://www.businesswire.com/news/home/20260727883646/en/Takeda-Announces-FY2026-First-Quarter-Results-Near-Term-Launch-Preparations-and-Pipeline-Progress-on-Track",
+        "https://www.stocktitan.net/sec-filings/TAK/6-k-takeda-pharmaceutical-co-ltd-current-report-foreign-issuer-cc671176edc1.html"
+      ],
+      "tier": "large"
+    },
+    "teva": {
+      "company_name": "Teva Pharmaceutical Industries Ltd.",
+      "ticker": "TEVA",
+      "exchange": "NYSE / TASE",
+      "hq_country": "Israel",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 4142,
+        "yoy_growth_pct": -1.0,
+        "note": "Net revenues of $4,142m, down 1% in USD (down 3% in local currency terms) YoY.",
+        "source_url": "https://www.tevapharm.com/news-and-media/latest-news/teva-delivers-strong-q2-results-and-raises-outlook-for-all-three-key-innovative-brands-reflecting-contin/"
+      },
+      "profit": {
+        "metric": "Net income/loss attributable to Teva",
+        "usd_m": -576,
+        "yoy_growth_pct": -304.3,
+        "note": "Swung to a $576m net loss from $282m net income in Q2 2025, driven mainly by a $724m in-process R&D charge tied to the Emalex Biosciences acquisition plus ~$230m of legal settlements; underlying operations were profitable.",
+        "source_url": "https://www.stocktitan.net/sec-filings/TEVA/10-q-teva-pharmaceutical-industries-ltd-quarterly-earnings-report-3b764afad269.html"
+      },
+      "product_highlights": [
+        {
+          "product": "AUSTEDO (deutetrabenazine)",
+          "revenue_usd_m": 696,
+          "yoy_growth_pct": 40.0,
+          "note": "Continued strong US uptake in tardive dyskinesia/Huntington's chorea; outlook raised."
+        },
+        {
+          "product": "AJOVY (fremanezumab)",
+          "revenue_usd_m": 244,
+          "yoy_growth_pct": 56.0,
+          "note": "Migraine-prevention brand growing on volume/share gains, particularly outside the US."
+        },
+        {
+          "product": "UZEDY (risperidone ER)",
+          "revenue_usd_m": 77,
+          "yoy_growth_pct": 43.0,
+          "note": "Long-acting injectable antipsychotic launch ramp continuing to scale."
+        },
+        {
+          "product": "Generics (global segment)",
+          "revenue_usd_m": null,
+          "yoy_growth_pct": -15.0,
+          "note": "Local-currency decline driven primarily by reduced lenalidomide (generic Revlimid) capsule sales as the settlement-volume cap phases down."
+        }
+      ],
+      "notes": "Teva raised its 2026 outlook for all three key innovative brands (AUSTEDO, AJOVY, UZEDY), now expected to reach a combined ~$3.7bn in 2026 revenue. The quarterly GAAP loss was a one-time-charge story rather than an operating deterioration. Still independently publicly traded.",
+      "sources": [
+        "https://www.tevapharm.com/news-and-media/latest-news/teva-delivers-strong-q2-results-and-raises-outlook-for-all-three-key-innovative-brands-reflecting-contin/",
+        "https://www.stocktitan.net/sec-filings/TEVA/10-q-teva-pharmaceutical-industries-ltd-quarterly-earnings-report-3b764afad269.html"
+      ],
+      "tier": "mid"
+    },
+    "united-therapeutics": {
+      "company_name": "United Therapeutics Corporation",
+      "ticker": "UTHR",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 783,
+        "yoy_growth_pct": -2,
+        "note": "Revenue dipped slightly as nebulized Tyvaso and Remodulin U.S. volume declines (from competitive pressure) outweighed Tyvaso DPI and Unituxin growth.",
+        "source_url": "https://www.stocktitan.net/news/UTHR/united-therapeutics-corporation-reports-second-quarter-2026-5onvus2n1lt8.html"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 333,
+        "yoy_growth_pct": 8,
+        "note": "Increased from $309.5M in Q2 2025 to $333.0M in Q2 2026 despite the modest revenue decline, aided by pricing and cost management.",
+        "source_url": "https://www.stocktitan.net/news/UTHR/united-therapeutics-corporation-reports-second-quarter-2026-5onvus2n1lt8.html"
+      },
+      "product_highlights": [
+        {
+          "product": "Tyvaso DPI",
+          "revenue_usd_m": 327,
+          "yoy_growth_pct": 4,
+          "note": "Grew on both higher quantity and pricing, partly offset by higher gross-to-net deductions."
+        },
+        {
+          "product": "Nebulized Tyvaso",
+          "revenue_usd_m": 126,
+          "yoy_growth_pct": -18,
+          "note": "Declined as patients continue converting to Tyvaso DPI and amid competitive pressure."
+        },
+        {
+          "product": "Remodulin",
+          "revenue_usd_m": 126,
+          "yoy_growth_pct": -6,
+          "note": "U.S. quantity decline due to competitive therapies, partially offset by international gains."
+        },
+        {
+          "product": "Unituxin (dinutuximab)",
+          "revenue_usd_m": 65,
+          "yoy_growth_pct": 12,
+          "note": "Strong performance in high-risk neuroblastoma treatment."
+        }
+      ],
+      "notes": "Management explicitly flagged that competitive therapies negatively impacted sales across multiple pulmonary hypertension products, even as overall profitability improved. Still independently publicly traded.",
+      "sources": [
+        "https://www.stocktitan.net/news/UTHR/united-therapeutics-corporation-reports-second-quarter-2026-5onvus2n1lt8.html"
+      ],
+      "tier": "mid"
+    },
+    "vertex": {
+      "company_name": "Vertex Pharmaceuticals Incorporated",
+      "ticker": "VRTX",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 3334,
+        "yoy_growth_pct": 12,
+        "note": "Growth from continued CF franchise strength (ALYFTREK uptake) plus diversification into CASGEVY and JOURNAVX (non-opioid pain).",
+        "source_url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-second-quarter-2026-financial-results"
+      },
+      "profit": {
+        "metric": "GAAP net income",
+        "usd_m": 1100,
+        "yoy_growth_pct": 6.5,
+        "note": "Net income grew more slowly than revenue due to higher operating expenses supporting new launches.",
+        "source_url": "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-second-quarter-2026-financial-results"
+      },
+      "product_highlights": [
+        {
+          "product": "TRIKAFTA/KAFTRIO",
+          "revenue_usd_m": 2497,
+          "yoy_growth_pct": -2.1,
+          "note": "Market maturation and some cannibalization as patients switch to newer ALYFTREK."
+        },
+        {
+          "product": "ALYFTREK",
+          "revenue_usd_m": 574,
+          "yoy_growth_pct": 265.5,
+          "note": "Strong new-patient initiations and global uptake; now reimbursed in 25 countries."
+        },
+        {
+          "product": "CASGEVY",
+          "revenue_usd_m": 76,
+          "yoy_growth_pct": 151.3,
+          "note": "Increased patient infusions following FDA approval expansion to ages 2+."
+        },
+        {
+          "product": "JOURNAVX",
+          "revenue_usd_m": 50,
+          "yoy_growth_pct": 313.3,
+          "note": "Strong launch momentum in non-opioid acute pain, ~535,000 prescriptions in the quarter."
+        }
+      ],
+      "notes": "Full-year 2026 outlook was raised on the strength of the diversification pipeline (CASGEVY, JOURNAVX). Still independently publicly traded.",
+      "sources": [
+        "https://investors.vrtx.com/news-releases/news-release-details/vertex-reports-second-quarter-2026-financial-results",
+        "https://www.sec.gov/Archives/edgar/data/875320/000087532026000256/ex-991_q22026.htm"
+      ],
+      "tier": "mid"
+    },
+    "viatris": {
+      "company_name": "Viatris Inc.",
+      "ticker": "VTRS",
+      "exchange": "NASDAQ",
+      "hq_country": "United States",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 3757,
+        "yoy_growth_pct": 5.0,
+        "note": "Total revenues of $3,756.8m, +5% reported YoY (+3.5% operationally). Greater China (+21%) and Developed Markets (+4%) led; JANZ and Emerging Markets declined.",
+        "source_url": "https://investor.viatris.com/news-releases/news-release-details/viatris-reports-second-quarter-2026-financial-results"
+      },
+      "profit": {
+        "metric": "Net loss attributable to Viatris shareholders",
+        "usd_m": -119,
+        "yoy_growth_pct": null,
+        "note": "Net loss of $118.8m vs a much smaller $4.6m net loss in Q2 2025; primarily driven by a $177.8m non-cash impairment charge tied to the planned sale of Tyrvaya product rights. Adjusted (non-GAAP) profit grew YoY per management commentary; YoY % omitted as both periods are losses.",
+        "source_url": "https://www.tradingkey.com/news/earnings/262082846-tradingkey"
+      },
+      "product_highlights": [
+        {
+          "product": "Lipitor",
+          "revenue_usd_m": 452,
+          "yoy_growth_pct": 16.5,
+          "note": "Branded off-patent cholesterol drug; strong volume/pricing performance, notably in Greater China."
+        },
+        {
+          "product": "Norvasc",
+          "revenue_usd_m": 200,
+          "yoy_growth_pct": 9.6,
+          "note": "Legacy cardiovascular brand continuing steady growth, led by China demand."
+        },
+        {
+          "product": "Viagra",
+          "revenue_usd_m": 113,
+          "yoy_growth_pct": 12.7,
+          "note": "Branded erectile-dysfunction drug posting solid growth outside the US."
+        },
+        {
+          "product": "Generics segment (total)",
+          "revenue_usd_m": 1328,
+          "yoy_growth_pct": 3.0,
+          "note": "Global generics/complex-generics portfolio grew modestly, offsetting price erosion with new launches and volume."
+        }
+      ],
+      "notes": "Viatris raised full-year 2026 guidance despite the quarterly GAAP loss. Company continues to face a known supply/manufacturing consent-decree overhang at its Indore, India facility. Still independently publicly traded.",
+      "sources": [
+        "https://investor.viatris.com/news-releases/news-release-details/viatris-reports-second-quarter-2026-financial-results",
+        "https://www.tradingkey.com/news/earnings/262082846-tradingkey"
+      ],
+      "tier": "mid"
+    },
+    "argenx": {
+      "company_name": "argenx SE",
+      "ticker": "ARGX",
+      "exchange": "NASDAQ",
+      "hq_country": "Netherlands",
+      "latest_quarter": "Q2 2026",
+      "quarter_end_date": "2026-06-30",
+      "revenue": {
+        "usd_m": 1516,
+        "yoy_growth_pct": 60.0,
+        "note": "Global product net sales, driven almost entirely by VYVGART/VYVGART Hytrulo; company does not break out revenue by region or indication.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/07/23/3331862/0/en/argenx-reports-half-year-2026-financial-results-and-provides-second-quarter-business-update.html"
+      },
+      "profit": {
+        "metric": "IFRS/GAAP net income (profit for the period)",
+        "usd_m": 472,
+        "yoy_growth_pct": 92.7,
+        "note": "Profit nearly doubled on operating leverage from Vyvgart sales growth.",
+        "source_url": "https://www.globenewswire.com/news-release/2026/07/23/3331862/0/en/argenx-reports-half-year-2026-financial-results-and-provides-second-quarter-business-update.html"
+      },
+      "product_highlights": [
+        {
+          "product": "VYVGART (efgartigimod) + VYVGART Hytrulo, combined",
+          "revenue_usd_m": 1516,
+          "yoy_growth_pct": 60.0,
+          "note": "Growth driven by continued gMG launch uptake, CIDP indication ramp, and a U.S. label expansion covering all adult generalized myasthenia gravis serotypes; argenx does not disclose a revenue split between Vyvgart and Vyvgart Hytrulo or by region/indication."
+        }
+      ],
+      "notes": "Reports financial results in USD despite being an EU (Netherlands)-incorporated SE. Company does not itemize Vyvgart revenue by region, country, or indication. Still independently publicly traded.",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/07/23/3331862/0/en/argenx-reports-half-year-2026-financial-results-and-provides-second-quarter-business-update.html"
+      ],
+      "tier": "mid"
+    }
+  }
+}

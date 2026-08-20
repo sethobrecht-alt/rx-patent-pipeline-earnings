@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-08-19T19:38:21+00:00",
+  "disclaimer": "These are drugs in active clinical development that have NOT been approved by the FDA. Development-stage drugs frequently fail trials, get delayed, or change indications -- none of this is guaranteed to reach market, and expected launch dates and peak sales figures are estimates, not commitments. Not investment advice. Verify against primary sources (company press releases, ClinicalTrials.gov, FDA.gov) before making decisions.",
+  "drug_count": 12,
+  "drugs": [
+    {
+      "drug_name": "Retatrutide",
+      "developer": "Eli Lilly",
+      "modality": "small_molecule",
+      "indication": "Obesity, obesity with type 2 diabetes, obstructive sleep apnea, knee osteoarthritis pain (GLP-1/GIP/glucagon triple agonist)",
+      "development_phase": "Phase 3 complete (positive readouts across obesity, diabetes, and CVD-risk trials)",
+      "expected_launch": "FDA filing planned Q1 2027; launch most likely 2027-2028 pending review",
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Subcutaneous self-injection, expected to be dispensed via retail/specialty pharmacy like Zepbound/Wegovy."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": 10,
+        "usd_b_high": 15,
+        "label": "~$10-15B/yr (analyst estimates)",
+        "source_url": "https://www.ajmc.com/view/5-things-to-know-about-retatrutide-the-trillion-dollar-drug",
+        "note": "Widely nicknamed the 'trillion-dollar drug' in headlines -- that refers to hype/market-cap speculation, not an actual annual sales estimate; analysts cited here project multibillion-dollar sales approaching $15B/year within several years of launch."
+      },
+      "notes": "A regulatory question over biologic (12-yr exclusivity) vs. small-molecule (5-yr exclusivity) classification could materially affect its commercial runway.",
+      "sources": [
+        "https://www.ajmc.com/view/5-things-to-know-about-retatrutide-the-trillion-dollar-drug",
+        "https://www.cnbc.com/2026/07/23/eli-lilly-will-file-for-approval-of-retatrutide-obesity-drug-in-2027.html"
+      ],
+      "id": "retatrutide"
+    },
+    {
+      "drug_name": "Ivonescimab",
+      "developer": "Summit Therapeutics (US/Europe/Japan rights) / Akeso (China)",
+      "modality": "biologic",
+      "indication": "Non-small cell lung cancer (PD-1/VEGF bispecific antibody, positioned as a potential Keytruda challenger)",
+      "development_phase": "Phase 3 (Harmoni-3 trial readout expected H2 2026)",
+      "expected_launch": "Not before 2027, pending positive Phase 3 data and FDA filing",
+      "administration": {
+        "setting": "clinic",
+        "note": "IV infusion administered in an oncology clinic/infusion center, same setting as Keytruda/Opdivo."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": null,
+        "usd_b_high": 15,
+        "label": "Deal-value signals suggest large expectations",
+        "source_url": "https://pharmaphorum.com/news/summit-climbs-rumour-15bn-astrazeneca-interest",
+        "note": "No confirmed peak-sales estimate; Summit's 2022 license from Akeso was structured up to $5B in payments, and 2026 market speculation floated AstraZeneca acquisition interest around $15B -- both are deal-value signals, not sales forecasts."
+      },
+      "notes": "One of the most closely watched oncology trials of 2026 given direct head-to-head positioning against Merck's Keytruda in NSCLC -- a name worth cross-referencing against the LOE tracker's Keytruda entry.",
+      "sources": [
+        "https://pharmaphorum.com/news/summit-climbs-rumour-15bn-astrazeneca-interest",
+        "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/"
+      ],
+      "id": "ivonescimab"
+    },
+    {
+      "drug_name": "Milvexian",
+      "developer": "Bristol Myers Squibb / Johnson & Johnson",
+      "modality": "small_molecule",
+      "indication": "Stroke prevention in atrial fibrillation, secondary ischemic stroke prevention (Factor XIa inhibitor)",
+      "development_phase": "Phase 3 (Librexia-AF and Librexia-Stroke readouts expected H2 2026); the third planned indication, acute coronary syndrome, was terminated in 2026 after the Phase 3 trial was judged likely to fail",
+      "expected_launch": "~2027 at the earliest, pending positive AF/stroke Phase 3 data",
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, would be a retail pharmacy prescription like its target competitors Eliquis and Xarelto."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": null,
+        "usd_b_high": 5,
+        "label": "Up to ~$5B (original 3-indication guidance)",
+        "source_url": "https://www.biopharmadive.com/news/bristol-myers-bayer-factor-xia-inhibitors-sales-forecast/640155/",
+        "note": "BMS's own commercial leadership cited 'in excess of $5 billion' across the original three target indications; since the acute coronary syndrome program was terminated, that figure should be treated as dated and likely overstated versus a realistic AF+stroke-only estimate."
+      },
+      "notes": "Direct potential successor to Eliquis (BMS/Pfizer) and Xarelto (J&J/Bayer) -- both tracked on the main LOE page -- positioned as a lower-bleeding-risk next-generation anticoagulant.",
+      "sources": [
+        "https://www.biopharmadive.com/news/bristol-myers-bayer-factor-xia-inhibitors-sales-forecast/640155/",
+        "https://pharmaphorum.com/news/bms-jj-give-milvexian-acute-coronary-syndrome"
+      ],
+      "id": "milvexian"
+    },
+    {
+      "drug_name": "Barzolvolimab",
+      "developer": "Celldex Therapeutics",
+      "modality": "biologic",
+      "indication": "Chronic spontaneous urticaria (also being studied in other mast-cell-driven conditions) -- anti-KIT monoclonal antibody",
+      "development_phase": "Phase 3 (Embarq-CSU1/CSU2 trials, readout expected Q4 2026)",
+      "expected_launch": "~2027-2028 (estimate, pending Phase 3 results and FDA filing)",
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Subcutaneous injection; expected to be self-administered and specialty-pharmacy dispensed, similar to other CSU biologics like Xolair."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": null,
+        "usd_b_high": null,
+        "label": "Not yet publicly estimated",
+        "source_url": "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/",
+        "note": "No confirmed peak-sales figure found during this research."
+      },
+      "notes": "Would compete in the same broad allergy/mast-cell space as Xolair (tracked on the main LOE page), though via a different mechanism (anti-KIT vs. anti-IgE).",
+      "sources": [
+        "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/"
+      ],
+      "id": "barzolvolimab"
+    },
+    {
+      "drug_name": "Litifilimab",
+      "developer": "Biogen",
+      "modality": "biologic",
+      "indication": "Systemic lupus erythematosus and cutaneous lupus erythematosus (BDCA2-targeting antibody)",
+      "development_phase": "Phase 3 (TOPAZ-1/TOPAZ-2 trials, readout expected H2 2026)",
+      "expected_launch": "~2027-2028 (estimate, pending Phase 3 results and FDA filing)",
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Subcutaneous injection; expected specialty-pharmacy dispensing typical of lupus biologics."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": null,
+        "usd_b_high": null,
+        "label": "Not yet publicly estimated",
+        "source_url": "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/",
+        "note": "No confirmed peak-sales figure found during this research; lupus is a large and underserved specialty market."
+      },
+      "notes": "Would be a new mechanism-of-action option in an immunology category adjacent to several drugs already on the LOE page (e.g. Cosentyx, Stelara).",
+      "sources": [
+        "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/"
+      ],
+      "id": "litifilimab"
+    },
+    {
+      "drug_name": "Zasocitinib",
+      "developer": "Takeda",
+      "modality": "small_molecule",
+      "indication": "Inflammatory bowel disease (also studied in psoriasis) -- oral TYK2 inhibitor",
+      "development_phase": "Phase 3 (readout expected H2 2026)",
+      "expected_launch": "~2027-2028 (estimate, pending Phase 3 results and FDA filing)",
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Oral tablet, retail/specialty pharmacy prescription."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": null,
+        "usd_b_high": null,
+        "label": "Not yet publicly estimated",
+        "source_url": "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/",
+        "note": "No confirmed peak-sales figure found during this research."
+      },
+      "notes": "An oral alternative to injectable IBD biologics (e.g. Stelara, Simponi) would be a meaningful convenience differentiator if approved.",
+      "sources": [
+        "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/"
+      ],
+      "id": "zasocitinib"
+    },
+    {
+      "drug_name": "Pelacarsen",
+      "developer": "Novartis (partnered with Ionis originally)",
+      "modality": "biologic",
+      "indication": "Cardiovascular disease risk reduction in patients with elevated Lipoprotein(a) -- antisense oligonucleotide",
+      "development_phase": "Phase 3 (Horizon trial, readout expected H1 2026)",
+      "expected_launch": "~2027-2028 (estimate, pending Phase 3 results and FDA filing)",
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Subcutaneous self-injection, dispensed via specialty pharmacy, similar to other antisense/siRNA cardiovascular drugs."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": null,
+        "usd_b_high": null,
+        "label": "Not consistently reported",
+        "source_url": "https://www.pharmaceutical-technology.com/data-insights/pelacarsen-sodium-novartis-net-present-value/",
+        "note": "Public estimates for this drug were inconsistent across sources found during this research (one third-party model cited a figure that looked implausibly low relative to how the drug is discussed commercially) -- flagging as unreliable rather than presenting a specific number. Novartis has called the Lp(a)-lowering category, and this trial specifically, one of its most closely watched pipeline catalysts."
+      },
+      "notes": "One of several Lp(a)-lowering drugs in late-stage development across the industry (Amgen and Eli Lilly have competing programs); if positive, would open an entirely new cardiovascular drug class with a very large eligible patient population.",
+      "sources": [
+        "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/",
+        "https://www.cnbc.com/2026/04/27/lpa-drugs-from-novartis-amgen-and-eli-lilly-aim-to-prevent-heart-attacks.html"
+      ],
+      "id": "pelacarsen"
+    },
+    {
+      "drug_name": "Povetacicept",
+      "developer": "Vertex Pharmaceuticals",
+      "modality": "biologic",
+      "indication": "IgA nephropathy (a progressive kidney disease) -- dual APRIL/BAFF antagonist",
+      "development_phase": "Phase 3 (Rainier trial, readout expected H1 2026)",
+      "expected_launch": "~2027-2028 (estimate, pending Phase 3 results and FDA filing)",
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Subcutaneous self-injection, specialty pharmacy dispensed."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": null,
+        "usd_b_high": null,
+        "label": "Not yet publicly estimated",
+        "source_url": "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/",
+        "note": "No confirmed peak-sales figure found during this research."
+      },
+      "notes": "Part of Vertex's push to diversify beyond its core cystic fibrosis franchise into other specialty/rare-disease categories.",
+      "sources": [
+        "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/"
+      ],
+      "id": "povetacicept"
+    },
+    {
+      "drug_name": "RGX-202",
+      "developer": "Regenxbio",
+      "modality": "cell_gene_therapy",
+      "indication": "Duchenne muscular dystrophy -- one-time AAV gene therapy",
+      "development_phase": "Phase 3 (Affinity Duchenne trial, readout expected early 2026)",
+      "expected_launch": "~2027-2028 (estimate, pending Phase 3 results and FDA filing); would compete directly with Sarepta's already-approved Elevidys",
+      "administration": {
+        "setting": "clinic",
+        "note": "One-time IV infusion administered in a specialized clinical setting, typical of AAV gene therapies."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": null,
+        "usd_b_high": null,
+        "label": "Not yet publicly estimated",
+        "source_url": "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/",
+        "note": "No confirmed peak-sales figure found during this research; would compete in a category (DMD gene therapy) where the existing approved product (Elevidys) has faced safety and efficacy scrutiny, which could work for or against a second entrant."
+      },
+      "notes": "A second-generation entrant into DMD gene therapy after Sarepta's Elevidys; designed with a different transgene construct intended to improve on Elevidys's profile.",
+      "sources": [
+        "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/"
+      ],
+      "id": "rgx-202"
+    },
+    {
+      "drug_name": "Lonvo-z (NTLA-2002)",
+      "developer": "Intellia Therapeutics",
+      "modality": "cell_gene_therapy",
+      "indication": "Hereditary angioedema -- in vivo CRISPR gene editing (one-time treatment intended to permanently reduce attack frequency)",
+      "development_phase": "Phase 3 (Haelo trial, readout expected H1 2026)",
+      "expected_launch": "~2027-2028 (estimate, pending Phase 3 results and FDA filing; would be among the first in vivo CRISPR therapies approved)",
+      "administration": {
+        "setting": "clinic",
+        "note": "One-time (or limited-dose) IV infusion administered in a specialized clinical setting, typical of gene-editing therapies."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": null,
+        "usd_b_high": null,
+        "label": "Not yet publicly estimated",
+        "source_url": "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/",
+        "note": "No confirmed peak-sales figure found; one-time gene-editing therapies typically carry very high one-time list prices (often $1M+) rather than a conventional annual-sales run-rate, making direct comparison to chronic therapies difficult."
+      },
+      "notes": "Would compete with existing chronic HAE prophylaxis drugs by offering a potential functional cure instead of ongoing dosing.",
+      "sources": [
+        "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/"
+      ],
+      "id": "lonvo-z"
+    },
+    {
+      "drug_name": "MariTide (maridebart cafraglutide)",
+      "developer": "Amgen",
+      "modality": "biologic",
+      "indication": "Obesity, obesity with type 2 diabetes (GIP receptor antagonist / GLP-1 receptor agonist)",
+      "development_phase": "Phase 3 (dosing/switch studies ongoing; additional Phase 3 diabetes trials starting 2026)",
+      "expected_launch": "~2027-2028 (estimate; no formal FDA filing date announced yet)",
+      "administration": {
+        "setting": "pharmacy",
+        "note": "Self-injected via autoinjector; differentiated by monthly or less-frequent (every 8-12 week) dosing versus weekly competitors."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": null,
+        "usd_b_high": null,
+        "label": "Not yet consistently estimated",
+        "source_url": "https://finance.yahoo.com/sectors/healthcare/articles/amgens-maritide-win-share-fast-122900919.html",
+        "note": "No specific company or analyst peak-sales figure found in public reporting as of this research; the broader global obesity drug market itself is projected at ~$95B by 2030 and ~$125B by 2035, which MariTide would compete within."
+      },
+      "notes": "Positioned by Amgen as a potential best-in-class 'monthly' obesity option against Lilly and Novo Nordisk's weekly incumbents.",
+      "sources": [
+        "https://finance.yahoo.com/sectors/healthcare/articles/amgens-maritide-win-share-fast-122900919.html",
+        "https://en.sedaily.com/finance/2026/08/17/obesity-drug-runners-up-head-for-phase-3-showdown-behind"
+      ],
+      "id": "maritide"
+    },
+    {
+      "drug_name": "Del-desiran (delpacibart zotadirsen)",
+      "developer": "Novartis / Avidity Biosciences",
+      "modality": "biologic",
+      "indication": "Myotonic dystrophy type 1 (a rare, progressive neuromuscular disease with no approved disease-modifying therapy) -- RNA-targeting antibody-oligonucleotide conjugate",
+      "development_phase": "Phase 3 (Harbor trial, readout expected H2 2026)",
+      "expected_launch": "~2027-2028 (estimate; would likely qualify for priority review given no existing approved treatment)",
+      "administration": {
+        "setting": "clinic",
+        "note": "IV infusion, typically administered in a clinic/infusion center on Avidity's AOC platform."
+      },
+      "peak_sales_projection": {
+        "usd_b_low": null,
+        "usd_b_high": null,
+        "label": "Not yet publicly estimated",
+        "source_url": "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/",
+        "note": "No confirmed peak-sales figure found; rare-disease drugs with no existing competition often carry high per-patient pricing despite a small patient population."
+      },
+      "notes": "Would be the first disease-modifying (not just symptomatic) treatment for myotonic dystrophy type 1 if approved.",
+      "sources": [
+        "https://www.biopharmadive.com/news/biotech-pharma-clinical-trials-watch-2026/808255/"
+      ],
+      "id": "del-desiran"
+    }
+  ]
+}

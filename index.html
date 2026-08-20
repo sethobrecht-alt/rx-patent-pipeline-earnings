@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rx Patent Expiration Tracker</title>
+<meta name="description" content="Monitor upcoming drug patent and exclusivity expirations, plus generic and biosimilar competition, sourced from the FDA Orange Book and Purple Book." />
+<link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<div class="viz-root">
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <h1>Rx Patent Expiration Tracker</h1>
+        <p class="tagline">Upcoming loss-of-exclusivity dates for tracked drugs, and the generic / biosimilar competition lining up behind them.</p>
+      </div>
+      <div class="meta">
+        <button class="theme-toggle" id="themeToggle" type="button">Toggle theme</button>
+        <div id="lastUpdated" style="margin-top:8px;">Loading…</div>
+      </div>
+    </header>
+
+    <nav class="page-nav">
+      <a class="page-nav-link active" href="index.html">Patent Expirations</a>
+      <a class="page-nav-link" href="pipeline.html">Specialty Pipeline</a>
+      <a class="page-nav-link" href="earnings.html">Earnings</a>
+    </nav>
+
+    <section class="kpi-row" id="kpiRow"></section>
+
+    <div class="controls">
+      <input type="search" id="searchInput" placeholder="Search drug, company, or indication…" />
+      <select id="typeFilter">
+        <option value="all">All types</option>
+        <option value="small_molecule">Small molecule</option>
+        <option value="biologic">Biologic</option>
+      </select>
+      <select id="settingFilter">
+        <option value="all">Clinic + pharmacy</option>
+        <option value="clinic">Clinic-administered</option>
+        <option value="pharmacy">Pharmacy prescription</option>
+      </select>
+      <select id="horizonFilter">
+        <option value="all">Any time</option>
+        <option value="90">Next 90 days</option>
+        <option value="365">Next 12 months</option>
+        <option value="730">Next 24 months</option>
+      </select>
+      <div class="view-toggle">
+        <button id="viewTableBtn" class="active" type="button">Table</button>
+        <button id="viewTimelineBtn" type="button">Timeline</button>
+      </div>
+    </div>
+
+    <div id="tableView">
+      <table class="drug-table" id="drugTable">
+        <thead>
+          <tr>
+            <th data-sort="brand_name">Drug</th>
+            <th data-sort="company">Company</th>
+            <th data-sort="type">Type</th>
+            <th data-sort="administration.setting">Setting</th>
+            <th data-sort="sales_2025.usd_m">FY2025 sales</th>
+            <th data-sort="earliest_loss_of_exclusivity_date">Est. loss of exclusivity</th>
+            <th>Competition status</th>
+          </tr>
+        </thead>
+        <tbody id="drugTableBody"></tbody>
+      </table>
+    </div>
+
+    <div id="timelineView" style="display:none;">
+      <div class="timeline" id="timelineContainer"></div>
+    </div>
+
+    <div class="empty-state" id="emptyState" style="display:none;">No drugs match these filters.</div>
+
+    <p class="disclaimer" id="disclaimerText"></p>
+
+    <div class="overlay" id="drawerOverlay">
+      <div class="drawer">
+        <button class="close-btn" id="drawerClose" type="button">Close ✕</button>
+        <div id="drawerContent"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
