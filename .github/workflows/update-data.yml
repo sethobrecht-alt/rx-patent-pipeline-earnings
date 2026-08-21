@@ -2,8 +2,15 @@ name: Update patent data and deploy
 
 on:
   schedule:
+    # All three pages (Patent Expirations, Specialty Pipeline, Earnings)
+    # refresh together on the same monthly cadence: 09:00 UTC on the 25th.
+    # Patent Expirations pulls live FDA Orange/Purple Book data; Pipeline
+    # and Earnings have no live source, so their actual content refresh
+    # happens via a separate Claude scheduled task (see
+    # claude/monthly-refresh-playbook.md in the project) that re-researches
+    # them and pushes updated curated_*.json here before this job runs.
     - cron: "0 9 25 * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {} # lets you trigger a refresh manually from the Actions tab
   push:
     branches: [main]
     paths:
@@ -27,17 +34,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
+
       - name: Run LOE tracker data pipeline
         run: python scripts/build_data.py
+
       - name: Run specialty pipeline data pipeline
         run: python scripts/build_pipeline_data.py
+
       - name: Run earnings tracker data pipeline
         run: python scripts/build_earnings_data.py
+
       - name: Commit updated data (if changed)
         run: |
           git config user.name "rx-patent-tracker-bot"
@@ -45,8 +58,10 @@ jobs:
           git add site/data/drugs.json site/data/pipeline.json site/data/earnings.json
           git diff --cached --quiet && echo "No data changes." || git commit -m "chore: automated data refresh"
           git push
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
