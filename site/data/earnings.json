@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:26:52+00:00",
+  "generated_at": "2026-08-21T15:58:54+00:00",
   "disclaimer": "Quarterly revenue, profit, and product-level figures are sourced from each company's own earnings press releases and regulatory filings, researched at a point in time -- not a live financial data feed. Companies on non-USD reporting currencies (EUR, GBP, CHF, DKK, JPY) have approximate USD conversions noted in each figure. Two tracked companies were acquired and delisted during 2026 (see each entry's status field) and show their last publicly reported quarter rather than a current one. Each company's 'Quarter driver' badge highlights the single product with the largest estimated year-over-year dollar swing among its reported product-level call-outs -- this is computed on the front end from each product's disclosed revenue and YoY growth rate, not a decomposition the company itself discloses, and it's limited to whichever products a company chose to call out in its own earnings release. This is not investment advice -- verify anything decision-relevant against the source_url on each figure and the company's own investor relations page.",
   "company_count": 48,
   "companies": [
